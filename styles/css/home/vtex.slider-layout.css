@@ -1,0 +1,10 @@
+/* .sliderLayout#home__slide{
+    max-width: 1200px;
+    margin: 50px;
+} */
+.paginationDotsContainer--home__slide{
+transform: translateY(30px);
+}
+.imageElement--home__slider{
+    max-height: initial !important;
+}

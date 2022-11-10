@@ -1,0 +1,87 @@
+{
+    "slider-layout#home__slider--children":{
+        "title": "slider con hijos declarados",
+        "props":{
+          "itemsPerPage":{
+            "desktop": 1,
+            "tablet": 1,
+            "mobile": 1
+          },
+          "infinite":true,
+          "blockClass": "home__slider",
+          "autoplay":{
+            "timeout": 3000,
+            "stopOnHover": true
+          }
+        },
+        "children":[
+          "image#home__slider--one",
+          "image#home__slider--two",
+          "image#home__slider--three",
+          "image#home__slider--for",
+          "image#home__slider--five"
+        ]
+      },
+      "image#home__slider--one":{
+        "props":{
+          "src":"assets/img/main--slide-1.jpg"
+
+        }
+      },
+      "image#home__slider--two":{
+        "props":{
+          "src":"assets/img/main--slide-2.jpg"
+        }
+      },
+      "image#home__slider--three":{
+        "props":{
+          "src":"assets/img/main--slide-3.jpg"
+        }
+      },
+      "image#home__slider--for":{
+        "props":{
+          "src":"assets/img/main--slide-4.jpg"
+
+        }
+      },
+      "image#home__slider--five":{
+        "props":{
+          "src":"assets/img/main--slide-5.jpg"
+
+        }
+      }
+      // "list-context.image-list#home__slider--list":{
+      //   "title": "lista de imagenes",
+      //   "children":["slider-layout#home__slider--list"],
+      //   "props":{
+      //     "preload": true,
+      //     "images":[
+      //       {
+      //         "image": "assets/img/main--slide-1.jpg",
+      //         "description": "slider 1"
+      //       },
+      //       {
+      //         "image": "assets/img/main--slide-2.jpg",
+      //         "description": "slider 2"
+      //       },
+      //       {
+      //         "image": "assets/img/main--slide-3.jpg",
+      //         "description": "slider 3"
+      //       }
+      //     ]
+      //   }
+      // },
+      // "slider-layout#home__slider--list":{
+      //   "title": "slider con lista",
+      //   "props":{
+      //     "itemsPerPage":{
+      //       "desktop": 1,
+      //       "tablet": 1,
+      //       "mobile": 1
+      //     },
+      //     "infinite":true,
+      //     "blockClass": "home__slider"
+      //   }
+        
+      // }
+}

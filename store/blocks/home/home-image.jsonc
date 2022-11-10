@@ -1,0 +1,15 @@
+{
+    "image#home__image":{
+        "title": "imagen de home",
+        "props":{
+            "src":"assets/img/banner-home.png",
+            "title": "B2b commerce",
+            "blockClass":"home__image",
+            "link":{
+                "url":"https",
+                "newTab": true,
+                "attributeNoFollow": true
+            }
+        }
+    }
+}
