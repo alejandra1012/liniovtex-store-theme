@@ -1,9 +1,15 @@
 {
   "header": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
   },
   "header.full": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
   },
   "header-layout.desktop": {
     "children": [
@@ -14,7 +20,9 @@
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["flex-layout.row#desktop"]
+    "children": [
+      "flex-layout.row#desktop"
+    ]
   },
   "flex-layout.row#desktop": {
     "props": {
@@ -42,11 +50,13 @@
     "props": {
       "verticalAlign": "middle"
     },
-    "children": ["image#logo"]
+    "children": [
+      "image#logo"
+    ]
   },
   "image#logo": {
     "props": {
-      "src":"assets/img/linio-by-fb-logo-og.png",
+      "src": "assets/img/header__logo-desktop.png",
       "title": "Logo",
       "href": "/home",
       "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
@@ -54,10 +64,14 @@
     }
   },
   "header-layout.mobile": {
-    "children": ["sticky-layout#mobile"]
+    "children": [
+      "sticky-layout#mobile"
+    ]
   },
   "sticky-layout#mobile": {
-    "children": ["flex-layout.row#mobile"]
+    "children": [
+      "flex-layout.row#mobile"
+    ]
   },
   "flex-layout.row#mobile": {
     "children": [
