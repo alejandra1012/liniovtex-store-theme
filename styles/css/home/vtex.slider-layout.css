@@ -1,8 +1,8 @@
-/* .sliderLayout#home__slide{
+/* .sliderLayout#home__slider{
     max-width: 1200px;
     margin: 50px;
 } */
-.paginationDotsContainer--home__slide{
+.paginationDotsContainer--home__slider{
 transform: translateY(30px);
 }
 .imageElement--home__slider{

@@ -1,0 +1,167 @@
+{
+    "header": {
+        "title": "Header",
+        "blocks": [
+            "header-layout.desktop",
+            "header-layout.mobile"
+        ]
+    },
+    "header.full": {
+        "title": "Header",
+        "blocks": [
+            "header-layout.desktop",
+            "header-layout.mobile"
+        ]
+    },
+    "header-layout.desktop": {
+        "title": "Header Desktop",
+        "children": [
+            "header-row#header__top",
+            "header-row#header__middle"
+        ]
+    },
+    "header-layout.mobile": {
+        "title": "Header Mobile",
+        "children": [
+            "header-row#header__top",
+            "header-row#header__middle"
+        ]
+    },
+    "header-row#header__top": {
+        "title": "Header Superior",
+        "children": [
+            "logo#header__top--logo",
+            "header-spacer",
+            "login",
+            "minicart.v2"
+        ],
+        "props": {
+            "blockClass": "header__top"
+        }
+    },
+    "logo#header__top--logo": {
+        "title": "Logo",
+        "props": {
+            "url": "assets/img/header__logo-desktop.png",
+            "width": 120,
+            "href": "/"
+        }
+    },
+    "login": {
+        "props": {
+            "emailAndPasswordTitle": "LOG-IN",
+            "accessCodeTitle": "Acess Code LOG-IN",
+            "emailPlaceholder": "e-mail",
+            "passwordPlaceholder": "password",
+            "showPasswordVerificationIntoTooltip": true,
+            "showIconProfile": true,
+            "text": "Iniciar Sesión"
+        }
+    },
+    "header-row#header__middle": {
+        "title": "Header medio",
+        "children": [
+            "drawer#header__mobile--menu"
+        ],
+        "props": {
+            "blockClass": "header__middle"
+        }
+    },
+    "drawer#header__mobile--menu": {
+        "children": []
+    }
+}
+// {
+//   "header": {
+//     "blocks": [
+//       "header-layout.desktop",
+//       "header-layout.mobile"
+//     ]
+//   },
+//   "header.full": {
+//     "blocks": [
+//       "header-layout.desktop",
+//       "header-layout.mobile"
+//     ]
+//   },
+//   "header-layout.desktop": {
+//     "children": [
+//       "sticky-layout#desktop"
+//     ]
+//   },
+//   "sticky-layout#desktop": {
+//     "props": {
+//       "blockClass": "sticky-header"
+//     },
+//     "children": [
+//       "flex-layout.row#desktop"
+//     ]
+//   },
+//   "flex-layout.row#desktop": {
+//     "props": {
+//       "horizontalAlign": "center",
+//       "verticalAlign": "center",
+//       "preventHorizontalStretch": true,
+//       "preventVerticalStretch": true,
+//       "fullWidth": true
+//     },
+//     "children": [
+//       "flex-layout.col#logo-desktop",
+//       "flex-layout.col#spacer",
+//       "search-bar",
+//       "locale-switcher",
+//       "login",
+//       "minicart.v2"
+//     ]
+//   },
+//   "flex-layout.col#spacer": {
+//     "props": {
+//       "width": "grow"
+//     }
+//   },
+//   "flex-layout.col#logo-desktop": {
+//     "props": {
+//       "verticalAlign": "middle"
+//     },
+//     "children": [
+//       "image#logo"
+//     ]
+//   },
+//   "image#logo": {
+//     "props": {
+//       "src": "assets/img/header__logo-desktop.png",
+//       "title": "Logo",
+//       "href": "/home",
+//       "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
+//       "width": "80"
+//     }
+//   },
+//   "header-layout.mobile": {
+//     "children": [
+//       "sticky-layout#mobile"
+//     ]
+//   },
+//   "sticky-layout#mobile": {
+//     "children": [
+//       "flex-layout.row#mobile"
+//     ]
+//   },
+//   "flex-layout.row#mobile": {
+//     "children": [
+//       "drawer",
+//       "logo",
+//       "flex-layout.col#spacer",
+//       "login",
+//       "minicart.v2"
+//     ],
+//     "props": {
+//       "blockClass": "main-header-mobile",
+//       "preventHorizontalStretch": true,
+//       "preserveLayoutOnMobile": true,
+//       "fullWidth": true
+//     }
+//   },
+//   "drawer": {
+//     "children": []
+//   }
+// }
