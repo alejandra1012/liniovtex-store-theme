@@ -1,10 +1,7 @@
-/* .sliderLayout#home__slider{
-    max-width: 1200px;
-    margin: 50px;
-} */
+
 .paginationDotsContainer--home__slider{
 transform: translateY(30px);
 }
-.imageElement--home__slider{
-    max-height: initial !important;
-}
+/* .imageElement--home__slider{
+    width: 10%;
+} */

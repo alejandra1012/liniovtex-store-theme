@@ -1,0 +1,42 @@
+{
+    "header-row#header__top": {
+        "title": "Header desktop Superior",
+        "children": [
+            "logo#header__top--logo",
+            "header-spacer",
+            "login",
+            "link.product#mis-pedidos",
+            "minicart.v2"
+        ],
+        "props": {
+            "blockClass": "header__top"
+        }
+    },
+    "logo#header__top--logo": {
+        "title": "Logo",
+        "props": {
+            "url": "assets/img/header__logo.svg",
+            "width": 120,
+            "href": "/"
+        }
+    },
+    "login": {
+        "title": "inicio de sesión",
+        "props": {
+            "emailAndPasswordTitle": "LOG-IN",
+            "accessCodeTitle": "Acess Code LOG-IN",
+            "emailPlaceholder": "e-mail",
+            "passwordPlaceholder": "password",
+            "showPasswordVerificationIntoTooltip": true,
+            "showIconProfile": true,
+            "text": "Iniciar Sesión"
+        }
+    },
+    "link.product#mis-pedidos": {
+        "props": {
+            "href": "/{slug}/p",
+            "label": "Mis pedidos",
+            "blockClass": "link__mis-pedidos"
+        }
+    }
+}

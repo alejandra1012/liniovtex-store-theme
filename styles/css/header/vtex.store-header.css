@@ -1,3 +1,16 @@
 .headerRowBackground--header__top{
-    background-color: gray;
+    background-color:#3d3d3d !important;
+    color: #ddd;
 }
+.headerRowBackground--header__middle  {
+    background-color: #3d3d3d !important;
+    border-top: 1px solid #5a5a5a;
+    
+
+}
+.headerRowContainer--header__middle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+

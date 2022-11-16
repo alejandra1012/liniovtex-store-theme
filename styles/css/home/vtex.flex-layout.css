@@ -1,6 +1,13 @@
 /* .flexRowContent--home__section--one{
-    background-color: brown;
+    padding: none;
+   
 } */
-.flexColChild--section__one--image{
-    width:100%;
+.flexColChild--section__one--image {
+    display: flex;
+    justify-content: center;
+   
 }
+/* .flexColChild--section__one--image :global(.vtex-store-components-3-x-imageElement--home__image){
+    
+   
+} */

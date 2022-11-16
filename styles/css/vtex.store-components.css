@@ -1,0 +1,10 @@
+.logoImage{
+    width: 40px;
+    height: 40px;
+}
+.imageElement--home__image{
+    max-width: none
+}
+/* .imageElement--home__slider{
+    height: 100%;
+} */

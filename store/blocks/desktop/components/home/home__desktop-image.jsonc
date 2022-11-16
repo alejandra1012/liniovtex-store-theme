@@ -2,7 +2,7 @@
     "image#home__image": {
         "title": "imagen de home",
         "props": {
-            "src": "assets/img/home__banner-1.png",
+            "src": "/arquivos/home__banner-1.png",
             "title": "B2b commerce",
             "blockClass": "home__image",
             "link": {

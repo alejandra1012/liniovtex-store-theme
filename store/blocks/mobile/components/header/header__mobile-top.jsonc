@@ -1,0 +1,22 @@
+{
+    "header-row#header__mobile--top": {
+        "title": "Header desktop Superior",
+        "children": [
+            "drawer#header__mobile--menu",
+            "logo#mobile__top--logo",
+            "header-spacer",
+            "minicart.v2"
+        ],
+        "props": {
+            "blockClass": "header__top"
+        }
+    },
+    "logo#mobile__top--logo": {
+        "title": "Logo",
+        "props": {
+            "url": "assets/img/linio-mobile__logo.svg",
+            "width": 120,
+            "href": "/"
+        }
+    }
+}

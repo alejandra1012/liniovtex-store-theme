@@ -15,7 +15,8 @@
     ],
     "props": {
       "blockClass": "section__one--image",
-      "colSizing": "auto"
+      "colSizing": "auto",
+      "fullWidth": true
     }
   },
   "flex-layout.row#home__section--two": {
@@ -34,33 +35,33 @@
   },
   "image#section__two--item-1": {
     "props": {
-      "src": "assets/img/home__menu-celular.jpg",
+      "src": "/arquivos/home__menu-celular.jpg",
       "href": "/"
     }
   },
   "image#section__two--item-2": {
     "props": {
-      "src": "assets/img/home__menu-navidad.jpg"
+      "src": "/arquivos/home__menu-navidad.jpg"
     }
   },
   "image#section__two--item-3": {
     "props": {
-      "src": "assets/img/home__menu-tv-audio.jpg"
+      "src": "/arquivos/home__menu-tv-audio.jpg"
     }
   },
   "image#section__two--item-4": {
     "props": {
-      "src": "assets/img/home__menu-hogar.jpg"
+      "src": "/arquivos/home__menu-hogar.jpg"
     }
   },
   "image#section__two--item-5": {
     "props": {
-      "src": "assets/img/home__menu-tenis.jpg"
+      "src": "/arquivos/home__menu-tenis.jpg"
     }
   },
   "image#section__two--item-6": {
     "props": {
-      "src": "assets/img/home__menu-juguetes.jpg"
+      "src": "/arquivos/home__menu-juguetes.jpg"
     }
   },
   "rich-text#test": {
