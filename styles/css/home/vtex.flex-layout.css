@@ -2,10 +2,16 @@
     padding: none;
    
 } */
-.flexColChild--section__one--image {
+.flexColChild--section__banner1--image {
     display: flex;
     justify-content: center;
    
+}
+.flexRow--home-banner2-img-content{
+    width: 85vw;
+    margin: auto;
+    min-height:30vh;
+    max-height:30vh
 }
 /* .flexColChild--section__one--image :global(.vtex-store-components-3-x-imageElement--home__image){
     

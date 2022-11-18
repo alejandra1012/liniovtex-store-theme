@@ -17,7 +17,8 @@
         "props": {
             "url": "assets/img/header__logo.svg",
             "width": 120,
-            "href": "/"
+            "href": "/",
+            "blockClass": "top__desktop"
         }
     },
     "login": {

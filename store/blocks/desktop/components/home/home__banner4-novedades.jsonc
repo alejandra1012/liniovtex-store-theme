@@ -1,0 +1,95 @@
+{
+    "flex-layout.row#home-banner4-novedades": {
+        "children": [
+            "flex-layout.col#home-banner4-novedad2",
+            "flex-layout.col#home-banner4-novedad3",
+            "flex-layout.col#home-banner4-novedad4"
+        ],
+        "props": {
+            "blockClass": "home-banner4-img-content",
+            "colSizing": "auto",
+            "colGap": 3
+        }
+    },
+    "flex-layout.row#home-banner4-novedad-title": {
+        "children": [
+            "flex-layout.col#home-banner4-novedad-title"
+        ],
+        "props": {
+            "blockClass": "home-banner-novedad-titles"
+        }
+    },
+    "flex-layout.col#home-banner4-novedad-title": {
+        "children": [
+            "rich-text#home-banner4-novedad-title"
+        ]
+    },
+    "rich-text#home-banner4-novedad-title": {
+        "props": {
+            "text": "NOVEDADES",
+            "blockClass": "home-banner4-text"
+        }
+    },
+    //* novedad 2
+    "flex-layout.col#home-banner4-novedad1": {
+        "children": [
+            "image#home-banner4-novedad1"
+        ]
+    },
+    "image#home-banner4-novedad1": {
+        "props": {
+            "src": "/arquivos/banner-novedades1.png",
+            "alt": "perfumes",
+            "blockClass": "home-banner4-img-1"
+        }
+    },
+    //* novedad 3
+    "flex-layout.col#home-banner4-novedad2": {
+        "children": [
+            "image#home-banner4-novedad3"
+        ]
+    },
+    "image#home-banner4-novedad2": {
+        "props": {
+            "src": "/arquivos/banner-novedades2.png",
+            "alt": "perfumes",
+            "blockClass": "home-banner4-img-2"
+        }
+    },
+    "flex-layout.col#home-banner4-novedad3": {
+        "children": [
+            "image#home-banner4-novedad4"
+        ]
+    },
+    "image#home-banner4-novedad3": {
+        "props": {
+            "src": "/arquivos/banner-novedades3.png",
+            "alt": "perfumes",
+            "blockClass": "home-banner4-img-3"
+        }
+    },
+    "flex-layout.col#home-banner4-novedad4": {
+        "children": [
+            "image#home-banner4-novedad4"
+        ]
+    },
+    "image#home-banner4-novedad4": {
+        "props": {
+            "src": "/arquivos/banner-novedades4.png",
+            "alt": "perfumes",
+            "blockClass": "home-banner4-img-4"
+        }
+    },
+    "flex-layout.col#home-banner4-novedad5": {
+        "children": [
+            "image#home-banner4-novedad5"
+        ]
+    },
+    "image#home-banner4-novedad5": {
+        "props": {
+            "src": "/arquivos/banner-novedades5.png",
+            "alt": "perfumes",
+            "blockClass": "home-banner4-img-5"
+        }
+    }
+}

@@ -15,8 +15,8 @@
         "title": "Logo",
         "props": {
             "url": "assets/img/linio-mobile__logo.svg",
-            "width": 120,
-            "href": "/"
+            "href": "/",
+            "blockClass": "mobile__top"
         }
     }
 }

@@ -1,0 +1,71 @@
+{
+    "flex-layout.row#home-banner2-items-tecn": {
+        "children": [
+            "flex-layout.col#home-banner2-item2",
+            "flex-layout.col#home-banner2-item3",
+            "flex-layout.col#home-banner2-item4"
+        ],
+        "props": {
+            "blockClass": "home-banner2-img-content",
+            "colSizing": "auto",
+            "colGap": 3
+        }
+    },
+    "flex-layout.row#home-banner2-items-title": {
+        "children": [
+            "flex-layout.col#home-banner2-item1"
+        ],
+        "props": {
+            "blockClass": "home-banner-items-titles"
+        }
+    },
+    "flex-layout.col#home-banner2-item1": {
+        "children": [
+            "rich-text#home-banner2-item1"
+        ]
+    },
+    "rich-text#home-banner2-item1": {
+        "props": {
+            "text": "TECNOLOGÍA PARA TUS DÍAS",
+            "blockClass": "home-banner2-text"
+        }
+    },
+    //* Item 2
+    "flex-layout.col#home-banner2-item2": {
+        "children": [
+            "image#home-banner2-item2"
+        ]
+    },
+    "image#home-banner2-item2": {
+        "props": {
+            "src": "/arquivos/banner-tecno1.png",
+            "alt": "celulares",
+            "blockClass": "home-banner2-img-1"
+        }
+    },
+    //* Item 3
+    "flex-layout.col#home-banner2-item3": {
+        "children": [
+            "image#home-banner2-item3"
+        ]
+    },
+    "image#home-banner2-item3": {
+        "props": {
+            "src": "/arquivos/banner-tecno2.png",
+            "alt": "relojes",
+            "blockClass": "home-banner2-img-2"
+        }
+    },
+    "flex-layout.col#home-banner2-item4": {
+        "children": [
+            "image#home-banner2-item4"
+        ]
+    },
+    "image#home-banner2-item4": {
+        "props": {
+            "src": "/arquivos/banner-tecno3.png",
+            "alt": "electrodomesticos",
+            "blockClass": "home-banner2-img-3"
+        }
+    }
+}

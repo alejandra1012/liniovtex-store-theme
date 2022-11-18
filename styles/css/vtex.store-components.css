@@ -1,10 +1,27 @@
-.logoImage{
+.logoImage--mobile__top {
     width: 40px;
     height: 40px;
 }
-.imageElement--home__image{
-    max-width: none
-}
+.logoImage--top__desktop{
+    height: 40px;
+    width: 91px
+} 
+
+/* .imageElement--home__slider--desktop{
+max-height: none;
+width: 50%;
+} */
+
+/* .imageElement--home__slider2--mobile{
+    max-width: 40% !important
+} */
+/* .imageElement--home__slider--mobile{
+    height: 100%;
+} */
+/* .imageElement--home__slider{
+height: 100%;
+width: 80%;
+} */
 /* .imageElement--home__slider{
     height: 100%;
 } */

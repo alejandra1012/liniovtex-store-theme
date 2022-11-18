@@ -1,4 +1,9 @@
 {
+  "flex-layout.row#slider__main": {
+    "children": [
+      "list-context.image-list#home__slider--list"
+    ]
+  },
   "list-context.image-list#home__slider--list": {
     "title": "lista de imagenes",
     "children": [
@@ -41,7 +46,9 @@
         "mobile": 1
       },
       "infinite": true,
-      "blockClass": "home__slider"
+      "fullWidth": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "home__slider--desktop"
     }
   }
 }

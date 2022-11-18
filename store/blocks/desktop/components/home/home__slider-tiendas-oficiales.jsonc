@@ -1,0 +1,79 @@
+{
+    "flex-layout.row#slider__tiendas--oficiales": {
+        "children": [
+            "list-context.image-list#home__slider--tiendasofi"
+        ]
+    },
+    "list-context.image-list#home__slider--tiendasofi": {
+        "title": "lista de imagenes",
+        "children": [
+            "slider-layout#home__tiendas--oficiales"
+        ],
+        "props": {
+            "preload": true,
+            "colSizing": "auto",
+            "fullWidth": true,
+            "images": [
+                {
+                    "image": "/arquivos/slider-tiendasOfles1.png",
+                    "description": "slider tiendas ofi 1"
+                },
+                {
+                    "image": "/arquivos/slider-tiendasOfles2.png",
+                    "description": "slider tiendas ofi 2"
+                },
+                {
+                    "image": "/arquivos/slider-tiendasOfles3.png",
+                    "description": "slider tiendas ofi 3"
+                },
+                {
+                    "image": "/arquivos/slider-tiendasOfles4.png",
+                    "description": "slider tiendas ofi 4"
+                },
+                {
+                    "image": "/arquivos/slider-tiendasOfles5.png",
+                    "description": "slider tiendas ofi 5"
+                },
+                {
+                    "image": "/arquivos/slider-tiendasOfles6.png",
+                    "description": "slider tiendas ofi 6"
+                },
+                {
+                    "image": "/arquivos/slider-tiendasOfles7.png",
+                    "description": "slider tiendas ofi 7"
+                },
+                {
+                    "image": "/arquivos/slider-tiendasOfles8.png",
+                    "description": "slider tiendas ofi 8"
+                },
+                {
+                    "image": "/arquivos/slider-tiendasOfles9.png",
+                    "description": "slider tiendas ofi 9"
+                },
+                {
+                    "image": "/arquivos/slider-tiendasOfles10.png",
+                    "description": "slider tiendas ofi 10"
+                },
+                {
+                    "image": "/arquivos/slider-tiendasOfles11.png",
+                    "description": "slider tiendas ofi 11"
+                },
+                {
+                    "image": "/arquivos/slider-tiendasOfles12.png",
+                    "description": "slider tiendas ofi 12"
+                }
+            ]
+        }
+    },
+    "slider-layout#home__tiendas--oficiales": {
+        "title": "slider tiendas oficiales",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4
+            },
+            "infinite": true,
+            "fullWidth": true,
+            "blockClass": "home__slider--desktop"
+        }
+    }
+}

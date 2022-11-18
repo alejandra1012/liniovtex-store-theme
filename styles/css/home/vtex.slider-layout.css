@@ -1,7 +1,30 @@
-
-.paginationDotsContainer--home__slider{
-transform: translateY(30px);
+.paginationDotsContainer--home__slider--desktop{
+    transform: translateY(5px);
 }
-/* .imageElement--home__slider{
-    width: 10%;
+
+
+
+/* .imageElement--home__slider2--mobile{
+   
+} */
+/* .slideChildrenContainer--home__slider--desktop{
+    width: 70%;
+} */
+/* .slide--home__slider--desktop--firstVisible{
+    justify-content: center;
+} */
+.caretIcon--home__slider--desktop{
+    border-radius: 20px;
+    border:solid 1px black;
+    background: white;
+
+}
+.sliderLayoutContainer--home__slider--desktop{
+    width: 80% !important;
+}
+/* .slideChildrenContainer--home__slider2--mobile {
+    width: 70%;
+} */
+/* .sliderArrows--home__slider--desktop{
+    margin: 0 18%
 } */

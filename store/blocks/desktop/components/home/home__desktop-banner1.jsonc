@@ -1,22 +1,27 @@
 {
-  "flex-layout.row#home__section--one": {
+  "flex-layout.row#home__section--banner1": {
     "title": "sección uno",
     "children": [
-      "flex-layout.col#section__one--image"
+      "flex-layout.col#section__banner1--image"
     ],
     "props": {
-      "blockClass": "home__section--one"
+      "blockClass": "home__section--banner1"
     }
   },
-  "flex-layout.col#section__one--image": {
+  "flex-layout.col#section__banner1--image": {
     "title": "imagen de sección uno",
     "children": [
       "image#home__image"
     ],
     "props": {
-      "blockClass": "section__one--image",
+      "blockClass": "section__banner1--image",
       "colSizing": "auto",
       "fullWidth": true
+    }
+  },
+  "image#home__image": {
+    "props": {
+      "src": "/arquivos/home__banner-1.png"
     }
   },
   "flex-layout.row#home__section--two": {
@@ -30,6 +35,7 @@
       "image#section__two--item-6"
     ],
     "props": {
+      "preserveLayoutOnMobile": true,
       "blockClass": "home__section--two"
     }
   },

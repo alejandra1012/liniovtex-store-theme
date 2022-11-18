@@ -1,0 +1,47 @@
+{
+    "flex-layout.row#home__section--recomenproductos": {
+        "children": [
+            "rich-text#home__section--recomenproductos"
+        ],
+        "props": {
+            "blockClass": "home__section--recomenproductos"
+        }
+    },
+    "rich-text#home__section--recomenproductos": {
+        "title": "texto slider recomendaciones de productos",
+        "props": {
+            "text": "RECOMENDADOS ESPECIALMENTE PARA TI",
+            "blockClass": "section__recomenproductos--title"
+        }
+    },
+    "flex-layout.row#home__section--destacadosparati": {
+        "children": [
+            "rich-text#home__section--destacadosparati"
+        ],
+        "props": {
+            "blockClass": "home__section--destacadosparati"
+        }
+    },
+    "rich-text#home__section--destacadosparati": {
+        "title": "texto slider para ti destacados",
+        "props": {
+            "text": "PRODUCTOS DESTACADOS PARA TI",
+            "blockClass": "section__destacadospara ti--title"
+        }
+    },
+    "flex-layout.row#home__section--tecnoparati": {
+        "children": [
+            "rich-text#home__section--tecnoparati"
+        ],
+        "props": {
+            "blockClass": "home__section--tecnoparati"
+        }
+    },
+    "rich-text#home__section--tecnoparati": {
+        "title": "texto slider tecnologia para ti",
+        "props": {
+            "text": "NUESTRA SELECCIÓN EN TECNOLOGÍA SOLO PARA TI 💻🎵",
+            "blockClass": "section__tecnopara ti--title"
+        }
+    }
+}
