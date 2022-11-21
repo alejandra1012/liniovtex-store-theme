@@ -1,0 +1,52 @@
+{
+    "flex-layout.row#home__banner--falabella": {
+        "title": "banner banco fallabella",
+        "children": [
+            "flex-layout.col#banner__banco--falabella"
+        ],
+        "props": {
+            "blockClass": "home__banner--falabella"
+        }
+    },
+    "flex-layout.col#banner__banco--falabella": {
+        "title": "imagen banco fallabella",
+        "children": [
+            "image#banner__falabella"
+        ],
+        "props": {
+            "blockClass": "banner__banco--falabella",
+            "colSizing": "auto",
+            "fullWidth": true
+        }
+    },
+    "image#banner__falabella": {
+        "props": {
+            "src": "/arquivos/banner-banco-falabella.jpg"
+        }
+    },
+    "flex-layout.row#home__banner--descarga-app": {
+        "title": "banner descarga la app",
+        "children": [
+            "flex-layout.col#banner__descarga--app"
+        ],
+        "props": {
+            "blockClass": "home__banner--descarga-app"
+        }
+    },
+    "flex-layout.col#banner__descarga--app": {
+        "title": "imagen descarga la app",
+        "children": [
+            "image#banner__descarga-app"
+        ],
+        "props": {
+            "blockClass": "banner__descarga--app",
+            "colSizing": "auto",
+            "fullWidth": true
+        }
+    },
+    "image#banner__descarga-app": {
+        "props": {
+            "src": "/arquivos/banner-descarga-app.jpg"
+        }
+    }
+}

@@ -15,7 +15,14 @@
       "flex-layout.row#home__section--tecnoparati",
       "flex-layout.row#slider__tiendas--oficiales",
       "flex-layout.row#home-banner4-novedad-title",
-      "flex-layout.row#home-banner4-novedades"
+      "flex-layout.row#home-banner4-novedadesppal",
+      "flex-layout.row#home-banner4-novedades",
+      "flex-layout.row#home__section--paratucasa",
+      "flex-layout.row#home-banner5-hogar-title",
+      "flex-layout.row#home-banner5-trasnformatu-hogar",
+      "flex-layout.row#home__banner--falabella",
+      "flex-layout.row#home__banner--descarga-app",
+      "flex-layout.row#home-info"
     ],
     "props": {
       "blockClass": "container__home--desktop"

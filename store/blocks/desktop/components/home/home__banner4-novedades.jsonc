@@ -3,7 +3,8 @@
         "children": [
             "flex-layout.col#home-banner4-novedad2",
             "flex-layout.col#home-banner4-novedad3",
-            "flex-layout.col#home-banner4-novedad4"
+            "flex-layout.col#home-banner4-novedad4",
+            "flex-layout.col#home-banner4-novedad5"
         ],
         "props": {
             "blockClass": "home-banner4-img-content",
@@ -16,7 +17,7 @@
             "flex-layout.col#home-banner4-novedad-title"
         ],
         "props": {
-            "blockClass": "home-banner-novedad-titles"
+            "blockClass": "home-banner-novedad-title"
         }
     },
     "flex-layout.col#home-banner4-novedad-title": {
@@ -30,7 +31,11 @@
             "blockClass": "home-banner4-text"
         }
     },
-    //* novedad 2
+    "flex-layout.row#home-banner4-novedadesppal": {
+        "children": [
+            "flex-layout.col#home-banner4-novedad1"
+        ]
+    },
     "flex-layout.col#home-banner4-novedad1": {
         "children": [
             "image#home-banner4-novedad1"
@@ -43,10 +48,9 @@
             "blockClass": "home-banner4-img-1"
         }
     },
-    //* novedad 3
     "flex-layout.col#home-banner4-novedad2": {
         "children": [
-            "image#home-banner4-novedad3"
+            "image#home-banner4-novedad2"
         ]
     },
     "image#home-banner4-novedad2": {
@@ -58,14 +62,14 @@
     },
     "flex-layout.col#home-banner4-novedad3": {
         "children": [
-            "image#home-banner4-novedad4"
+            "image#home-banner4-novedad3"
         ]
     },
     "image#home-banner4-novedad3": {
         "props": {
             "src": "/arquivos/banner-novedades3.png",
             "alt": "perfumes",
-            "blockClass": "home-banner4-img-3"
+            "blockClass": "home-banner4-novedad3"
         }
     },
     "flex-layout.col#home-banner4-novedad4": {

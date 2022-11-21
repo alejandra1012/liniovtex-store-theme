@@ -1,0 +1,174 @@
+{
+    "flex-layout.row#desktop__footer--forma-pagos": {
+        "children": [
+            "flex-layout.col#desktop__footer--forma-pagos-item1",
+            "flex-layout.col#desktop__footer--forma-pagos-item2",
+            "flex-layout.col#desktop__footer--forma-pagos-item3",
+            "flex-layout.col#desktop__footer--forma-pagos-item4",
+            "flex-layout.col#desktop__footer--forma-pagos-item5",
+            "flex-layout.col#desktop__footer--forma-pagos-item6",
+            "flex-layout.col#desktop__footer--forma-pagos-item7"
+        ],
+        "props": {
+            "blockClass": "desktop-footer",
+            "horizontalAlign": "center",
+            "colJustify": "between",
+            "paddingTop": 3
+        },
+        "title": "Opciones de Pagos"
+    },
+    //* visa
+    "flex-layout.col#desktop__footer--forma-pagos-item1": {
+        "children": [
+            "image#desktop__footer--forma-pagos-item1-img",
+            "rich-text#desktop__footer--forma-pagos-item1-text"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "rich-text#desktop__footer--forma-pagos-item1-text": {
+        "props": {
+            "text": "Visa",
+            "blockClass": "text-footer"
+        }
+    },
+    "image#desktop__footer--forma-pagos-item1-img": {
+        "props": {
+            "src": "/arquivos/visa.png",
+            "maxHeight": 30
+        }
+    },
+    //* mastercard
+    "flex-layout.col#desktop__footer--forma-pagos-item2": {
+        "children": [
+            "image#desktop__footer--forma-pagos-item2-text",
+            "rich-text#desktop__footer--forma-pagos-item2-text"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "rich-text#desktop__footer--forma-pagos-item2-text": {
+        "props": {
+            "text": "MasterCard",
+            "blockClass": "text-footer"
+        }
+    },
+    "image#desktop__footer--forma-pagos-item2-text": {
+        "props": {
+            "src": "/arquivos/mastercard.png",
+            "maxHeight": 30
+        }
+    },
+    //* american express
+    "flex-layout.col#desktop__footer--forma-pagos-item3": {
+        "children": [
+            "image#desktop__footer--forma-pagos-item3-text",
+            "rich-text#desktop__footer--forma-pagos-item3-text"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "rich-text#desktop__footer--forma-pagos-item3-text": {
+        "props": {
+            "text": "American Express",
+            "blockClass": "text-footer"
+        }
+    },
+    "image#desktop__footer--forma-pagos-item3-text": {
+        "props": {
+            "src": "/arquivos/american.png",
+            "maxHeight": 30
+        }
+    },
+    //* terjetas codensa
+    "flex-layout.col#desktop__footer--forma-pagos-item4": {
+        "children": [
+            "image#desktop__footer--forma-pagos-item4-text",
+            "rich-text#desktop__footer--forma-pagos-item4-text"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "rich-text#desktop__footer--forma-pagos-item4-text": {
+        "props": {
+            "text": "Targeta Codensa",
+            "blockClass": "text-footer"
+        }
+    },
+    "image#desktop__footer--forma-pagos-item4-text": {
+        "props": {
+            "src": "/arquivos/tarjeta-de-credito.png",
+            "maxHeight": 30
+        }
+    },
+    //* pse
+    "flex-layout.col#desktop__footer--forma-pagos-item5": {
+        "children": [
+            "image#desktop__footer--forma-pagos-item5-text",
+            "rich-text#desktop__footer--forma-pagos-item5-text"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "rich-text#desktop__footer--forma-pagos-item5-text": {
+        "props": {
+            "text": "PSE",
+            "blockClass": "text-footer"
+        }
+    },
+    "image#desktop__footer--forma-pagos-item5-text": {
+        "props": {
+            "src": "/arquivos/tarjeta-de-credito.png",
+            "maxHeight": 30
+        }
+    },
+    //* efecty
+    "flex-layout.col#desktop__footer--forma-pagos-item6": {
+        "children": [
+            "image#desktop__footer--forma-pagos-item6-text",
+            "rich-text#desktop__footer--forma-pagos-item6-text"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "rich-text#desktop__footer--forma-pagos-item6-text": {
+        "props": {
+            "text": "Efecty",
+            "blockClass": "text-footer"
+        }
+    },
+    "image#desktop__footer--forma-pagos-item6-text": {
+        "props": {
+            "maxHeight": 30,
+            "src": "/arquivos/efecty.png"
+        }
+    },
+    //* pago contra entrega
+    "flex-layout.col#desktop__footer--forma-pagos-item7": {
+        "children": [
+            "image#desktop__footer--forma-pagos-item7-text",
+            "rich-text#desktop__footer--forma-pagos-item7-text"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "rich-text#desktop__footer--forma-pagos-item7-text": {
+        "props": {
+            "text": "Contra entrega",
+            "blockClass": "text-footer"
+        }
+    },
+    "image#desktop__footer--forma-pagos-item7-text": {
+        "props": {
+            "maxHeight": 30,
+            "src": "/arquivos/pago-contraentrega.png"
+        }
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "flex-layout.row#home-banner5-trasnformatu-hogar": {
+        "children": [
+            "flex-layout.col#home-banner5-hogar1",
+            "flex-layout.col#home-banner5-hogar2",
+            "flex-layout.col#home-banner5-hogar3"
+        ],
+        "props": {
+            "blockClass": "home-banner5-img-content",
+            "colSizing": "auto",
+            "colGap": 3
+        }
+    },
+    "flex-layout.row#home-banner5-hogar-title": {
+        "children": [
+            "flex-layout.col#home-banner5-title"
+        ],
+        "props": {
+            "blockClass": "home-banner5-hogar-title"
+        }
+    },
+    "flex-layout.col#home-banner5-title": {
+        "children": [
+            "rich-text#home-banner5-title"
+        ]
+    },
+    "rich-text#home-banner5-title": {
+        "props": {
+            "text": "TRANSFORMA TU HOGAR",
+            "blockClass": "home-banner5-text"
+        }
+    },
+    "flex-layout.col#home-banner5-hogar1": {
+        "children": [
+            "image#home-banner5-hogar1"
+        ]
+    },
+    "image#home-banner5-hogar1": {
+        "props": {
+            "src": "/arquivos/banner-transformaHogar1.png",
+            "alt": "decoracion navidad",
+            "blockClass": "home-banner5-hogar1"
+        }
+    },
+    "flex-layout.col#home-banner5-hogar2": {
+        "children": [
+            "image#home-banner5-hogar2"
+        ]
+    },
+    "image#home-banner5-hogar2": {
+        "props": {
+            "src": "/arquivos/banner-transformaHogar2.png",
+            "alt": "regala perfumes",
+            "blockClass": "home-banner5-hogar2"
+        }
+    },
+    "flex-layout.col#home-banner5-hogar3": {
+        "children": [
+            "image#home-banner5-hogar3"
+        ]
+    },
+    "image#home-banner5-hogar3": {
+        "props": {
+            "src": "/arquivos/banner-transformaHogar3.png",
+            "alt": "consola y videojuegos",
+            "blockClass": "home-banner5-hogar3"
+        }
+    }
+}
