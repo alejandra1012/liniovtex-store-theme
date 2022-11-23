@@ -4,6 +4,8 @@
         "children": [
             "logo#header__top--logo",
             "header-spacer",
+            "search-bar",
+            // "search-bar#header__bottom--search",
             "login",
             "link.product#mis-pedidos",
             "minicart.v2"

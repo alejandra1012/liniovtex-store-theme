@@ -2,13 +2,23 @@
     "header-row#header__mobile--top": {
         "title": "Header desktop Superior",
         "children": [
-            "drawer#header__mobile--menu",
-            "logo#mobile__top--logo",
-            "header-spacer",
-            "minicart.v2"
+            "flex-layout.row#container__header-mobile"
         ],
         "props": {
             "blockClass": "header__top"
+        }
+    },
+    "flex-layout.row#container__header-mobile": {
+        "children": [
+            "drawer#header__mobile--menu",
+            "logo#mobile__top--logo",
+            "header-spacer",
+            "search-bar",
+            "minicart.v2"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "colSizing": "auto"
         }
     },
     "logo#mobile__top--logo": {
