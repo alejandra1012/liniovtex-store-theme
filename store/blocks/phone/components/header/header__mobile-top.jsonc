@@ -13,7 +13,7 @@
             "drawer#header__mobile--menu",
             "logo#mobile__top--logo",
             "header-spacer",
-            "search-bar",
+            "search-bar#mobile",
             "minicart.v2"
         ],
         "props": {

@@ -4,7 +4,7 @@
         "children": [
             "logo#header__top--logo",
             "header-spacer",
-            "search-bar",
+            "search-bar#desktop",
             // "search-bar#header__bottom--search",
             "login",
             "link.product#mis-pedidos",
@@ -17,7 +17,7 @@
     "logo#header__top--logo": {
         "title": "Logo",
         "props": {
-            "url": "assets/img/header__logo.svg",
+            "url": "assets/img/linio-desktop__logo.svg",
             "width": 120,
             "href": "/",
             "blockClass": "top__desktop"
