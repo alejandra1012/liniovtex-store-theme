@@ -43,7 +43,7 @@
     },
     "rich-text#desktop__footer-acercade--title": {
         "props": {
-            "text": "**Acerca de Linio**",
+            "text": "ACERCA DE LINIO",
             "blockClass": "text-footer"
         }
     },
@@ -265,7 +265,7 @@
     },
     "rich-text#desktop__footer-acercade--col2--title": {
         "props": {
-            "text": "**SERVICIO AL CLIENTE**",
+            "text": "SERVICIO AL CLIENTE",
             "blockClass": "text-footer"
         }
     },
@@ -414,7 +414,7 @@
     },
     "rich-text#desktop__footer-acercade--col3--title": {
         "props": {
-            "text": "**LINIO LATINOAMÉRICA**",
+            "text": "LINIO LATINOAMÉRICA",
             "blockClass": "text-footer"
         }
     },
@@ -477,7 +477,7 @@
     },
     "rich-text#desktop__footer-acercade--col4--title": {
         "props": {
-            "text": "**NOVEDADES**",
+            "text": "NOVEDADES",
             "blockClass": "text-footer"
         }
     },

@@ -21,7 +21,8 @@
   },
   "image#home__image": {
     "props": {
-      "src": "/arquivos/home__banner-1.png"
+      "src": "/arquivos/home__banner-1.png",
+      "blockClass": "home__image--banner1"
     }
   },
   "flex-layout.row#home__section--two": {

@@ -7,7 +7,7 @@
     "rich-text#home-info-text": {
         "title": "Informacion",
         "props": {
-            "text": "[![archivo markdown](assets/Markdown/info.md)]"
+            "text": ""
         }
     }
 }

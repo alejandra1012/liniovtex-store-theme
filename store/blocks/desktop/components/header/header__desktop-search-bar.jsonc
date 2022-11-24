@@ -1,14 +1,14 @@
 {
     "search-bar#desktop": {
         "blocks": [
-            "autocomplete-result-list.v2"
+            "autocomplete-result-list.v2#desktop"
         ],
         "props": {
             "openAutocompleteOnFocus": true,
             "blockClass": "search-bar__desktop"
         }
     },
-    "autocomplete-result-list.v2": {
+    "autocomplete-result-list.v2#desktop": {
         "blocks": [
             "product-summary.shelf#desktop__product-search-bar"
         ],

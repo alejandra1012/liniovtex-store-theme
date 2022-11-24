@@ -1,22 +1,22 @@
 {
     "search-bar#mobile": {
         "blocks": [
-            "autocomplete-result-list.v2"
+            "autocomplete-result-list.v2#mobile"
         ],
         "props": {
             "openAutocompleteOnFocus": true,
             "blockClass": "search-bar__mobile"
         }
     },
-    "autocomplete-result-list.v2": {
+    "autocomplete-result-list.v2#mobile": {
         "blocks": [
-            "product-summary.shelf#desktop__product-search-bar"
+            "product-summary.shelf#mobile__product-search-bar"
         ],
         "props": {
             "autocompleteWidth": 50
         }
     },
-    "product-summary.shelf#desktop__product-search-bar": {
+    "product-summary.shelf#mobile__product-search-bar": {
         "children": [
             "product-summary-image",
             "product-summary-name",

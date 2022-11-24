@@ -2,14 +2,12 @@
     background-color:#3d3d3d !important;
     color: #ddd;
 }
-.headerRowContentContainer--header__top{
+/* .headerRowContentContainer--header__top{
     padding: 0%;
-}
+} */
 .headerRowBackground--header__middle  {
     background-color: #3d3d3d !important;
     border-top: 1px solid #5a5a5a;
-    
-
 }
 .headerRowContainer--header__middle {
     display: flex;

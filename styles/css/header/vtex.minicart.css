@@ -1,6 +1,6 @@
-.openIconContainer{
-    padding: 0%;
-}
+/* .openIconContainer{
+    padding: 40%;
+} */
 :global(.vtex-button__label){
     padding: 5px;
 }
