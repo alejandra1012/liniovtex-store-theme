@@ -18,4 +18,10 @@
     width: 95%;
     margin-left: 5%;
 }
-
+.imageElement{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.imageElement--home__image--banner1{
+    width: 85%;
+}

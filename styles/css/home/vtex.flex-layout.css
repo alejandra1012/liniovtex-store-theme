@@ -7,12 +7,12 @@
     justify-content: center;
    
 }
-.flexRow--home-banner2-img-content{
-    width: 85vw;
-    margin: auto;
+/* .flexRow--home-banner2-img-content{
+    margin-left: 5%;
+    margin-right: 5%;
     min-height:30vh;
     max-height:30vh
-}
+} */
 /* .flexColChild--section__one--image :global(.vtex-store-components-3-x-imageElement--home__image){
    
 } */
