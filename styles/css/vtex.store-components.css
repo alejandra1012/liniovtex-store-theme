@@ -1,23 +1,4 @@
-.logoImage--mobile__top {
-    width: 50px;
-   margin-top: 7px;
 
-}
-.logoContainer--mobile__top {
-    padding: 0%;
-
-}
-.logoImage--top__desktop{
-    height: 40px;
-    width: 91px
-} 
-.searchBarContainer{
-    padding-top: 10px;
-    /* height: 38px; */
-    border-radius: 8px;
-    width: 95%;
-    margin-left: 5%;
-}
 .imageElement{
     padding-top: 10px;
     padding-bottom: 10px;

@@ -1,0 +1,618 @@
+{
+    "flex-layout.row#footer__container--disclosure": {
+        "children": [
+            "flex-layout.col#footer__container--disclosure"
+        ]
+    },
+    "flex-layout.col#footer__container--disclosure": {
+        "children": [
+            "disclosure-layout-group#footer__menu--group"
+        ],
+        "props": {
+            "blockClass": "disclosure__container"
+        }
+    },
+    "disclosure-layout-group#footer__menu--group": {
+        "children": [
+            "disclosure-layout#about-us",
+            "disclosure-layout#serv-cliente",
+            "disclosure-layout#linio-latino-america",
+            "disclosure-layout#novedades"
+        ]
+    },
+    "disclosure-layout#about-us": {
+        "children": [
+            "disclosure-trigger#about-us",
+            "disclosure-content#about-us"
+        ]
+    },
+    "disclosure-trigger#about-us": {
+        "children": [
+            "rich-text#about-us",
+            "disclosure-state-indicator"
+        ],
+        "props": {
+            "blockClass": "disclosure__trigger"
+        }
+    },
+    "rich-text#about-us": {
+        "props": {
+            "text": "ACERCA DE LINIO",
+            "font": "t-small"
+        }
+    },
+    "disclosure-state-indicator": {
+        "props": {
+            "Show": "icon#angle--down",
+            "Hide": "icon#angle--up"
+        }
+    },
+    "icon#angle--down": {
+        "props": {
+            "id": "mpa-angle--down",
+            "size": 16
+        }
+    },
+    "icon#angle--up": {
+        "props": {
+            "id": "mpa-angle--up",
+            "size": 16
+        }
+    },
+    "disclosure-content#about-us": {
+        "children": [
+            "menu#about-us"
+        ],
+        "props": {
+            "blockClass": "menu__about-us"
+        }
+    },
+    "menu#about-us": {
+        "children": [
+            "menu-item#quiénes-somos",
+            "menu-item#responsabilidad-social",
+            "menu-item#términos-de-uso",
+            "menu-item#Protec-prop-intelectual",
+            "menu-item#ventas-corporativas",
+            "menu-item#programas-de-lealtad",
+            "menu-item#vuélvete-un-afiliado",
+            "menu-item#directorio",
+            "menu-item#login",
+            "menu-item#beneficios",
+            "menu-item#trabaje-con-nosotros",
+            "menu-item#canal-de-integridad",
+            "menu-item#grupo-falabella",
+            "menu-item#developer",
+            "menu-item#notificaciones-judiciales"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#quiénes-somos": {
+        "props": {
+            "id": "menu-item#quiénes-somos",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "¿Quiénes Somos?",
+                "text": "¿Quiénes Somos?"
+            }
+        }
+    },
+    "menu-item#responsabilidad-social": {
+        "props": {
+            "id": "menu-item#responsabilidad-social",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Responsabilidad Social",
+                "text": "Responsabilidad Social"
+            }
+        }
+    },
+    "menu-item#términos-de-uso": {
+        "props": {
+            "id": "menu-item#términos-de-uso",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Términos de Uso",
+                "text": "Términos de Uso"
+            }
+        }
+    },
+    "menu-item#Protec-prop-intelectual": {
+        "props": {
+            "id": "menu-item#Protec-prop-intelectual",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Protección de Propiedad Intelectual",
+                "text": "Protección de Propiedad Intelectual"
+            }
+        }
+    },
+    "menu-item#ventas-corporativas": {
+        "props": {
+            "id": "menu-item#ventas-corporativas",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Ventas Corporativas",
+                "text": "Ventas Corporativas"
+            }
+        }
+    },
+    "menu-item#programas-de-lealtad": {
+        "props": {
+            "id": "menu-item#programas-de-lealtad",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Programas de Lealtad",
+                "text": "Programas de Lealtad"
+            }
+        }
+    },
+    "menu-item#vuélvete-un-afiliado": {
+        "props": {
+            "id": "menu-item#vuélvete-un-afiliado",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Vuélvete un Afiliado",
+                "text": "Vuélvete un Afiliado"
+            }
+        }
+    },
+    "menu-item#directorio": {
+        "props": {
+            "id": "menu-item#directorio",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Directorio",
+                "text": "Directorio"
+            }
+        }
+    },
+    "menu-item#login": {
+        "props": {
+            "id": "menu-item#login",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Login",
+                "text": "Login"
+            }
+        }
+    },
+    "menu-item#beneficios": {
+        "props": {
+            "id": "menu-item#beneficios",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Beneficios",
+                "text": "Beneficios"
+            }
+        }
+    },
+    "menu-item#trabaje-con-nosotros": {
+        "props": {
+            "id": "menu-item#trabaje-con-nosotros",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Trabaje con nosotros",
+                "text": "Trabaje con nosotros"
+            }
+        }
+    },
+    "menu-item#canal-de-integridad": {
+        "props": {
+            "id": "menu-item#canal-de-integridad",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Canal de Integridad",
+                "text": "Canal de Integridad"
+            }
+        }
+    },
+    "menu-item#grupo-falabella": {
+        "props": {
+            "id": "menu-item#grupo-falabella",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Grupo Falabella",
+                "text": "Grupo Falabella"
+            }
+        }
+    },
+    "menu-item#developer": {
+        "props": {
+            "id": "menu-item#developer",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Developer",
+                "text": "Developer"
+            }
+        }
+    },
+    "menu-item#notificaciones-judiciales": {
+        "props": {
+            "id": "menu-item#notificaciones-judiciales",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Notificaciones judiciales",
+                "text": "Notificaciones judiciales"
+            }
+        }
+    },
+    "disclosure-layout#serv-cliente": {
+        "children": [
+            "disclosure-trigger#serv-cliente",
+            "disclosure-content#serv-cliente"
+        ]
+    },
+    "disclosure-trigger#serv-cliente": {
+        "children": [
+            "rich-text#serv-cliente",
+            "disclosure-state-indicator"
+        ],
+        "props": {
+            "blockClass": "disclosure__trigger"
+        }
+    },
+    "rich-text#serv-cliente": {
+        "props": {
+            "text": "SERVICIO AL CLIENTE",
+            "font": "t-small"
+        }
+    },
+    "disclosure-content#serv-cliente": {
+        "children": [
+            "menu#serv-cliente"
+        ]
+    },
+    "menu#serv-cliente": {
+        "children": [
+            "menu-item#preguntas-frecuentes",
+            "menu-item#aplicar-mi-garantía",
+            "menu-item#Estado-de-mi-recolección",
+            "menu-item#autorización-datos-personales",
+            "menu-item#política-tratamiento-Datos",
+            "menu-item#térm-condic",
+            "menu-item#política-venta-productos-intern",
+            "menu-item#legales",
+            "menu-item#petici-queja-reclamos",
+            "menu-item#pag-sic",
+            "menu-item#cómo-cuidamos-tus-datos"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#preguntas-frecuentes": {
+        "props": {
+            "id": "menu-item#preguntas-frecuentes",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Preguntas Frecuentes",
+                "text": "Preguntas Frecuentes"
+            }
+        }
+    },
+    "menu-item#aplicar-mi-garantía": {
+        "props": {
+            "id": "menu-item#aplicar-mi-garantía",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Aplicar mi garantía",
+                "text": "Aplicar mi garantía"
+            }
+        }
+    },
+    "menu-item#Estado-de-mi-recolección": {
+        "props": {
+            "id": "menu-item#Estado-de-mi-recolección",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Estado de mi recolección",
+                "text": "Estado de mi recolección"
+            }
+        }
+    },
+    "menu-item#autorización-datos-personales": {
+        "props": {
+            "id": "menu-item#autorización-datos-personales",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Autorización para el Tratamiento de Datos Personales",
+                "text": "Autorización para el Tratamiento de Datos Personales"
+            }
+        }
+    },
+    "menu-item#política-tratamiento-Datos": {
+        "props": {
+            "id": "menu-item#política-tratamiento-Datos",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Política de Tratamiento de Datos",
+                "text": "Política de Tratamiento de Datos"
+            }
+        }
+    },
+    "menu-item#térm-condic": {
+        "props": {
+            "id": "menu-item#térm-condic",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Términos y Condiciones",
+                "text": "Términos y Condiciones"
+            }
+        }
+    },
+    "menu-item#política-venta-productos-intern": {
+        "props": {
+            "id": "menu-item#política-venta-productos-intern",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Política de venta de productos internacionales",
+                "text": "Política de venta de productos internacionales"
+            }
+        }
+    },
+    "menu-item#legales": {
+        "props": {
+            "id": "menu-item#legales",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Legales",
+                "text": "Legales"
+            }
+        }
+    },
+    "menu-item#petici-queja-reclamos": {
+        "props": {
+            "id": "menu-item#petici-queja-reclamos",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Peticiones, quejas o reclamos",
+                "text": "Peticiones, quejas o reclamos"
+            }
+        }
+    },
+    "menu-item#pag-sic": {
+        "props": {
+            "id": "menu-item#pag-sic",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "www.sic.gov.co",
+                "text": "www.sic.gov.co"
+            }
+        }
+    },
+    "menu-item#cómo-cuidamos-tus-datos": {
+        "props": {
+            "id": "menu-item#cómo-cuidamos-tus-datos",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "¿Cómo cuidamos tus datos?",
+                "text": "¿Cómo cuidamos tus datos?"
+            }
+        }
+    },
+    "disclosure-layout#linio-latino-america": {
+        "children": [
+            "disclosure-trigger#linio-latinoA",
+            "disclosure-content#linio-latinoA"
+        ]
+    },
+    "disclosure-trigger#linio-latinoA": {
+        "children": [
+            "rich-text#linio-latinoA",
+            "disclosure-state-indicator"
+        ],
+        "props": {
+            "blockClass": "disclosure__trigger"
+        }
+    },
+    "rich-text#linio-latinoA": {
+        "props": {
+            "text": "LINIO LATINOAMÉRICA",
+            "font": "t-small"
+        }
+    },
+    "disclosure-content#linio-latinoA": {
+        "children": [
+            "menu#linio-latinoA"
+        ]
+    },
+    "menu#linio-latinoA": {
+        "children": [
+            "menu-item#colombia",
+            "menu-item#chile",
+            "menu-item#mexico",
+            "menu-item#peru"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#colombia": {
+        "props": {
+            "id": "menu-item#colombia",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Colombia",
+                "text": "Colombia"
+            }
+        }
+    },
+    "menu-item#chile": {
+        "props": {
+            "id": "menu-item#chile",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Chile",
+                "text": "Chile"
+            }
+        }
+    },
+    "menu-item#mexico": {
+        "props": {
+            "id": "menu-item#mexico",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "México",
+                "text": "México"
+            }
+        }
+    },
+    "menu-item#peru": {
+        "props": {
+            "id": "menu-item#peru",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Perú",
+                "text": "Perú"
+            }
+        }
+    },
+    "disclosure-layout#novedades": {
+        "children": [
+            "disclosure-trigger#novedades",
+            "disclosure-content#novedades"
+        ]
+    },
+    "disclosure-trigger#novedades": {
+        "children": [
+            "rich-text#novedades",
+            "disclosure-state-indicator"
+        ],
+        "props": {
+            "blockClass": "disclosure__trigger"
+        }
+    },
+    "rich-text#novedades": {
+        "props": {
+            "text": "NOVEDADES",
+            "font": "t-small"
+        }
+    },
+    "disclosure-content#novedades": {
+        "children": [
+            "menu#novedades"
+        ]
+    },
+    "menu#novedades": {
+        "children": [
+            "menu-item#cyberLunes",
+            "menu-item#iphone",
+            "menu-item#solo-hoy-ofertas",
+            "menu-item#despensa-vinos-gourmet"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#cyberLunes": {
+        "props": {
+            "id": "menu-item#cyberLunes",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "CyberLunes",
+                "text": "CyberLunes"
+            }
+        }
+    },
+    "menu-item#iphone": {
+        "props": {
+            "id": "menu-item#iphone",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "iPhone",
+                "text": "iPhone"
+            }
+        }
+    },
+    "menu-item#solo-hoy-ofertas": {
+        "props": {
+            "id": "menu-item#solo-hoy-ofertas",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Solo Hoy Ofertas",
+                "text": "Solo Hoy Ofertas"
+            }
+        }
+    },
+    "menu-item#despensa-vinos-gourmet": {
+        "props": {
+            "id": "menu-item#despensa-vinos-gourmet",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Despensa, vinos y gourmet",
+                "text": "Despensa, vinos y gourmet"
+            }
+        }
+    }
+}

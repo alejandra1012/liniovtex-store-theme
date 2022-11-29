@@ -2,16 +2,24 @@
     "header-row#header__top": {
         "title": "Header desktop Superior",
         "children": [
+            "flex-layout.row#header__top--container"
+        ],
+        "props": {
+            "blockClass": "header__top"
+        }
+    },
+    "flex-layout.row#header__top--container": {
+        "children": [
             "logo#header__top--logo",
-            "header-spacer",
+            // "header-spacer",
             "search-bar#desktop",
             // "search-bar#header__bottom--search",
             "login",
             "link.product#mis-pedidos",
-            "minicart.v2"
+            "minicart.v2#global__header--minicart"
         ],
         "props": {
-            "blockClass": "header__top"
+            "blockClass": "header__top--container"
         }
     },
     "logo#header__top--logo": {

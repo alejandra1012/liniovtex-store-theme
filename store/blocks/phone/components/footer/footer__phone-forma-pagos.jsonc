@@ -1,0 +1,12 @@
+{
+    "rich-text": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Visit our [help](https://developers.vtex.com/vtex-developer-docs/docs/welcome) section.\n**Be Bold!**\n*This is italic*",
+            "textColor": "c-on-emphasis",
+            "font": "t-heading-5",
+            "blockClass": "help-message"
+        }
+    }
+}

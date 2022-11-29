@@ -2,6 +2,14 @@
     background-color:#3d3d3d !important;
     color: #ddd;
 }
+.headerRowContainer--header__top :global(.vtex-store-components-3-x-container ) {
+    padding: 0;
+
+}
+.headerRowContainer--header__top :global(.vtex-login-2-x-profileIcon) {
+    width: 27px;
+    height: 27px;
+}
 /* .headerRowContentContainer--header__top{
     padding: 0%;
 } */

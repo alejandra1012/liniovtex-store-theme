@@ -1,0 +1,26 @@
+.logoImage--mobile__top {
+    margin-top: 7px;
+ 
+ }
+ .logoContainer--mobile__top {
+     padding: 0%;
+ 
+ }
+ .logoImage--top__desktop{
+     height: 40px;
+     width: 91px
+ } 
+ .searchBarContainer{
+     padding-top: 10px;
+     /* height: 38px; */
+     border-radius: 8px;
+     width: 95%;
+     margin-left: 5%;
+ }
+ .autoCompleteOuterContainer--search-bar__mobile :global(.vtex-input__suffix ) {
+    padding: 0;
+
+ }
+ .autoCompleteOuterContainer--search-bar__mobile :global(.vtex-styleguide-9-x-noAppearance){
+    padding: 3px;
+ }

@@ -10,7 +10,7 @@
     "rich-text#home__section--recomenproductos": {
         "title": "texto slider recomendaciones de productos",
         "props": {
-            "text": "RECOMENDADOS ESPECIALMENTE PARA TI",
+            "text": "### RECOMENDADOS ESPECIALMENTE PARA TI ### ",
             "blockClass": "section__recomenproductos--title"
         }
     },
