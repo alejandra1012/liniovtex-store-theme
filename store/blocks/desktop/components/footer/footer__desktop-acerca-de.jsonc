@@ -34,7 +34,8 @@
             "flex-layout.row#desktop__footer--acercade--left-list15"
         ],
         "props": {
-            "blockClass": "footer-columna-1"
+            "blockClass": "footer-columna-1",
+            "rowGap": 3
         }
     },
     //* Footer section  col1 title
@@ -260,7 +261,8 @@
             "flex-layout.row#desktop__footer--acercade--col2-list10"
         ],
         "props": {
-            "blockClass": "footer-columna-2"
+            "blockClass": "footer-columna-2",
+            "rowGap": 2
         }
     },
     "flex-layout.row#desktop__footer--acercade--col2-row": {
@@ -278,7 +280,10 @@
     "flex-layout.row#desktop__footer--acercade--col2-list1": {
         "children": [
             "link#desktop__footer-acercade--col2--item1"
-        ]
+        ],
+        "props": {
+            "rowGap": 2
+        }
     },
     "link#desktop__footer-acercade--col2--item1": {
         "props": {
@@ -413,7 +418,9 @@
             "flex-layout.row#desktop__footer--acercade--col3-list2"
         ],
         "props": {
-            "blockClass": "footer-columna-3"
+            "blockClass": "footer-columna-3",
+            "rowGap": 2,
+            "preventVerticalStretch": true
         }
     },
     "flex-layout.row#desktop__footer--acercade--col3-row": {
@@ -480,7 +487,8 @@
             "flex-layout.row#desktop__footer--acercade--col4-list4"
         ],
         "props": {
-            "blockClass": "footer-columna-4"
+            "blockClass": "footer-columna-4",
+            "preventVerticalStretch": true
         }
     },
     "flex-layout.row#desktop__footer--acercade--col4-row": {
@@ -555,7 +563,9 @@
             "flex-layout.col#desktop__footer--acercade--col5-item3"
         ],
         "props": {
-            "blockClass": "footer-columna-5"
+            "blockClass": "footer-columna-5",
+            "preventVerticalStretch": true,
+            "preventHorizontalStretch": true
         }
     },
     //* SÍGUENOS
@@ -568,7 +578,7 @@
             "horizontalAlign": "left",
             "colSizing": "auto",
             "colGap": 5,
-            "blockClass": "siguenos-container"
+            "blockClass": "desktop__siguenos-container"
         }
     },
     "rich-text#desktop__footer-acercade--col5--item1": {
@@ -604,25 +614,27 @@
         ],
         "props": {
             "rowGap": 3,
-            "blockClass": "footer__image-apps"
+            "blockClass": "footer__image-apps",
+            "preventVerticalStretch": true,
+            "colSizing": "auto"
         }
     },
     "image#desktop__play-store": {
         "props": {
             "src": "/arquivos/play-store.png",
-            "maxWidth": "50%"
+            "maxWidth": "65%"
         }
     },
     "image#desktop__app-store": {
         "props": {
             "src": "/arquivos/app-store.png",
-            "maxWidth": "50%"
+            "maxWidth": "65%"
         }
     },
     "image#desktop__app-gallery": {
         "props": {
             "src": "/arquivos/footer-appgalley.jpg",
-            "maxWidth": "50%"
+            "maxWidth": "65%"
         }
     },
     "flex-layout.col#desktop__footer--acercade--col5-item3": {
@@ -637,7 +649,7 @@
     "image#desktop__sic": {
         "props": {
             "src": "/arquivos/logo-sic-footer.png",
-            "maxWidth": "70%"
+            "maxWidth": "85%"
         }
     }
 }
