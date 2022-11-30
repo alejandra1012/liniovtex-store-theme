@@ -1,5 +1,5 @@
 {
-    "flex-layout.row#desktop__footer--info-final-row": {
+    "flex-layout.row#global__footer--info-final-row": {
         "children": [
             "flex-layout.col#desktop__footer--info-final-col"
         ],

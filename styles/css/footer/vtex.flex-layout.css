@@ -1,7 +1,34 @@
+.flexRowContent--mobile__footer--forma-pagos :global(.vtex-rich-text-0-x-paragraph){
+    margin: 0;
+    font-weight: 400;
+    font-size: 12px
+}
+.flexRowContent--mobile__footer--forma-pagos{
+    padding-bottom: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #000;
+}
+
 .flexCol--disclosure__container{
     border-top: 1px solid #000;
     border-bottom: 1px solid #000;
+    padding-top: 15px
 }
 .flexCol--disclosure__container .flexColChild :first-child {
     border: none;
+}
+.flexRowContent--siguenos-container{
+    align-items: center;
+}
+.flexRowContent--mobile__footer--apps{
+    align-items: center;
+}
+.flexCol--mobile__footer--sic{
+    text-align: center;
+}
+/* desktop */
+.flexRowContent--desktop-footer{
+    border-top: 1px solid gray ;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
 }

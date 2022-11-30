@@ -1,19 +1,4 @@
 {
-    "flex-layout.row#home__section--recomenproductos": {
-        "children": [
-            "rich-text#home__section--recomenproductos"
-        ],
-        "props": {
-            "blockClass": "home__section--recomenproductos"
-        }
-    },
-    "rich-text#home__section--recomenproductos": {
-        "title": "texto slider recomendaciones de productos",
-        "props": {
-            "text": "### RECOMENDADOS ESPECIALMENTE PARA TI ### ",
-            "blockClass": "section__recomenproductos--title"
-        }
-    },
     "flex-layout.row#home__section--destacadosparati": {
         "children": [
             "rich-text#home__section--destacadosparati"

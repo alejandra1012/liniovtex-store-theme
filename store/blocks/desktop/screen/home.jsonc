@@ -2,6 +2,16 @@
   "responsive-layout.desktop": {
     "title": "Container Home",
     "children": [
+      "flex-layout.row#desktop__container--home"
+    ]
+  },
+  "flex-layout.row#desktop__container--home": {
+    "children": [
+      "flex-layout.col#desktop__container--home"
+    ]
+  },
+  "flex-layout.col#desktop__container--home": {
+    "children": [
       "flex-layout.row#home__section--banner1",
       "flex-layout.row#slider__main",
       "flex-layout.row#home__section--two",
@@ -25,7 +35,7 @@
       "flex-layout.row#home-info"
     ],
     "props": {
-      "blockClass": "container__home--desktop"
+      "blockClass": "desktop__container--home"
     }
   }
 }

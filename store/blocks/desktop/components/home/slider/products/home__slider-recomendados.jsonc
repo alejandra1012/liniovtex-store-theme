@@ -1,0 +1,50 @@
+{
+    "flex-layout.row#home__section--recomenproductos": {
+        "children": [
+            "flex-layout.col#desktop__slider--recomendados"
+        ],
+        "props": {
+            "blockClass": "home__section--recomenproductos"
+        }
+    },
+    "flex-layout.col#desktop__slider--recomendados": {
+        "title": "Primer slider de productos",
+        "children": [
+            "rich-text#home__section--recomenproductos",
+            "list-context.product-list#desktop__slider--recomendados"
+        ]
+    },
+    "rich-text#home__section--recomenproductos": {
+        "title": "texto slider recomendaciones de productos",
+        "props": {
+            "text": "### RECOMENDADOS ESPECIALMENTE PARA TI ### ",
+            "blockClass": "section__recomenproductos--title"
+        }
+    },
+    "list-context.product-list#desktop__slider--recomendados": {
+        "children": [
+            "slider-layout#recomendados"
+        ],
+        "blocks": [
+            "product-summary.shelf#slider__recomendados"
+        ]
+    },
+    "product-summary.shelf#slider__recomendados": {
+        "children": [
+            "product-summary-image",
+            "product-summary-name"
+        ]
+    },
+    "slider-layout#recomendados": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 6,
+                "tablet": 6,
+                "phone": 3
+            },
+            "infinite": true,
+            "arrowSize": 25,
+            "centerMode": "to-the-left"
+        }
+    }
+}

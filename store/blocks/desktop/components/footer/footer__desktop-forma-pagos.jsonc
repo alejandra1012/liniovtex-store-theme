@@ -15,7 +15,7 @@
             "colJustify": "between",
             "paddingTop": 3
         },
-        "title": "Opciones de Pagos"
+        "title": "Forma de Pagos"
     },
     //* visa
     "flex-layout.col#desktop__footer--forma-pagos-item1": {
@@ -30,13 +30,14 @@
     "rich-text#desktop__footer--forma-pagos-item1-text": {
         "props": {
             "text": "Visa",
-            "blockClass": "text-footer"
+            "blockClass": "forma-pagos__text-footer"
         }
     },
     "image#desktop__footer--forma-pagos-item1-img": {
         "props": {
             "src": "/arquivos/visa.png",
-            "maxHeight": 30
+            "maxHeight": 45,
+            "blockClass": "forma-pagos__img-footer"
         }
     },
     //* mastercard
@@ -52,13 +53,14 @@
     "rich-text#desktop__footer--forma-pagos-item2-text": {
         "props": {
             "text": "MasterCard",
-            "blockClass": "text-footer"
+            "blockClass": "forma-pagos__text-footer"
         }
     },
     "image#desktop__footer--forma-pagos-item2-text": {
         "props": {
             "src": "/arquivos/mastercard.png",
-            "maxHeight": 30
+            "maxHeight": 45,
+            "blockClass": "forma-pagos__img-footer"
         }
     },
     //* american express
@@ -74,13 +76,14 @@
     "rich-text#desktop__footer--forma-pagos-item3-text": {
         "props": {
             "text": "American Express",
-            "blockClass": "text-footer"
+            "blockClass": "forma-pagos__text-footer"
         }
     },
     "image#desktop__footer--forma-pagos-item3-text": {
         "props": {
             "src": "/arquivos/american.png",
-            "maxHeight": 30
+            "maxHeight": 45,
+            "blockClass": "forma-pagos__img-footer"
         }
     },
     //* terjetas codensa
@@ -96,13 +99,14 @@
     "rich-text#desktop__footer--forma-pagos-item4-text": {
         "props": {
             "text": "Targeta Codensa",
-            "blockClass": "text-footer"
+            "blockClass": "forma-pagos__text-footer"
         }
     },
     "image#desktop__footer--forma-pagos-item4-text": {
         "props": {
             "src": "/arquivos/tarjeta-de-credito.png",
-            "maxHeight": 30
+            "maxHeight": 45,
+            "blockClass": "forma-pagos__img-footer"
         }
     },
     //* pse
@@ -118,13 +122,14 @@
     "rich-text#desktop__footer--forma-pagos-item5-text": {
         "props": {
             "text": "PSE",
-            "blockClass": "text-footer"
+            "blockClass": "forma-pagos__text-footer"
         }
     },
     "image#desktop__footer--forma-pagos-item5-text": {
         "props": {
             "src": "/arquivos/tarjeta-de-credito.png",
-            "maxHeight": 30
+            "maxHeight": 45,
+            "blockClass": "forma-pagos__img-footer"
         }
     },
     //* efecty
@@ -140,13 +145,14 @@
     "rich-text#desktop__footer--forma-pagos-item6-text": {
         "props": {
             "text": "Efecty",
-            "blockClass": "text-footer"
+            "blockClass": "forma-pagos__text-footer"
         }
     },
     "image#desktop__footer--forma-pagos-item6-text": {
         "props": {
-            "maxHeight": 30,
-            "src": "/arquivos/efecty.png"
+            "maxHeight": 45,
+            "src": "/arquivos/efecty.png",
+            "blockClass": "forma-pagos__img-footer"
         }
     },
     //* pago contra entrega
@@ -162,13 +168,14 @@
     "rich-text#desktop__footer--forma-pagos-item7-text": {
         "props": {
             "text": "Contra entrega",
-            "blockClass": "text-footer"
+            "blockClass": "forma-pagos__text-footer"
         }
     },
     "image#desktop__footer--forma-pagos-item7-text": {
         "props": {
-            "maxHeight": 30,
-            "src": "/arquivos/pago-contraentrega.png"
+            "maxHeight": 45,
+            "src": "/arquivos/pago-contraentrega.png",
+            "blockClass": "forma-pagos__img-footer"
         }
     }
 }

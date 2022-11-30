@@ -1,12 +1,87 @@
 {
-    "rich-text": {
+    "flex-layout.row#mobile__footer--forma-pagos": {
+        "title": "Forma de pagos vista mobile",
+        "children": [
+            "flex-layout.col#mobile__footer--forma-pagos--col1",
+            "flex-layout.col#mobile__footer--forma-pagos--col2"
+        ],
         "props": {
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER",
-            "text": "Visit our [help](https://developers.vtex.com/vtex-developer-docs/docs/welcome) section.\n**Be Bold!**\n*This is italic*",
-            "textColor": "c-on-emphasis",
-            "font": "t-heading-5",
-            "blockClass": "help-message"
+            "blockClass": "mobile__footer--forma-pagos",
+            "preserveLayoutOnMobile": true,
+            "horizontalAlign": "center",
+            "colJustify": "between",
+            "paddingTop": 3
+        }
+        //**columna1 forma de pagos      
+    },
+    "flex-layout.col#mobile__footer--forma-pagos--col1": {
+        "title": "Columna1 Forma de pagos vista mobile",
+        "children": [
+            "rich-text#mobile__footer--visa",
+            "rich-text#mobile__footer--american-express",
+            "rich-text#mobile__footer--pse",
+            "rich-text#mobile__footer--pago-contra-entrega"
+        ],
+        "props": {
+            "blockClass": "mobile__footer--forma-pagos--col1",
+            "preventVerticalStretch": true,
+            "rowGap": 3
+        }
+        //** VISA  
+    },
+    "rich-text#mobile__footer--visa": {
+        "props": {
+            "text": "Visa"
+        }
+        //** AMERICAN EXPRESS 
+    },
+    "rich-text#mobile__footer--american-express": {
+        "props": {
+            "text": "American Express"
+        }
+        //** PSE
+    },
+    "rich-text#mobile__footer--pse": {
+        "props": {
+            "text": "PSE"
+        }
+        //** Pago contra entrega 
+    },
+    "rich-text#mobile__footer--pago-contra-entrega": {
+        "props": {
+            "text": "Pago contra entrega"
+        }
+        //**columna2 forma de pagos        
+    },
+    "flex-layout.col#mobile__footer--forma-pagos--col2": {
+        "title": "Columna2 Forma de pagos vista mobile",
+        "children": [
+            "rich-text#mobile__footer--master-card",
+            "rich-text#mobile__footer--tarj-codensa",
+            "rich-text#mobile__footer--efecty"
+        ],
+        "props": {
+            "blockClass": "mobile__footer--forma-pagos--col2",
+            "preventVerticalStretch": true,
+            "rowGap": 3
+        }
+        //**MASTERCARD      
+    },
+    "rich-text#mobile__footer--master-card": {
+        "props": {
+            "text": "MasterCard"
+        }
+        //**TARJETA CODENSA   
+    },
+    "rich-text#mobile__footer--tarj-codensa": {
+        "props": {
+            "text": "Tarjetas Codensa"
+        }
+        //**EFECTY       
+    },
+    "rich-text#mobile__footer--efecty": {
+        "props": {
+            "text": "Efecty"
         }
     }
 }

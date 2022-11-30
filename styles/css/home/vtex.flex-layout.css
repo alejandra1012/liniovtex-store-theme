@@ -7,6 +7,9 @@
     justify-content: center;
    
 }
+.flexCol--desktop__container--home{
+    padding: 0 8vw;
+}
 /* .flexRow--home-banner2-img-content{
     margin-left: 5%;
     margin-right: 5%;

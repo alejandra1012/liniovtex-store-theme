@@ -1,5 +1,6 @@
 {
     "flex-layout.row#desktop__footer--acerca-de": {
+        "title": "Desktop sección acerca de, Footer",
         "children": [
             "flex-layout.col#desktop__footer--acercade--col1",
             "flex-layout.col#desktop__footer--acercade--col2",
@@ -13,6 +14,7 @@
     },
     //* Footer section col 1
     "flex-layout.col#desktop__footer--acercade--col1": {
+        "title": "Desktop container Columna 1 del Footer",
         "children": [
             "flex-layout.row#desktop__footer--acercade--left-row",
             "flex-layout.row#desktop__footer--acercade--left-list1",
@@ -32,7 +34,7 @@
             "flex-layout.row#desktop__footer--acercade--left-list15"
         ],
         "props": {
-            "blockClass": "footer-secction-1"
+            "blockClass": "footer-columna-1"
         }
     },
     //* Footer section  col1 title
@@ -256,7 +258,10 @@
             "flex-layout.row#desktop__footer--acercade--col2-list8",
             "flex-layout.row#desktop__footer--acercade--col2-list9",
             "flex-layout.row#desktop__footer--acercade--col2-list10"
-        ]
+        ],
+        "props": {
+            "blockClass": "footer-columna-2"
+        }
     },
     "flex-layout.row#desktop__footer--acercade--col2-row": {
         "children": [
@@ -401,11 +406,15 @@
     },
     //* Footer section bottom col 3
     "flex-layout.col#desktop__footer--acercade--col3": {
+        "title": "Desktop Columna tres del Footer",
         "children": [
             "flex-layout.row#desktop__footer--acercade--col3-row",
             "flex-layout.row#desktop__footer--acercade--col3-list1",
             "flex-layout.row#desktop__footer--acercade--col3-list2"
-        ]
+        ],
+        "props": {
+            "blockClass": "footer-columna-3"
+        }
     },
     "flex-layout.row#desktop__footer--acercade--col3-row": {
         "children": [
@@ -462,13 +471,17 @@
     },
     //* Footer section bottom col 4
     "flex-layout.col#desktop__footer--acercade--col4": {
+        "title": "Desktop Columna cuatro del Footer",
         "children": [
             "flex-layout.row#desktop__footer--acercade--col4-row",
             "flex-layout.row#desktop__footer--acercade--col4-list1",
             "flex-layout.row#desktop__footer--acercade--col4-list2",
             "flex-layout.row#desktop__footer--acercade--col4-list3",
             "flex-layout.row#desktop__footer--acercade--col4-list4"
-        ]
+        ],
+        "props": {
+            "blockClass": "footer-columna-4"
+        }
     },
     "flex-layout.row#desktop__footer--acercade--col4-row": {
         "children": [
@@ -535,22 +548,26 @@
     },
     //* Footer section bottom col 5
     "flex-layout.col#desktop__footer--acercade--col5": {
+        "title": "Desktop Columna cinco del Footer",
         "children": [
-            "flex-layout.col#desktop__footer--acercade--col5-item1",
-            "flex-layout.col#desktop__footer--acercade--col5-item2"
+            "flex-layout.row#desktop__footer--acercade--col5-item1",
+            "flex-layout.col#desktop__footer--acercade--col5-item2",
+            "flex-layout.col#desktop__footer--acercade--col5-item3"
         ],
         "props": {
-            "blockClass": "footer-section-5"
+            "blockClass": "footer-columna-5"
         }
     },
     //* SÍGUENOS
-    "flex-layout.col#desktop__footer--acercade--col5-item1": {
+    "flex-layout.row#desktop__footer--acercade--col5-item1": {
         "children": [
             "rich-text#desktop__footer-acercade--col5--item1",
             "social-networks#footer"
         ],
         "props": {
             "horizontalAlign": "left",
+            "colSizing": "auto",
+            "colGap": 5,
             "blockClass": "siguenos-container"
         }
     },
@@ -581,27 +598,46 @@
     //* app store
     "flex-layout.col#desktop__footer--acercade--col5-item2": {
         "children": [
-            "image#play-store",
-            "image#app-store",
-            "image#app-gallery"
-        ]
+            "image#desktop__play-store",
+            "image#desktop__app-store",
+            "image#desktop__app-gallery"
+        ],
+        "props": {
+            "rowGap": 3,
+            "blockClass": "footer__image-apps"
+        }
     },
-    "image#play-store": {
+    "image#desktop__play-store": {
         "props": {
             "src": "/arquivos/play-store.png",
-            "maxWidth": 90
+            "maxWidth": "50%"
         }
     },
-    "image#app-store": {
+    "image#desktop__app-store": {
         "props": {
             "src": "/arquivos/app-store.png",
-            "maxWidth": 90
+            "maxWidth": "50%"
         }
     },
-    "image#app-gallery": {
+    "image#desktop__app-gallery": {
         "props": {
-            "src": "/arquivos/app-gallery.png",
-            "maxWidth": 100
+            "src": "/arquivos/footer-appgalley.jpg",
+            "maxWidth": "50%"
+        }
+    },
+    "flex-layout.col#desktop__footer--acercade--col5-item3": {
+        "children": [
+            "image#desktop__sic"
+        ],
+        "props": {
+            "blockClass": "footer__image-sic",
+            "horizontalAlign": "center"
+        }
+    },
+    "image#desktop__sic": {
+        "props": {
+            "src": "/arquivos/logo-sic-footer.png",
+            "maxWidth": "70%"
         }
     }
 }
