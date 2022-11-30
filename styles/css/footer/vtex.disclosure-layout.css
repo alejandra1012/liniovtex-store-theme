@@ -12,3 +12,18 @@
     margin: 0%;
     
 }
+.content--menu__about-us :global(.vtex-menu-2-x-styledLinkContent){
+    font-size: 12px;
+}
+.content--menu__serv-cliente :global(.vtex-menu-102-x-styledLinkContent ){
+    font-size: 12px;
+}
+.content--menu__serv-cliente :global(.vtex-menu-2-x-styledLinkContent ){
+    font-size: 12px;
+}
+.content--menu__linio-latinoA :global(.vtex-menu-2-x-styledLinkContent ){
+    font-size: 12px;
+}
+.content--menu__novedades :global(.vtex-menu-2-x-styledLinkContent ){
+    font-size: 12px;
+}

@@ -18,7 +18,10 @@
             "disclosure-layout#serv-cliente",
             "disclosure-layout#linio-latino-america",
             "disclosure-layout#novedades"
-        ]
+        ],
+        "props": {
+            "blockClass": "mobile__footer--menu-group"
+        }
     },
     "disclosure-layout#about-us": {
         "children": [
@@ -293,7 +296,10 @@
     "disclosure-content#serv-cliente": {
         "children": [
             "menu#serv-cliente"
-        ]
+        ],
+        "props": {
+            "blockClass": "menu__serv-cliente"
+        }
     },
     "menu#serv-cliente": {
         "children": [
@@ -469,7 +475,10 @@
     "disclosure-content#linio-latinoA": {
         "children": [
             "menu#linio-latinoA"
-        ]
+        ],
+        "props": {
+            "blockClass": "menu__linio-latinoA"
+        }
     },
     "menu#linio-latinoA": {
         "children": [
@@ -554,7 +563,10 @@
     "disclosure-content#novedades": {
         "children": [
             "menu#novedades"
-        ]
+        ],
+        "props": {
+            "blockClass": "menu__novedades"
+        }
     },
     "menu#novedades": {
         "children": [
