@@ -1,0 +1,31 @@
+{
+    "flex-layout.row#desktop__top--home-link": {
+        "children": [
+            "flex-layout.col#desktop__top--home-link1"
+            // "flex-layout.col#desktop__top--home-link2",
+            // "flex-layout.col#desktop__top--home-link3",
+            // "flex-layout.col#desktop__top--home-link4",
+            // "flex-layout.col#desktop__top--home-link5"
+        ]
+    },
+    "flex-layout.col#desktop__top--home-link1": {
+        "children": [
+            "image#home__top--descarga-app",
+            "link#home__top--descarga-app"
+        ]
+    },
+    "image#home__top--descarga-app": {
+        "props": {
+            "src": "assets/img/smartphone.png",
+            "blockClass": "image__top--descarga-app"
+            // "maxHeight": 24
+        }
+    },
+    "link#home__top--descarga-app": {
+        "props": {
+            "href": "/",
+            "label": "Descarga la app",
+            "blockClass": "link__top--descarga-app"
+        }
+    }
+}

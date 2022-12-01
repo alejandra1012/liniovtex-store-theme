@@ -43,7 +43,8 @@
                 "phone": 3
             },
             "infinite": true,
-            "arrowSize": 25,
+            "showPaginationDots": "never",
+            "arrowSize": 15,
             "centerMode": "to-the-left"
         }
     }

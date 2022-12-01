@@ -12,6 +12,7 @@
   },
   "flex-layout.col#desktop__container--home": {
     "children": [
+      "flex-layout.row#desktop__top--home-link",
       "flex-layout.row#home__section--banner1",
       "flex-layout.row#slider__main",
       "flex-layout.row#home__section--two",
@@ -20,14 +21,14 @@
       "flex-layout.row#home__banner-contador",
       "flex-layout.row#home-banner2-items-title",
       "flex-layout.row#home-banner2-items-tecn",
-      "flex-layout.row#home__section--destacadosparati",
+      "flex-layout.row#home__section--destacados",
       "flex-layout.row#home-banner3-items-dtos",
       "flex-layout.row#home__section--tecnoparati",
       "flex-layout.row#slider__tiendas--oficiales",
       "flex-layout.row#home-banner4-novedad-title",
       "flex-layout.row#home-banner4-novedadesppal",
       "flex-layout.row#home-banner4-novedades",
-      "flex-layout.row#home__section--paratucasa",
+      "flex-layout.row#desktop__slider--paratucasa",
       "flex-layout.row#home-banner5-hogar-title",
       "flex-layout.row#home-banner5-trasnformatu-hogar",
       "flex-layout.row#home__banner--falabella",
@@ -35,7 +36,8 @@
       "flex-layout.row#home-info"
     ],
     "props": {
-      "blockClass": "desktop__container--home"
+      "blockClass": "desktop__container--home",
+      "rowGap": 5
     }
   }
 }

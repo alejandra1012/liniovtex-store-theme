@@ -27,7 +27,7 @@
     },
     "rich-text#home-banner4-novedad-title": {
         "props": {
-            "text": "NOVEDADES",
+            "text": "### NOVEDADES",
             "blockClass": "home-banner4-text"
         }
     },

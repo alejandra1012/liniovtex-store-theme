@@ -48,6 +48,7 @@
       "infinite": true,
       "fullWidth": true,
       "showNavigationArrows": "desktopOnly",
+      "arrowSize": 15,
       "blockClass": "home__slider--desktop"
     }
   }

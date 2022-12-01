@@ -5,7 +5,8 @@
             "flex-layout.col#banner__banco--falabella"
         ],
         "props": {
-            "blockClass": "home__banner--falabella"
+            "blockClass": "home__banner--falabella",
+            "paddingTop": 7
         }
     },
     "flex-layout.col#banner__banco--falabella": {
@@ -30,7 +31,9 @@
             "flex-layout.col#banner__descarga--app"
         ],
         "props": {
-            "blockClass": "home__banner--descarga-app"
+            "blockClass": "home__banner--descarga-app",
+            "paddingTop": 7,
+            "paddingBottom": 7
         }
     },
     "flex-layout.col#banner__descarga--app": {

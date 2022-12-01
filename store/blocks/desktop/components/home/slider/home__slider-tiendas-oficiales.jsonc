@@ -1,8 +1,39 @@
 {
     "flex-layout.row#slider__tiendas--oficiales": {
         "children": [
+            "flex-layout.col#slider__tiendas--oficiales"
+        ]
+    },
+    "flex-layout.col#slider__tiendas--oficiales": {
+        "children": [
+            "flex-layout.row#texto-link__tiendasofi",
             "list-context.image-list#home__slider--tiendasofi"
         ]
+    },
+    "flex-layout.row#texto-link__tiendasofi": {
+        "children": [
+            "rich-text#desktop__slider--tiendas-oficiales",
+            "link#desktop__slider-tiendas--oficiales"
+        ],
+        "props": {
+            "preventHorizontalStretch": true,
+            "colGap": 3,
+            "blockClass": "texto-link__tiendasofi"
+        }
+    },
+    "rich-text#desktop__slider--tiendas-oficiales": {
+        "title": "texto tiendas oficiales",
+        "props": {
+            "text": "### TIENDAS OFICIALES",
+            "blockClass": "slider__tiendas--oficiales-title"
+        }
+    },
+    "link#desktop__slider-tiendas--oficiales": {
+        "props": {
+            "label": "Ver más",
+            "blockClass": "link-tiendas--oficiales",
+            "href": "/"
+        }
     },
     "list-context.image-list#home__slider--tiendasofi": {
         "title": "lista de imagenes",
@@ -73,6 +104,8 @@
             },
             "infinite": true,
             "fullWidth": true,
+            "showPaginationDots": "never",
+            "arrowSize": 15,
             "blockClass": "home__slider--desktop"
         }
     }

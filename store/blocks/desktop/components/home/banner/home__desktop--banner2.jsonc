@@ -26,7 +26,7 @@
     },
     "rich-text#home-banner2-item1": {
         "props": {
-            "text": "TECNOLOGÍA PARA TUS DÍAS",
+            "text": "### TECNOLOGÍA PARA TUS DÍAS ###",
             "blockClass": "home-banner2-text"
         }
     },

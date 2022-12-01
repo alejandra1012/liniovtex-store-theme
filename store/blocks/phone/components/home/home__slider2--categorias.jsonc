@@ -5,9 +5,9 @@
             "slider-layout#home__slider2--categorias"
         ],
         "props": {
-            "preload": true,
-            "colSizing": "auto",
-            "fullWidth": true,
+            // "preload": true,
+            // "colSizing": "auto",
+            // "fullWidth": true,
             "images": [
                 {
                     "image": "/arquivos/home__menu-celular.jpg",
@@ -48,6 +48,8 @@
             "showPaginationDots": "never",
             "infinite": true,
             "showNavigationArrows": "desktopOnly",
+            "centerMode": "to-the-left",
+            "centerModeSlidesGap": 5,
             "blockClass": "home__slider2--mobile"
         }
     }

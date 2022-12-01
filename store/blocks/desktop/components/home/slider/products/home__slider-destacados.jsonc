@@ -1,0 +1,51 @@
+{
+    "flex-layout.row#home__section--destacados": {
+        "children": [
+            "flex-layout.col#desktop__slider--destacados"
+        ],
+        "props": {
+            "blockClass": "home__section--destacados"
+        }
+    },
+    "flex-layout.col#desktop__slider--destacados": {
+        "title": "texto slider para ti destacados",
+        "children": [
+            "rich-text#home__section--destacados",
+            "list-context.product-list#desktop__slider--destacados"
+        ]
+    },
+    "rich-text#home__section--destacados": {
+        "title": "texto slider para ti destacados",
+        "props": {
+            "text": "### PRODUCTOS DESTACADOS PARA TI ###",
+            "blockClass": "section__destacadospara ti--title"
+        }
+    },
+    "list-context.product-list#desktop__slider--destacados": {
+        "blocks": [
+            "product-summary.shelf#slider__destacados"
+        ],
+        "children": [
+            "slider-layout#destacados"
+        ]
+    },
+    "product-summary.shelf#slider__destacados": {
+        "children": [
+            "product-summary-image",
+            "product-summary-name"
+        ]
+    },
+    "slider-layout#destacados": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 6,
+                "tablet": 6,
+                "phone": 3
+            },
+            "infinite": true,
+            "showPaginationDots": "never",
+            "arrowSize": 15,
+            "centerMode": "to-the-left"
+        }
+    }
+}

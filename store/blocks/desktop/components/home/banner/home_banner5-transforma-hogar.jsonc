@@ -26,7 +26,7 @@
     },
     "rich-text#home-banner5-title": {
         "props": {
-            "text": "TRANSFORMA TU HOGAR",
+            "text": "### TRANSFORMA TU HOGAR",
             "blockClass": "home-banner5-text"
         }
     },
