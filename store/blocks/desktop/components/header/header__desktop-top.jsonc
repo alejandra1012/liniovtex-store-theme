@@ -12,16 +12,13 @@
         "children": [
             "drawer#desktop__header--mega-menu",
             "logo#header__top--logo",
-            // "header-spacer",
             "search-bar#desktop",
-            // "search-bar#header__bottom--search",
             "login",
             "link.product#mis-pedidos",
             "minicart.v2#global__header--minicart"
         ],
         "props": {
             "colSizing": "auto",
-            "preventVerticalStretch":true,
             "blockClass": "header__top--container"
         }
     },
@@ -52,12 +49,12 @@
         "props": {
             "href": "/{slug}/p",
             "label": "Mis pedidos",
+            "displayMode": "button",
+            "buttonProps": {
+                "variant": "primary",
+                "size": "small"
+            },
             "blockClass": "link__mis-pedidos"
-            // "displayMode": "button"
-            // "buttonProps": {
-            //     "variant": "primary",
-            //     "size": "regular"
-            // }
         }
     }
 }

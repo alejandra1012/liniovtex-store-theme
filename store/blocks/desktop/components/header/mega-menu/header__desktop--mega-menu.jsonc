@@ -4,8 +4,8 @@
             "menu#desktop__header--mega-menu"
         ],
         "props": {
-            "blockClass": "icon__mega-menu",
-            "size": 80
+            "blockClass": "icon__mega-menu"
+            // "size": 200
         }
     },
     "menu#desktop__header--mega-menu": {

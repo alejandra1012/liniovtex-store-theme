@@ -1,6 +1,9 @@
 .label--link__mis-pedidos{
-    color: #ddd;
+    color: #fff;
     text-transform: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center
     
 }
 .link--link__mis-pedidos{
@@ -9,8 +12,7 @@
 }
 .link--link__mis-pedidos ::before{
     content: url("assets/img/botton__pedidos-header.svg");
-    width: 70px;
-    height: 70px;
+    padding-right: 10px;
     display: inline-block;
 }
 

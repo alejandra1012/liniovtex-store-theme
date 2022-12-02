@@ -1,6 +1,12 @@
 .menuIcon--icon__menu{
     margin-top: 7px;
 }
+
+/* desktop */
+.menuIcon--icon__mega-menu{
+    width: 85%;
+    height: 31px;
+}
 .openIconContainer--icon__mega-menu{
     padding: 0;
 }

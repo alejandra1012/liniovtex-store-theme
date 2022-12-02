@@ -13,6 +13,9 @@
      height: 40px;
      width: 91px
  } 
+ .logoContainer--top__desktop{
+   padding: 0 0 0 20px;
+ }
  .searchBarInnerContainer--search-bar__desktop{
     padding-right: 50px;
     width: 573px;
@@ -28,10 +31,8 @@
     height: 25px;
  }
  .searchBarContainer{
-     padding-top: 10px;
-     /* height: 38px; */
-     border-radius: 8px;
-     width: 95%;
+     padding-top: 0;
+    padding-bottom: 0;
      margin-left: 5%;
  }
  .autoCompleteOuterContainer--search-bar__mobile :global(.vtex-input__suffix ) {

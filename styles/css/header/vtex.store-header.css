@@ -13,7 +13,23 @@
 .headerRowBackground--header__top :global(.vtex-login-2-x-label){
     text-transform: none;
     padding: 0%;
-    color: #ddd;
+    color: #fff;
+    font-size: 16px;
+}
+.headerRowContainer--header__top :global(.vtex-login-2-x-container) {
+    border-right: 1px solid #666;
+
+}
+
+.headerRowContainer--header__top :global(.vtex-button__label){
+    padding-right: 15px;
+    padding-bottom: 0 !important;
+    padding-left: 0;
+    padding-top: 0 !important;
+}
+.headerRowContainer--header__top :global(.vtex-minicart-2-x-minicartContainer) {
+    border-left: 1px solid #666;
+    padding-left: 10px;
 }
 
 
