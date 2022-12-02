@@ -1,3 +1,5 @@
-/* .stretchChildrenWidth{
-    width: 65px;
-} */
+.flexRowContent--header__top--container{
+    padding-left: 115px;
+    padding-right: 115px;
+    align-items: center;
+}

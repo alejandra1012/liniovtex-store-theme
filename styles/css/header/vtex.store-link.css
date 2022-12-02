@@ -1,7 +1,28 @@
 .label--link__mis-pedidos{
     color: #ddd;
+    text-transform: none;
+    
 }
-.label--link__one--title{
+.link--link__mis-pedidos{
+    background-color: #3d3d3d;
+    border: none;
+}
+.link--link__mis-pedidos ::before{
+    content: url("assets/img/botton__pedidos-header.svg");
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+}
+
+
+.link--link__one--title{
     color: #ddd;
+    font-size: 12.8px;
+    text-decoration: none;
+    padding: 8px;
+}
+.link--link__one--title :hover{
+    color: rgb(150, 142, 142);
+    
 }
 

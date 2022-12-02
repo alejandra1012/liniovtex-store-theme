@@ -10,6 +10,7 @@
     },
     "flex-layout.row#header__top--container": {
         "children": [
+            "drawer#desktop__header--mega-menu",
             "logo#header__top--logo",
             // "header-spacer",
             "search-bar#desktop",
@@ -19,6 +20,8 @@
             "minicart.v2#global__header--minicart"
         ],
         "props": {
+            "colSizing": "auto",
+            "preventVerticalStretch":true,
             "blockClass": "header__top--container"
         }
     },
@@ -40,7 +43,9 @@
             "passwordPlaceholder": "password",
             "showPasswordVerificationIntoTooltip": true,
             "showIconProfile": true,
-            "text": "Iniciar Sesión"
+            "text": "Iniciar Sesión",
+            "iconLabel": "Iniciar Sesión",
+            "blockClass": "login__container"
         }
     },
     "link.product#mis-pedidos": {
@@ -48,6 +53,11 @@
             "href": "/{slug}/p",
             "label": "Mis pedidos",
             "blockClass": "link__mis-pedidos"
+            // "displayMode": "button"
+            // "buttonProps": {
+            //     "variant": "primary",
+            //     "size": "regular"
+            // }
         }
     }
 }

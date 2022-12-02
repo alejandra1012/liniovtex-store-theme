@@ -1,31 +1,156 @@
 {
     "flex-layout.row#desktop__top--home-link": {
+        "title": "Links con imagenes Parte de arriba del home",
         "children": [
-            "flex-layout.col#desktop__top--home-link1"
-            // "flex-layout.col#desktop__top--home-link2",
-            // "flex-layout.col#desktop__top--home-link3",
-            // "flex-layout.col#desktop__top--home-link4",
-            // "flex-layout.col#desktop__top--home-link5"
-        ]
+            "flex-layout.row#desktop__top--home-link1",
+            "flex-layout.row#desktop__top--home-link2",
+            "flex-layout.row#desktop__top--home-link3",
+            "flex-layout.row#desktop__top--home-link4",
+            "flex-layout.row#desktop__top--home-link5"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "blockClass": "container__top--home-link"
+        }
     },
-    "flex-layout.col#desktop__top--home-link1": {
+    "flex-layout.row#desktop__top--home-link1": {
+        "title": "Link descarga la app",
         "children": [
             "image#home__top--descarga-app",
             "link#home__top--descarga-app"
-        ]
+        ],
+        "props": {
+            "colSizing": "auto",
+            "colGap": 5,
+            "blockClass": "container__top--home-link1"
+        }
     },
     "image#home__top--descarga-app": {
+        "title": "imagen de celular descarga la app",
         "props": {
-            "src": "assets/img/smartphone.png",
-            "blockClass": "image__top--descarga-app"
-            // "maxHeight": 24
+            "src": "/arquivos/link__top-home-smartphone.png",
+            "blockClass": "image__top--descarga-app",
+            "maxHeight": 30
         }
     },
     "link#home__top--descarga-app": {
+        "title": "Link texto descarga la app",
         "props": {
             "href": "/",
             "label": "Descarga la app",
-            "blockClass": "link__top--descarga-app"
+            "blockClass": "link__top--home"
+        }
+    },
+    "flex-layout.row#desktop__top--home-link2": {
+        "title": "link e imagen banco fallabella",
+        "children": [
+            "image#home__top--dtos-banco-falabella",
+            "link#home__top--dtos-banco-falabella"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "colGap": 5,
+            "blockClass": "container__top--home-link2"
+        }
+    },
+    "image#home__top--dtos-banco-falabella": {
+        "title": "imagen banco fallabella",
+        "props": {
+            "src": "/arquivos/link__top-home-cmr.png",
+            "blockClass": "image__top--dtos-banco-falabella",
+            "maxHeight": 30
+        }
+    },
+    "link#home__top--dtos-banco-falabella": {
+        "title": "link texto banco fallabella",
+        "props": {
+            "href": "/",
+            "label": "Descuentos Banco Falabella ",
+            "blockClass": "link__top--home"
+        }
+    },
+    "flex-layout.row#desktop__top--home-link3": {
+        "title": "link e imagen retiro en tienda",
+        "children": [
+            "image#home__top--retiro-en-tienda",
+            "link#home__top--retiro-en-tienda"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "colGap": 5,
+            "blockClass": "container__top--home-link3"
+        }
+    },
+    "image#home__top--retiro-en-tienda": {
+        "title": "imagen retiro en tienda",
+        "props": {
+            "src": "/arquivos/link__top-home-tienda.png",
+            "blockClass": "image__top--retiro-en-tienda",
+            "maxHeight": 30
+        }
+    },
+    "link#home__top--retiro-en-tienda": {
+        "title": "link texto retiro en tienda",
+        "props": {
+            "href": "/",
+            "label": "Retiro en Tienda ",
+            "blockClass": "link__top--home"
+        }
+    },
+    "flex-layout.row#desktop__top--home-link4": {
+        "title": "link e imagen productos internacionales",
+        "children": [
+            "image#home__top--products-interna",
+            "link#home__top--products-interna"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "colGap": 5,
+            "blockClass": "container__top--home-link4"
+        }
+    },
+    "image#home__top--products-interna": {
+        "title": "imagen productos internacionales",
+        "props": {
+            "src": "/arquivos/link__top-home-avion.png",
+            "blockClass": "image__top--products-interna",
+            "maxHeight": 30
+        }
+    },
+    "link#home__top--products-interna": {
+        "title": "link texto productos internacionales",
+        "props": {
+            "href": "/",
+            "label": "Productos internacionales",
+            "blockClass": "link__top--home"
+        }
+    },
+    "flex-layout.row#desktop__top--home-link5": {
+        "title": "link e imagen mejor calificados",
+        "children": [
+            "image#home__top--mejor-calficados",
+            "link#home__top--mejor-calficados"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "colGap": 5,
+            "blockClass": "container__top--home-link5"
+        }
+    },
+    "image#home__top--mejor-calficados": {
+        "title": "imagen mejor calificados",
+        "props": {
+            "src": "/arquivos/link__top-home-favorito.png",
+            "blockClass": "image__top--mejor-calficados",
+            "maxHeight": 30
+        }
+    },
+    "link#home__top--mejor-calficados": {
+        "title": "link texto mejor calificados",
+        "props": {
+            "href": "/",
+            "label": "Mejor Calificados",
+            "blockClass": "link__top--home"
         }
     }
 }

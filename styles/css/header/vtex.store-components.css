@@ -6,10 +6,27 @@
      padding: 0%;
  
  }
+
+ /* desktop */
+
  .logoImage--top__desktop{
      height: 40px;
      width: 91px
  } 
+ .searchBarInnerContainer--search-bar__desktop{
+    padding-right: 50px;
+    width: 573px;
+ }
+ .autoCompleteOuterContainer--search-bar__desktop :global(.vtex-styleguide-9-x-input){
+    font-size: 14px;
+ }
+ .autoCompleteOuterContainer--search-bar__desktop :global(.vtex-input__suffix){
+    padding: 0%;
+ }
+ .searchIcon{
+    width: 30px;
+    height: 25px;
+ }
  .searchBarContainer{
      padding-top: 10px;
      /* height: 38px; */

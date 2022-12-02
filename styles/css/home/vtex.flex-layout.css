@@ -1,25 +1,17 @@
-/* .flexRowContent--home__section--one{
-    padding: none;
-   
-} */
+.flexCol--desktop__container--home{
+    padding: 0 8vw;
+}
+.flexRow--container__top--home-link{
+    padding-top: 20px;
+}
+
 .flexColChild--section__banner1--image {
     display: flex;
     justify-content: center;
    
 }
-.flexCol--desktop__container--home{
-    padding: 0 8vw;
-}
+
 .flexRowContent--texto-link__tiendasofi{
     align-items: center;
 }
-/* .flexRow--home-banner2-img-content{
-    margin-left: 5%;
-    margin-right: 5%;
-    min-height:30vh;
-    max-height:30vh
-} */
-/* .flexColChild--section__one--image :global(.vtex-store-components-3-x-imageElement--home__image){
-   
-} */
 

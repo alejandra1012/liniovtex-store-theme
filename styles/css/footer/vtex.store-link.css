@@ -1,7 +1,11 @@
 .label--text-footer{
     font-size: 12px;
-    color: #333;
 }
 .link--text-footer{
     text-decoration: none;
+    color: #666;
+}
+.link--text-footer :hover{
+    color: #000;
+    text-decoration-line: underline;
 }

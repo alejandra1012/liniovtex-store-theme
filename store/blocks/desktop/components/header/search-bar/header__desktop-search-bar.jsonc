@@ -5,7 +5,8 @@
         ],
         "props": {
             "openAutocompleteOnFocus": true,
-            "blockClass": "search-bar__desktop"
+            "blockClass": "search-bar__desktop",
+            "placeholder": "Busca productos"
         }
     },
     "autocomplete-result-list.v2#desktop": {
