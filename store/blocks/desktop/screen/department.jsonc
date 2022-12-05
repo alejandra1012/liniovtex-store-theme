@@ -1,0 +1,18 @@
+{
+    "search-result-layout.desktop#desktop__department":{
+        "children":[
+        //   "flex-layout.row#department__breadcrumb",
+          "flex-layout.row#category__results"
+        ]
+      }
+    //   "flex-layout.row#department__breadcrumb":{
+    //     "children":[
+    //         "flex-layout.col#department__breadcrumb"
+    //     ]
+    //   },
+    //   "flex-layout.col#department__breadcrumb":{
+    //     "children":[
+    //         "breadcrumb.search"
+    //     ]
+    //   }
+}

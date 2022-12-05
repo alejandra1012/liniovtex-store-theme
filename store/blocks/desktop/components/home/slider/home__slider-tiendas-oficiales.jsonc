@@ -41,9 +41,9 @@
             "slider-layout#home__tiendas--oficiales"
         ],
         "props": {
-            "preload": true,
-            "colSizing": "auto",
-            "fullWidth": true,
+            // "preload": true,
+            // "colSizing": "auto",
+            // "fullWidth": true,
             "images": [
                 {
                     "image": "/arquivos/slider-tiendasOfles1.png",
@@ -104,6 +104,8 @@
             },
             "infinite": true,
             "fullWidth": true,
+            "centerMode": "center",
+            "centerModeSlidesGap": 7,
             "showPaginationDots": "never",
             "arrowSize": 15,
             "blockClass": "home__slider--desktop"

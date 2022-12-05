@@ -41,6 +41,8 @@
             "blockClass": "link__top--home"
         }
     },
+    // link -> [image, rich-text]
+    // row -> col 1
     "flex-layout.row#desktop__top--home-link2": {
         "title": "link e imagen banco fallabella",
         "children": [

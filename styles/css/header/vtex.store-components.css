@@ -31,8 +31,7 @@
     height: 25px;
  }
  .searchBarContainer{
-     padding-top: 0;
-    padding-bottom: 0;
+     padding-top: 10px;
      margin-left: 5%;
  }
  .autoCompleteOuterContainer--search-bar__mobile :global(.vtex-input__suffix ) {

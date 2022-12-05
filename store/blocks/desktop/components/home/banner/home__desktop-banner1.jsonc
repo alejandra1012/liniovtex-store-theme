@@ -37,6 +37,8 @@
     ],
     "props": {
       "preserveLayoutOnMobile": true,
+      "colGap": 5,
+      "colSizing":"auto", 
       "blockClass": "home__section--two"
     }
   },
