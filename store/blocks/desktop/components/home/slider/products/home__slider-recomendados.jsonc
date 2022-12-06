@@ -32,8 +32,8 @@
     "product-summary.shelf#slider__recomendados": {
         "children": [
             "product-summary-image",
-            "product-summary-name",
-            "add-to-cart-button"
+            "product-summary-name"
+            // "add-to-cart-button"
             // "product-summary-description",
             // "product-summary-price",
             // "product-summary-sku-selector",

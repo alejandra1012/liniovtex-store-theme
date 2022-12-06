@@ -60,7 +60,7 @@
         "props": {
             "label": "¿Quienes Somos?",
             "blockClass": "text-footer",
-            "href": "/"
+            "href": "/sobre-nosotros"
         }
     },
     //* responsabilidad social

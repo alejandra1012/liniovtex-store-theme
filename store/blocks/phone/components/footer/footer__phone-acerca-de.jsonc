@@ -98,7 +98,7 @@
             "type": "custom",
             "itemProps": {
                 "type": "internal",
-                "href": "/",
+                "href": "/sobre-nosotros",
                 "tagTitle": "¿Quiénes Somos?",
                 "text": "¿Quiénes Somos?"
             }

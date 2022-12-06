@@ -5,6 +5,7 @@
             "flex-layout.row#container__header-mobile"
         ],
         "props": {
+            "sticky": true,
             "blockClass": "header__top"
         }
     },

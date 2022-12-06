@@ -1,7 +1,7 @@
 {
   "store.product": {
     "children": [
-      "sku-selector"
+      "flex-layout.row#quick-view__modal"
     ]
   }
 }

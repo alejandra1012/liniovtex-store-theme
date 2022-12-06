@@ -5,6 +5,7 @@
             "flex-layout.row#header__top--container"
         ],
         "props": {
+            "sticky": true,
             "blockClass": "header__top"
         }
     },
