@@ -4,13 +4,13 @@
             "variation": "popup",
             "itenCountMode": "total",
             "quantityDisplay": "always",
-            "MinicartIcon": "icon-cart#header__minicart"
+            "MinicartIcon": "icon-cart#header__minicart#desktop"
         },
         "children": [
             "minicart-base-content"
         ]
     },
-    "icon-cart#header__minicart": {
+    "icon-cart#header__minicart#desktop": {
         "props": {
             "size": 25,
             "viewBox": "0 0 64 64",

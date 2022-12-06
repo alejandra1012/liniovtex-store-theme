@@ -26,9 +26,7 @@
         "props": {
             "url": "assets/img/linio-mobile__logo.svg",
             "href": "/",
-            "blockClass": "mobile__top",
-            "mobileWidth": 50,
-            "mobileHeight": 40
+            "blockClass": "logo__mobile--top"
         }
     }
 }
