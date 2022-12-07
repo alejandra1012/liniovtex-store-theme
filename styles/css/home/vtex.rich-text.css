@@ -1,3 +1,20 @@
 .paragraph--section__one--title{
     color: white;
 }
+.image--link__top--home{
+    width: 30px;
+    padding-right: 10px;
+
+}
+.link--link__top--home{
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+}
+.link--link__top--home:hover{
+    color: #f50;
+}
+.paragraph--link__top--home{
+    margin: 0;
+
+}

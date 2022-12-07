@@ -31,6 +31,9 @@
     border-left: 1px solid #666;
     padding-left: 10px;
 }
+.headerRowContainer--header__top :global(.vtex-button):hover{
+background: #0002 ;
+}
 
 
 .headerRowBackground--header__middle  {

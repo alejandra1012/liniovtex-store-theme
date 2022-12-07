@@ -10,6 +10,9 @@
     background-color: #3d3d3d;
     border: none;
 }
+.link--link__mis-pedidos:hover{
+    background: #0002;
+}
 .link--link__mis-pedidos ::before{
     content: url("assets/img/botton__pedidos-header.svg");
     padding-right: 10px;
