@@ -6,6 +6,14 @@
           "flex-layout.row#category__results--desktop",
           "flex-layout.row#subcategory__results--desktop",
           "flex-layout.row#brand__results--desktop"
+          // "flex-layout.row#didyoumean__desktop",
+          // "flex-layout.row#suggestion__desktop"
         ]
-      }
+      },
+      "flex-layout.row#didyoumean__desktop": {
+        "children": ["did-you-mean"]
+    },
+    "flex-layout.row#suggestion__desktop": {
+      "children": ["search-suggestions"]
+  }
 }

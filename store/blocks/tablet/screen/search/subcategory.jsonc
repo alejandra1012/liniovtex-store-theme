@@ -11,7 +11,9 @@
       },
       "flex-layout.row#tablet__subcategory--content-tablet":{
         "children":[
+          "gallery-layout-switcher",
             "search-content#results__content--products"
+           
         ]
       }
 }

@@ -15,7 +15,9 @@
       },
       "flex-layout.col#subcategory__results--content-desktop":{
         "children":[
+            "gallery-layout-switcher",
             "search-content#results__content--products"
+           
         ],
         "props":{
             "width":"75%"

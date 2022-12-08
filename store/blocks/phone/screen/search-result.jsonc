@@ -8,7 +8,18 @@
             "responsive-layout.tablet#tablet__subcategory",
             "responsive-layout.phone#phone__subcategory",
             "responsive-layout.tablet#tablet__brand",
-            "responsive-layout.phone#phone__brand"
-         ]
-      }
+            "responsive-layout.phone#phone__brand",
+            "flex-layout.row#didyoumean__mobile",
+            "flex-layout.row#suggestion__mobile"
+         ],
+         "props":{
+          "defaultGalleryLayout": "list"
+         }
+      },
+      "flex-layout.row#didyoumean__mobile": {
+        "children": ["did-you-mean"]
+    },
+    "flex-layout.row#suggestion__mobile": {
+      "children": ["search-suggestions"]
+  }
 }

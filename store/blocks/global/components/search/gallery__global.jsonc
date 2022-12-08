@@ -10,15 +10,22 @@
             "layouts":[
                 {
                     "name":"general grid",
-                     "component":"GeneralGrid",
+                    "component":"GeneralGrid",
                     "itemsPerRow":{
                         "desktop": 4,
                         "tablet":3,
                         "phone":2
                     }
+                },
+                {
+                  "name": "list",
+                  "component": "ListSummary",
+                  "itemsPerRow": 1
                 }
             ],
-            "GeneralGrid": "product-summary.shelf#global"
+            "GeneralGrid": "product-summary.shelf#global",
+            "ListSummary": "product-summary.shelf#global"
+            
         }
     },
     "product-summary.shelf#global":{
@@ -35,7 +42,7 @@
     
         ],
         "props":{
-            "blockClass":"product-summary-shelf__mobile"
+            "blockClass":"product-summary-shelf__global"
         }
       },
       "product-summary-name":{

@@ -15,6 +15,7 @@
       },
       "flex-layout.col#brand__results--content-desktop":{
         "children":[
+            "gallery-layout-switcher",
             "search-content#results__content--products"
         ],
         "props":{

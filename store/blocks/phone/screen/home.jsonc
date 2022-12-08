@@ -3,52 +3,8 @@
         "children": [
             "flex-layout.row#home__section--banner1",
             "list-context.image-list#home__slider--list",
-            "list-context.image-list#home__slider2--categorias",
-            "search-result-layout.customQuery#home__search"
-        ]
-    },
-    "search-result-layout.customQuery#home__search": {
-        "props": {
-            "querySchema": {
-                "skusFilter": "ALL",
-                "simulationBehavior": "skip"
-            }
-        },
-        "blocks": [
-            // "search-result-layout.desktop#home__search--desktop",
-            "search-result-layout.mobile#home__search--mobile",
-            "search-not-found-layout"
-        ]
-    },
-    // "search-result-layout.desktop#home__search--desktop": {
-    //   "children": [
-    //     "rich-text#home__results"
-    //   ]
-    // },
-    "search-result-layout.mobile#home__search--mobile": {
-        "children": [
-            "flex-layout.row#home__results"
-        ]
-    },
-    "flex-layout.row#home__results": {
-        "children": [
-            "flex-layout.col#home__results--search"
-        ]
-    },
-    "flex-layout.col#home__results--search": {
-        "children": [
-            "search-content#home__results--search"
-        ]
-    },
-    "search-content#home__results--search": {
-        "blocks": [
-            "gallery",
-            "not-found"
-        ]
-    },
-    "gallery": {
-        "blocks": [
-            "product-summary.shelf"
+            "list-context.image-list#home__slider2--categorias"
         ]
     }
+    
 }

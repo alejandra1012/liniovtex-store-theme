@@ -13,7 +13,9 @@
       },
       "flex-layout.row#tablet__category--content":{
         "children":[
+          "gallery-layout-switcher",
             "search-content#results__content--products"
+            
         ]
       }
 }

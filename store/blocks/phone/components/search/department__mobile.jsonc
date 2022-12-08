@@ -25,6 +25,7 @@
       },
       "flex-layout.col#department__results--content":{
         "children":[
+            "gallery-layout-switcher",
             "search-content#results__content--products"
         ],
         "props":{

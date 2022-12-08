@@ -13,6 +13,7 @@
       },
       "flex-layout.row#tablet__brand--content":{
         "children":[
+          "gallery-layout-switcher",
             "search-content#results__content--products"
         ]
       }
