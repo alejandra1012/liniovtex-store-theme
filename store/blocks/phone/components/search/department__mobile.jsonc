@@ -1,0 +1,34 @@
+{
+    "responsive-layout.phone#phone__department":{
+        "title": "Vista phone busqueda por departamento",
+        "children":[
+            "flex-layout.row#department__results"
+        ],
+        "props":{
+            "blockClass":"searh-result__phone--department"
+        }
+      },
+      "flex-layout.row#department__results":{
+        "title":"Filtro y contenido busqueda por departamento",
+        "children":[
+            "flex-layout.col#department__results--filter",
+            "flex-layout.col#department__results--content"
+        ]
+      },
+      "flex-layout.col#department__results--filter":{
+        "children":[
+            "filter-navigator.v3"
+        ],
+        "props":{
+            "width": "75%"
+        }
+      },
+      "flex-layout.col#department__results--content":{
+        "children":[
+            "search-content#results__content--products"
+        ],
+        "props":{
+            "width":"75%"
+        }
+      }
+}

@@ -1,0 +1,25 @@
+{   
+    "flex-layout.row#brand__results--desktop":{
+        "children":[
+            "flex-layout.col#brand__results--filter-desktop",
+            "flex-layout.col#brand__results--content-desktop"
+        ]
+      },
+      "flex-layout.col#brand__results--filter-desktop":{
+        "children":[
+            "filter-navigator.v3"
+        ],
+        "props":{
+            "width": "75%"
+        }
+      },
+      "flex-layout.col#brand__results--content-desktop":{
+        "children":[
+            "search-content#results__content--products"
+        ],
+        "props":{
+            "width":"75%"
+        }
+      }
+    
+}

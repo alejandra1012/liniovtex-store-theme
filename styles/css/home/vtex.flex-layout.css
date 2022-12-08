@@ -2,8 +2,10 @@
     padding: 0 8vw;
 }
 .flexRow--container__top--home-link{
-   align-items: center;
    padding-top: 20px;
+}
+.flexRowContent--container__top--home-link{
+    align-items: center;
 }
 
 .flexColChild--section__banner1--image {

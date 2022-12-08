@@ -1,0 +1,11 @@
+{
+    "search-result-layout.desktop#desktop__results":{
+      "title":"Resultado de busqueda por departamento vista desktop",
+        "children":[
+          "flex-layout.row#department__results--desktop",
+          "flex-layout.row#category__results--desktop",
+          "flex-layout.row#subcategory__results--desktop",
+          "flex-layout.row#brand__results--desktop"
+        ]
+      }
+}

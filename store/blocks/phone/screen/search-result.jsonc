@@ -1,0 +1,14 @@
+{
+    "search-result-layout.mobile#mobile__results":{
+        "children":[
+            "responsive-layout.tablet#tablet__department",
+            "responsive-layout.phone#phone__department",
+            "responsive-layout.tablet#tablet__category",
+            "responsive-layout.phone#phone__category",
+            "responsive-layout.tablet#tablet__subcategory",
+            "responsive-layout.phone#phone__subcategory",
+            "responsive-layout.tablet#tablet__brand",
+            "responsive-layout.phone#phone__brand"
+         ]
+      }
+}

@@ -22,6 +22,7 @@
         "props": {
             "colSizing": "auto",
             "colGap": 5,
+            "verticalAlign": "middle",
             "blockClass": "container__top--home-link1"
         }
     },

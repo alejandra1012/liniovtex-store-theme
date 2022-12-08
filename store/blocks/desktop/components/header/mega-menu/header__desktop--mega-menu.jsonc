@@ -10,14 +10,14 @@
     },
     "menu#desktop__header--mega-menu": {
         "children": [
-            "menu-item#category__one",
-            "menu-item#category__two"
+            "menu-item#category__one--mega-menu",
+            "menu-item#category__two--mega-menu"
         ],
         "props": {
             "orientation": "vertical"
         }
     },
-    "menu-item#department__one": {
+    "menu-item#department__one--mega-menu": {
         "props": {
             "id": "category-one",
             "type": "external",
@@ -27,24 +27,24 @@
             "text": "Google"
         },
         "blocks": [
-            "submenu.accordion#department__one"
+            "submenu.accordion#department__one--mega-menu"
         ]
     },
-    "submenu.accordion#department__one": {
+    "submenu.accordion#department__one--mega-menu": {
         "children": [
             "menu#deparment__one"
         ]
     },
-    "menu#deparment__one": {
+    "menu#deparment__one--mega-menu": {
         "children": [
-            "menu-item#category__one",
-            "menu-item#category__two"
+            "menu-item#category__one--mega-menu",
+            "menu-item#category__two--mega-menu"
         ],
         "props": {
             "orientation": "vertical"
         }
     },
-    "menu-item#category__one": {
+    "menu-item#category__one--mega-menu": {
         "props": {
             "id": "category-one",
             "type": "custom",
@@ -57,7 +57,7 @@
             }
         }
     },
-    "menu-item#category__two": {
+    "menu-item#category__two--mega-menu": {
         "props": {
             "id": "category-two",
             "type": "custom",
@@ -70,7 +70,7 @@
             }
         }
     },
-    "menu-item#department__two": {
+    "menu-item#department__two--mega-menu": {
         "props": {
             "id": "category-two",
             "type": "external",

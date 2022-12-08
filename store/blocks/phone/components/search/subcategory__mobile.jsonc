@@ -1,0 +1,34 @@
+{
+    "responsive-layout.phone#phone__subcategory":{
+        "title": "Vista phone busqueda por subcategoria",
+        "children":[
+            "flex-layout.row#subcategory__results"
+        ],
+        "props":{
+            "blockClass":"searh-result__phone--subcategory"
+        }
+      },
+      "flex-layout.row#subcategory__results":{
+        "title":"Filtro y contenido busqueda por subcategoria",
+        "children":[
+            "flex-layout.col#subcategory__results--filter-mobile",
+            "flex-layout.col#subcategory__results--content-mobile"
+        ]
+      },
+      "flex-layout.col#subcategory__results--filter-mobile":{
+        "children":[
+            "filter-navigator.v3"
+        ],
+        "props":{
+            "width": "75%"
+        }
+      },
+      "flex-layout.col#subcategory__results--content-mobile":{
+        "children":[
+            "search-content#results__content--products"
+        ],
+        "props":{
+            "width":"75%"
+        }
+      }
+}

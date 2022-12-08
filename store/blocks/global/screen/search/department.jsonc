@@ -11,13 +11,8 @@
       "search-result-layout#department":{
         "blocks":[
           "search-result-layout.desktop#desktop__department",
-          "search-result-layout.mobile#mobile__department",
+          "search-result-layout.mobile#mobile__results",
           "search-not-found-layout"
         ]
-      },
-      "rich-text#department__title":{
-        "props":{
-            "text": "# Estamos en una página de departamento"
-        }
       }
 }

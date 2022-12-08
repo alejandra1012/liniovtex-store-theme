@@ -4,7 +4,8 @@
             "variation": "popup",
             "itenCountMode": "total",
             "quantityDisplay": "always",
-            "MinicartIcon": "icon-cart#header__minicart"
+            "MinicartIcon": "icon-cart#header__minicart",
+            "blockClass": "global__header--minicart"
         },
         "children": [
             "minicart-base-content"
@@ -38,7 +39,7 @@
     },
     "flex-layout.col#minicart__empty": {
         "children": [
-            "icon-cart#minicart__empty--icon",
+            "icon#minicart__empty--icon",
             "rich-text#minicart__empty--text1",
             "rich-text#minicart__empty--text2"
         ],
@@ -46,8 +47,10 @@
             "verticalAlign": "top"
         }
     },
-    "icon-cart#minicart__empty--icon": {
+    "icon#minicart__empty--icon": {
         "props": {
+            "id": "empty-cart",
+            "viewBox": "0 0 64 64",
             "size": 100
         }
     },
@@ -55,7 +58,8 @@
         "props": {
             "text": "NO TIENES PRODUCTOS EN TU CARRITO",
             "textAlignment": "CENTER",
-            "textPosition": "CENTER"
+            "textPosition": "CENTER",
+            "blockClass": "minicart__empty--text1"
         }
     },
     "rich-text#minicart__empty--text2": {

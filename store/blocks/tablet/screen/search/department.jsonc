@@ -1,0 +1,20 @@
+{
+    
+    "responsive-layout.tablet#tablet__department":{
+      "title": "Vista tablet busqueda por departamento",
+        "children":[
+            "flex-layout.row#tablet__departement--filter",
+            "flex-layout.row#tablet__departement--content"  
+          ]     
+      },
+      "flex-layout.row#tablet__departement--filter":{
+        "children":[
+            "filter-navigator.v3"
+        ]
+      },
+      "flex-layout.row#tablet__departement--content":{
+        "children":[
+            "search-content#results__content--products"
+        ]
+      }
+}

@@ -6,6 +6,9 @@
     align-items: center
     
 }
+.label--link__mis-pedidos:hover{
+color: #bbb;
+}
 .link--link__mis-pedidos{
     background-color: #3d3d3d;
     border: none;
@@ -18,7 +21,6 @@
     padding-right: 10px;
     display: inline-block;
 }
-
 
 .link--link__one--title{
     color: #ddd;
