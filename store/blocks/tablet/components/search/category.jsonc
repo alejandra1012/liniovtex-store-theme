@@ -4,7 +4,14 @@
       "title": "Vista tablet busqueda por categoria",
         "children":[
             "flex-layout.row#tablet__category--filter",
-            "flex-layout.row#tablet__category--content"        ]
+            "flex-layout.row#tablet__category--content",  
+            "rich-text#tablet-category"   
+          ]
+      },
+      "rich-text#tablet-category":{
+        "props":{
+          "text":" aqui es la vista tablet category"
+          }  
       },
       "flex-layout.row#tablet__category--filter":{
         "children":[

@@ -2,12 +2,26 @@
     "search-result-layout.desktop#desktop__results":{
       "title":"Resultado de busqueda por departamento vista desktop",
         "children":[
-          "flex-layout.row#department__results--desktop",
-          "flex-layout.row#category__results--desktop",
-          "flex-layout.row#subcategory__results--desktop",
-          "flex-layout.row#brand__results--desktop"
+          "flex-layout.row#result__breadcrumb",
+          "flex-layout.row#result__results--desktop",
+          "rich-text#busqueda-por-defecto"
           // "flex-layout.row#didyoumean__desktop",
           // "flex-layout.row#suggestion__desktop"
+        ]
+      },
+      "rich-text#busqueda-por-defecto":{
+        "props":{
+          "text":"busqueda por defecto"
+        }
+      },
+      "flex-layout.row#result__breadcrumb":{
+        "children":[
+            "flex-layout.col#result__breadcrumb"
+        ]
+      },
+      "flex-layout.col#result__breadcrumb":{
+        "children":[
+            "breadcrumb.search"
         ]
       },
       "flex-layout.row#didyoumean__desktop": {

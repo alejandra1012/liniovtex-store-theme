@@ -41,7 +41,7 @@
       "product-quantity",
       "product-identifier.product",
       "sku-selector",
-      "flex-layout.row#buy-button",
+      "add-to-cart-button",
       "availability-subscriber",
       "shipping-simulator",
       "share#default"

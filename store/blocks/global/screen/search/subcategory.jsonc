@@ -12,7 +12,7 @@
       "search-result-layout#subcategory":{
         "blocks":[
           "search-result-layout.desktop#desktop__subcategory",
-          "search-result-layout.mobile#mobile__results",
+          "search-result-layout.mobile#mobile__subcategory",
           "search-not-found-layout"
         ]
       },

@@ -11,7 +11,7 @@
     "search-result-layout#category":{
         "blocks":[
             "search-result-layout.desktop#desktop__category",
-            "search-result-layout.mobile#mobile__results",
+            "search-result-layout.mobile#mobile__category",
             "search-not-found-layout"
         ]
     }
