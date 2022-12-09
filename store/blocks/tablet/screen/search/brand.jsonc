@@ -14,7 +14,13 @@
       "flex-layout.row#tablet__brand--content":{
         "children":[
           "gallery-layout-switcher",
-            "search-content#results__content--products"
+          "search-content#tablet__content--products-brand"
         ]
-      }
+      },
+      "search-content#tablet__content--products-brand":{
+        "blocks":[
+            "gallery#global",
+            "not-found"
+        ]
+    }
 }

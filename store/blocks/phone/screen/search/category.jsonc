@@ -1,0 +1,17 @@
+{
+    "search-result-layout.mobile#mobile__category":{
+        "children":[
+            "responsive-layout.tablet#tablet__category",
+            "responsive-layout.phone#phone__category",
+            "rich-text#vista-category"
+         ],
+         "props":{
+          "defaultGalleryLayout": "general grid"
+         }
+      },
+      "rich-text#vista-category":{
+        "props":{
+          "text": "vista categoria"
+        }
+      }
+}

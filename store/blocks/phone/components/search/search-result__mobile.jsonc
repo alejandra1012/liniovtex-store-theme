@@ -1,21 +1,21 @@
 {
-    "responsive-layout.phone#phone__department":{
+    "responsive-layout.phone#phone__result":{
         "title": "Vista phone busqueda por departamento",
         "children":[
-            "flex-layout.row#department__results"
+            "flex-layout.row#result__results"
         ],
         "props":{
-            "blockClass":"searh-result__phone--department"
+            "blockClass":"searh-result__phone--result"
         }
       },
-      "flex-layout.row#department__results":{
+      "flex-layout.row#result__results":{
         "title":"Filtro y contenido busqueda por departamento",
         "children":[
-            "flex-layout.col#department__results--filter",
-            "flex-layout.col#department__results--content"
+            "flex-layout.col#result__results--filter",
+            "flex-layout.col#result__results--content"
         ]
       },
-      "flex-layout.col#department__results--filter":{
+      "flex-layout.col#result__results--filter":{
         "children":[
             "filter-navigator.v3"
         ],
@@ -23,16 +23,16 @@
             "width": "75%"
         }
       },
-      "flex-layout.col#department__results--content":{
+      "flex-layout.col#result__results--content":{
         "children":[
             "gallery-layout-switcher",
-            "search-content#mobile__content--products-department"
+            "search-content#mobile__content--products-result"
         ],
         "props":{
             "width":"75%"
         }
       },
-      "search-content#mobile__content--products-department":{
+      "search-content#mobile__content--products-result":{
         "blocks":[
             "gallery#global",
             "not-found"

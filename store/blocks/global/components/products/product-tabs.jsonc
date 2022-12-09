@@ -1,0 +1,23 @@
+{
+    "flex-layout.row#product-tabs":{
+        "title":"Informacion Adicional",
+        "children":[
+            "tab-layout#product__tabs"
+        ]
+    },
+    "tab-layout#product__tabs":{
+        "children":[
+            // "tab-list#product__tabs--list",
+            // "tab-content#product__tabs--content"
+        ]
+    }
+    // "tab-list#product__tabs--list":{
+    //     "children":[
+    //         "tab-list.item#tab__list--reviws-and-ratings"
+    //     ]
+        
+    // },
+    // "tab-content#product__tabs--content":{
+
+    // }
+}

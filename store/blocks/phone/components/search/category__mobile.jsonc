@@ -24,10 +24,16 @@
       },
       "flex-layout.col#category__results--content-mobile":{
         "children":[
-            "search-content#results__content--products"
+            "search-content#mobile__content--products-category"
         ],
         "props":{
             "width":"75%"
         }
-      }
+      },
+      "search-content#mobile__content--products-category":{
+        "blocks":[
+            "gallery#global",
+            "not-found"
+        ]
+    }
 }

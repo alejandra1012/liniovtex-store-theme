@@ -24,10 +24,18 @@
       },
       "flex-layout.col#brand__results--content-mobile":{
         "children":[
-            "search-content#results__content--products"
+            "search-content#mobile__content--products-brand"
         ],
         "props":{
             "width":"75%"
         }
-      }
+      },
+      "search-content#mobile__content--products-brand":{
+        "blocks":[
+            "gallery#global",
+            "not-found"
+        ]
+    }
+      
+      
 }

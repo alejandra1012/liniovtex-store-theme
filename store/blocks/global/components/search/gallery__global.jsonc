@@ -1,11 +1,5 @@
 {
-  "search-content#results__content--products":{
-    "blocks":[
-        "gallery#global",
-        "not-found"
-    ]
-},
-  "gallery#global":{
+ "gallery#global":{
         "props":{
             "layouts":[
                 {

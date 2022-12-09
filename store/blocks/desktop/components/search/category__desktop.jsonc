@@ -16,12 +16,18 @@
       "flex-layout.col#category__results--content-desktop":{
         "children":[
             "gallery-layout-switcher",
-            "search-content#results__content--products"
+            "search-content#results__content--products-category"
             
         ],
         "props":{
             "width":"75%"
         }
-      }
+      },
+      "search-content#results__content--products-category":{
+        "blocks":[
+            "gallery#global",
+            "not-found"
+        ]
+    }
     
 }

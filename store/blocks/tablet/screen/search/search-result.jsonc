@@ -1,0 +1,28 @@
+{
+    
+    "responsive-layout.tablet#tablet__result":{
+      "title": "Vista tablet busqueda por defecto",
+        "children":[
+            "flex-layout.row#tablet__result--filter",
+            "flex-layout.row#tablet__result--content"  
+          ]     
+      },
+      "flex-layout.row#tablet__result--filter":{
+        "children":[
+            "filter-navigator.v3"
+        ]
+      },
+      "flex-layout.row#tablet__result--content":{
+        "children":[
+          "gallery-layout-switcher",
+          "search-content#tablet__content--products-result"
+           
+        ]
+      },
+      "search-content#tablet__content--products-result":{
+        "blocks":[
+            "gallery#global",
+            "not-found"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "search-result-layout.mobile#mobile__brand":{
+        "children":[
+            "responsive-layout.tablet#tablet__brand",
+            "responsive-layout.phone#phone__brand",
+            "rich-text#vista-brand"
+         ],
+         "props":{
+          "defaultGalleryLayout": "general grid"
+         }
+      },
+      "rich-text#vista-brand":{
+        "props":{
+          "text": "vista marca"
+        }
+      }
+}
