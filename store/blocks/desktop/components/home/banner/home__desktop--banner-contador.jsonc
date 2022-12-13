@@ -1,0 +1,44 @@
+{
+    "flex-layout.row#home__banner-contador": {
+        "title": "sección uno",
+        "children": [
+            "flex-layout.col#banner-contador--image1",
+            "flex-layout.col#banner-contador--image2"
+        ],
+        "props": {
+            "blockClass": "home__banner-contador"
+        }
+    },
+    "flex-layout.col#banner-contador--image1": {
+        "title": "imagen contador promociones",
+        "children": [
+            "image#banner__contador"
+        ],
+        "props": {
+            "blockClass": "banner-contador--image",
+            "colSizing": "auto",
+            "fullWidth": true
+        }
+    },
+    "image#banner__contador": {
+        "props": {
+            "src": "assets/img/banner-contador.png"
+        }
+    },
+    "flex-layout.col#banner-contador--image2": {
+        "title": "imagen contador promociones",
+        "children": [
+            "image#banner__contador2"
+        ],
+        "props": {
+            "blockClass": "banner-contador--image2",
+            "colSizing": "auto",
+            "fullWidth": true
+        }
+    },
+    "image#banner__contador2": {
+        "props": {
+            "src": "assets/img/banner-contador2.png"
+        }
+    }
+}

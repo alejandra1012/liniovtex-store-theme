@@ -1,0 +1,27 @@
+{
+    "modal-trigger#home__modal--event": {
+        "children": [
+            "modal-layout#home__modal--event"
+        ],
+        "props": {
+            "trigger": "event",
+            "customPixelEventName": "pageView"
+        }
+    },
+    "modal-layout#home__modal--event": {
+        "children": [
+            "modal-header#home__modal--event",
+            "image#home__modal--event-content"
+        ]
+    },
+    "image#home__modal--event-content": {
+        "props": {
+            "src": "/arquivos/home__modal.png"
+        }
+    },
+    "modal-header#home__modal--event": {
+        "props": {
+            "showCloseButton": true
+        }
+    }
+}

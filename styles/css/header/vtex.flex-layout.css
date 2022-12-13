@@ -1,0 +1,10 @@
+/* .flexRow--header__top--container {
+    margin: 0 auto;
+} */
+
+.flexRowContent--header__top--container{
+    padding-left: 115px;
+    padding-right: 115px;
+    align-items: center;
+    
+}

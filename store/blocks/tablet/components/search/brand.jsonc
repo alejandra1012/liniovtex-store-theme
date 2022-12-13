@@ -1,0 +1,26 @@
+{
+    
+    "responsive-layout.tablet#tablet__brand":{
+      "title": "Vista tablet busqueda por marca",
+        "children":[
+            "flex-layout.row#tablet__brand--filter",
+            "flex-layout.row#tablet__brand--content"        ]
+      },
+      "flex-layout.row#tablet__brand--filter":{
+        "children":[
+            "filter-navigator.v3"
+        ]
+      },
+      "flex-layout.row#tablet__brand--content":{
+        "children":[
+          "gallery-layout-switcher",
+          "search-content#tablet__content--products-brand"
+        ]
+      },
+      "search-content#tablet__content--products-brand":{
+        "blocks":[
+            "gallery#global",
+            "not-found"
+        ]
+    }
+}

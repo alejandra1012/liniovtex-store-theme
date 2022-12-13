@@ -1,0 +1,655 @@
+{
+    "flex-layout.row#desktop__footer--acerca-de": {
+        "title": "Desktop sección acerca de, Footer",
+        "children": [
+            "flex-layout.col#desktop__footer--acercade--col1",
+            "flex-layout.col#desktop__footer--acercade--col2",
+            "flex-layout.col#desktop__footer--acercade--col3",
+            "flex-layout.col#desktop__footer--acercade--col4",
+            "flex-layout.col#desktop__footer--acercade--col5"
+        ],
+        "props": {
+            "blockClass": "footer-secction-links"
+        }
+    },
+    //* Footer section col 1
+    "flex-layout.col#desktop__footer--acercade--col1": {
+        "title": "Desktop container Columna 1 del Footer",
+        "children": [
+            "flex-layout.row#desktop__footer--acercade--left-row",
+            "flex-layout.row#desktop__footer--acercade--left-list1",
+            "flex-layout.row#desktop__footer--acercade--left-list2",
+            "flex-layout.row#desktop__footer--acercade--left-list3",
+            "flex-layout.row#desktop__footer--acercade--left-list4",
+            "flex-layout.row#desktop__footer--acercade--left-list5",
+            "flex-layout.row#desktop__footer--acercade--left-list6",
+            "flex-layout.row#desktop__footer--acercade--left-list7",
+            "flex-layout.row#desktop__footer--acercade--left-list8",
+            "flex-layout.row#desktop__footer--acercade--left-list9",
+            "flex-layout.row#desktop__footer--acercade--left-list10",
+            "flex-layout.row#desktop__footer--acercade--left-list11",
+            "flex-layout.row#desktop__footer--acercade--left-list12",
+            "flex-layout.row#desktop__footer--acercade--left-list13",
+            "flex-layout.row#desktop__footer--acercade--left-list14",
+            "flex-layout.row#desktop__footer--acercade--left-list15"
+        ],
+        "props": {
+            "blockClass": "footer-columna-1",
+            "rowGap": 3
+        }
+    },
+    //* Footer section  col1 title
+    "flex-layout.row#desktop__footer--acercade--left-row": {
+        "children": [
+            "rich-text#desktop__footer-acercade--title"
+        ]
+    },
+    "rich-text#desktop__footer-acercade--title": {
+        "props": {
+            "text": "ACERCA DE LINIO",
+            "blockClass": "text-footer"
+        }
+    },
+    //* ¿quienes somos?
+    "flex-layout.row#desktop__footer--acercade--left-list1": {
+        "children": [
+            "link#desktop__footer-acercade--col1--item1"
+        ]
+    },
+    "link#desktop__footer-acercade--col1--item1": {
+        "props": {
+            "label": "¿Quienes Somos?",
+            "blockClass": "text-footer",
+            "href": "/sobre-nosotros"
+        }
+    },
+    //* responsabilidad social
+    "flex-layout.row#desktop__footer--acercade--left-list2": {
+        "children": [
+            "link#desktop__footer-acercade--col1--item2"
+        ]
+    },
+    "link#desktop__footer-acercade--col1--item2": {
+        "props": {
+            "label": "Responsabilidad Social",
+            "blockClass": "text-footer",
+            "href": "/"
+        }
+    },
+    //* Términos de Uso
+    "flex-layout.row#desktop__footer--acercade--left-list3": {
+        "children": [
+            "link#desktop__footer-acercade--col1--item3"
+        ]
+    },
+    "link#desktop__footer-acercade--col1--item3": {
+        "props": {
+            "label": "Términos de Uso",
+            "blockClass": "text-footer",
+            "href": "/"
+        }
+    },
+    //* Protección de Propiedad Intelectual
+    "flex-layout.row#desktop__footer--acercade--left-list4": {
+        "children": [
+            "link#desktop__footer-acercade--col1--item4"
+        ]
+    },
+    "link#desktop__footer-acercade--col1--item4": {
+        "props": {
+            "label": "Protección de Propiedad Intelectual",
+            "blockClass": "text-footer",
+            "href": "/"
+        }
+    },
+    //* Ventas Corporativas
+    "flex-layout.row#desktop__footer--acercade--left-list5": {
+        "children": [
+            "link#desktop__footer-acercade--col1--item5"
+        ]
+    },
+    "link#desktop__footer-acercade--col1--item5": {
+        "props": {
+            "label": "Ventas Corporativas",
+            "blockClass": "text-footer",
+            "href": "/"
+        }
+    },
+    //* Programas de Lealtad
+    "flex-layout.row#desktop__footer--acercade--left-list6": {
+        "children": [
+            "link#desktop__footer-acercade--col1--item6"
+        ]
+    },
+    "link#desktop__footer-acercade--col1--item6": {
+        "props": {
+            "label": "Programas de Lealtad",
+            "blockClass": "text-footer",
+            "href": "/"
+        }
+    },
+    //* Vuélvete un Afiliado
+    "flex-layout.row#desktop__footer--acercade--left-list7": {
+        "children": [
+            "link#desktop__footer-acercade--col1--item7"
+        ]
+    },
+    "link#desktop__footer-acercade--col1--item7": {
+        "props": {
+            "label": "Vuélvete un Afiliado",
+            "blockClass": "text-footer",
+            "href": "/"
+        }
+    },
+    //* Directorio
+    "flex-layout.row#desktop__footer--acercade--left-list8": {
+        "children": [
+            "link#desktop__footer-acercade--col1--item8"
+        ]
+    },
+    "link#desktop__footer-acercade--col1--item8": {
+        "props": {
+            "label": "Directorio",
+            "blockClass": "text-footer",
+            "href": "/"
+        }
+    },
+    //* Login
+    "flex-layout.row#desktop__footer--acercade--left-list9": {
+        "children": [
+            "link#desktop__footer-acercade--col1--item9"
+        ]
+    },
+    "link#desktop__footer-acercade--col1--item9": {
+        "props": {
+            "label": "Login",
+            "blockClass": "text-footer",
+            "href": "/"
+        }
+    },
+    //* Beneficios
+    "flex-layout.row#desktop__footer--acercade--left-list10": {
+        "children": [
+            "link#desktop__footer-acercade--col1--item10"
+        ]
+    },
+    "link#desktop__footer-acercade--col1--item10": {
+        "props": {
+            "label": "Beneficios",
+            "blockClass": "text-footer",
+            "href": "/"
+        }
+    },
+    //* Trabaje con nosotros
+    "flex-layout.row#desktop__footer--acercade--left-list11": {
+        "children": [
+            "link#desktop__footer-acercade--col1--item11"
+        ]
+    },
+    "link#desktop__footer-acercade--col1--item11": {
+        "props": {
+            "label": "Trabaje con nosotros",
+            "blockClass": "text-footer",
+            "href": "/"
+        }
+    },
+    //* Canal de Integridad
+    "flex-layout.row#desktop__footer--acercade--left-list12": {
+        "children": [
+            "link#desktop__footer-acercade--col1--item12"
+        ]
+    },
+    "link#desktop__footer-acercade--col1--item12": {
+        "props": {
+            "label": "Canal de Integridad",
+            "blockClass": "text-footer",
+            "href": "/"
+        }
+    },
+    //* Grupo Falabella
+    "flex-layout.row#desktop__footer--acercade--left-list13": {
+        "children": [
+            "link#desktop__footer-acercade--col1--item13"
+        ]
+    },
+    "link#desktop__footer-acercade--col1--item13": {
+        "props": {
+            "label": "Grupo Falabella",
+            "blockClass": "text-footer",
+            "href": "/"
+        }
+    },
+    //* Developers
+    "flex-layout.row#desktop__footer--acercade--left-list14": {
+        "children": [
+            "link#desktop__footer-acercade--col1--item14"
+        ]
+    },
+    "link#desktop__footer-acercade--col1--item14": {
+        "props": {
+            "label": "Developers",
+            "blockClass": "text-footer",
+            "href": "/"
+        }
+    },
+    //* Notificaciones judiciales
+    "flex-layout.row#desktop__footer--acercade--left-list15": {
+        "children": [
+            "link#desktop__footer-acercade--col1--item15"
+        ]
+    },
+    "link#desktop__footer-acercade--col1--item15": {
+        "props": {
+            "label": "Notificaciones judiciales",
+            "blockClass": "text-footer",
+            "href": "/"
+        }
+    },
+    //* Footer section bottom col 2
+    "flex-layout.col#desktop__footer--acercade--col2": {
+        "children": [
+            "flex-layout.row#desktop__footer--acercade--col2-row",
+            "flex-layout.row#desktop__footer--acercade--col2-list1",
+            "flex-layout.row#desktop__footer--acercade--col2-list2",
+            "flex-layout.row#desktop__footer--acercade--col2-list3",
+            "flex-layout.row#desktop__footer--acercade--col2-list4",
+            "flex-layout.row#desktop__footer--acercade--col2-list5",
+            "flex-layout.row#desktop__footer--acercade--col2-list6",
+            "flex-layout.row#desktop__footer--acercade--col2-list7",
+            "flex-layout.row#desktop__footer--acercade--col2-list8",
+            "flex-layout.row#desktop__footer--acercade--col2-list9",
+            "flex-layout.row#desktop__footer--acercade--col2-list10"
+        ],
+        "props": {
+            "blockClass": "footer-columna-2",
+            "rowGap": 2
+        }
+    },
+    "flex-layout.row#desktop__footer--acercade--col2-row": {
+        "children": [
+            "rich-text#desktop__footer-acercade--col2--title"
+        ]
+    },
+    "rich-text#desktop__footer-acercade--col2--title": {
+        "props": {
+            "text": "SERVICIO AL CLIENTE",
+            "blockClass": "text-footer"
+        }
+    },
+    //* Preguntas Frecuentes
+    "flex-layout.row#desktop__footer--acercade--col2-list1": {
+        "children": [
+            "link#desktop__footer-acercade--col2--item1"
+        ],
+        "props": {
+            "rowGap": 2
+        }
+    },
+    "link#desktop__footer-acercade--col2--item1": {
+        "props": {
+            "label": "Preguntas Frecuentes",
+            "blockClass": "text-footer",
+            "href": "/"
+        }
+    },
+    //* Aplicar mi garantía
+    "flex-layout.row#desktop__footer--acercade--col2-list2": {
+        "children": [
+            "link#desktop__footer-acercade--col2--item2"
+        ]
+    },
+    "link#desktop__footer-acercade--col2--item2": {
+        "props": {
+            "label": "Aplicar mi garantía",
+            "blockClass": "text-footer",
+            "href": "/"
+        }
+    },
+    //* Estado de mi recolección
+    "flex-layout.row#desktop__footer--acercade--col2-list3": {
+        "children": [
+            "link#desktop__footer-acercade--col2--item3"
+        ]
+    },
+    "link#desktop__footer-acercade--col2--item3": {
+        "props": {
+            "label": "Estado de mi recolección",
+            "blockClass": "text-footer",
+            "href": "/"
+        }
+    },
+    //* Autorización para el Tratamiento de Datos Personales
+    "flex-layout.row#desktop__footer--acercade--col2-list4": {
+        "children": [
+            "link#desktop__footer-acercade--col2--item4"
+        ]
+    },
+    "link#desktop__footer-acercade--col2--item4": {
+        "props": {
+            "label": "Autorización para el Tratamiento de Datos Personales",
+            "blockClass": "text-footer",
+            "href": "/"
+        }
+    },
+    //* Política de Tratamiento de Datos
+    "flex-layout.row#desktop__footer--acercade--col2-list5": {
+        "children": [
+            "link#desktop__footer-acercade--col2--item5"
+        ]
+    },
+    "link#desktop__footer-acercade--col2--item5": {
+        "props": {
+            "label": "Política de Tratamiento de Datos",
+            "blockClass": "text-footer",
+            "href": "/"
+        }
+    },
+    //* Términos y Condiciones
+    "flex-layout.row#desktop__footer--acercade--col2-list6": {
+        "children": [
+            "link#desktop__footer-acercade--col2--item6"
+        ]
+    },
+    "link#desktop__footer-acercade--col2--item6": {
+        "props": {
+            "label": "Términos y Condiciones",
+            "blockClass": "text-footer",
+            "href": "/"
+        }
+    },
+    //* Política de venta de productos internacionales
+    "flex-layout.row#desktop__footer--acercade--col2-list7": {
+        "children": [
+            "link#desktop__footer-acercade--col2--item7"
+        ]
+    },
+    "link#desktop__footer-acercade--col2--item7": {
+        "props": {
+            "label": "Política de venta de productos internacionales",
+            "blockClass": "text-footer",
+            "href": "/"
+        }
+    },
+    //* Legales
+    "flex-layout.row#desktop__footer--acercade--col2-list8": {
+        "children": [
+            "link#desktop__footer-acercade--col2--item8"
+        ]
+    },
+    "link#desktop__footer-acercade--col2--item8": {
+        "props": {
+            "label": "Legales",
+            "blockClass": "text-footer",
+            "href": "/"
+        }
+    },
+    //* Peticiones, quejas o reclamos
+    "flex-layout.row#desktop__footer--acercade--col2-list9": {
+        "children": [
+            "link#desktop__footer-acercade--col2--item9"
+        ]
+    },
+    "link#desktop__footer-acercade--col2--item9": {
+        "props": {
+            "label": "Peticiones, quejas o reclamos",
+            "blockClass": "text-footer",
+            "href": "/"
+        }
+    },
+    //* ¿Cómo cuidamos tus datos?
+    "flex-layout.row#desktop__footer--acercade--col2-list10": {
+        "children": [
+            "link#desktop__footer-acercade--col2--item10"
+        ]
+    },
+    "link#desktop__footer-acercade--col2--item10": {
+        "props": {
+            "label": "¿Cómo cuidamos tus datos?",
+            "blockClass": "text-footer",
+            "href": "/"
+        }
+    },
+    //* Footer section bottom col 3
+    "flex-layout.col#desktop__footer--acercade--col3": {
+        "title": "Desktop Columna tres del Footer",
+        "children": [
+            "flex-layout.row#desktop__footer--acercade--col3-row",
+            "flex-layout.row#desktop__footer--acercade--col3-list1",
+            "flex-layout.row#desktop__footer--acercade--col3-list2"
+        ],
+        "props": {
+            "blockClass": "footer-columna-3",
+            "rowGap": 2,
+            "preventVerticalStretch": true
+        }
+    },
+    "flex-layout.row#desktop__footer--acercade--col3-row": {
+        "children": [
+            "rich-text#desktop__footer-acercade--col3--title"
+        ]
+    },
+    "rich-text#desktop__footer-acercade--col3--title": {
+        "props": {
+            "text": "LINIO LATINOAMÉRICA",
+            "blockClass": "text-footer"
+        }
+    },
+    //* Colombia y Chile
+    "flex-layout.row#desktop__footer--acercade--col3-list1": {
+        "children": [
+            "link#desktop__footer-acercade--col3--item1",
+            "link#desktop__footer-acercade--col3--item2"
+        ]
+    },
+    "link#desktop__footer-acercade--col3--item1": {
+        "props": {
+            "label": "Colombia",
+            "blockClass": "text-footer",
+            "href": "/"
+        }
+    },
+    "link#desktop__footer-acercade--col3--item2": {
+        "props": {
+            "label": "Chile",
+            "blockClass": "text-footer",
+            "href": "/"
+        }
+    },
+    //* Mexico y Perú
+    "flex-layout.row#desktop__footer--acercade--col3-list2": {
+        "children": [
+            "link#desktop__footer-acercade--col3--item3",
+            "link#desktop__footer-acercade--col3--item3"
+        ]
+    },
+    "link#desktop__footer-acercade--col3--item3": {
+        "props": {
+            "label": "Mexico",
+            "blockClass": "text-footer",
+            "href": "/"
+        }
+    },
+    "link#desktop__footer-acercade--col3--item4": {
+        "props": {
+            "label": "Perú",
+            "blockClass": "text-footer",
+            "href": "/"
+        }
+    },
+    //* Footer section bottom col 4
+    "flex-layout.col#desktop__footer--acercade--col4": {
+        "title": "Desktop Columna cuatro del Footer",
+        "children": [
+            "flex-layout.row#desktop__footer--acercade--col4-row",
+            "flex-layout.row#desktop__footer--acercade--col4-list1",
+            "flex-layout.row#desktop__footer--acercade--col4-list2",
+            "flex-layout.row#desktop__footer--acercade--col4-list3",
+            "flex-layout.row#desktop__footer--acercade--col4-list4"
+        ],
+        "props": {
+            "blockClass": "footer-columna-4",
+            "preventVerticalStretch": true
+        }
+    },
+    "flex-layout.row#desktop__footer--acercade--col4-row": {
+        "children": [
+            "rich-text#desktop__footer-acercade--col4--title"
+        ]
+    },
+    "rich-text#desktop__footer-acercade--col4--title": {
+        "props": {
+            "text": "NOVEDADES",
+            "blockClass": "text-footer"
+        }
+    },
+    //* CyberLunes
+    "flex-layout.row#desktop__footer--acercade--col4-list1": {
+        "children": [
+            "link#desktop__footer-acercade--col4--item1"
+        ]
+    },
+    "link#desktop__footer-acercade--col4--item1": {
+        "props": {
+            "label": "CyberLunes",
+            "blockClass": "text-footer",
+            "href": "/"
+        }
+        //* iPhone     
+    },
+    "flex-layout.row#desktop__footer--acercade--col4-list2": {
+        "children": [
+            "link#desktop__footer-acercade--col4--item2"
+        ]
+    },
+    "link#desktop__footer-acercade--col4--item2": {
+        "props": {
+            "label": "iPhone",
+            "blockClass": "text-footer",
+            "href": "/"
+        }
+    },
+    //* Solo Hoy Ofertas
+    "flex-layout.row#desktop__footer--acercade--col4-list3": {
+        "children": [
+            "link#desktop__footer-acercade--col4--item3"
+        ]
+    },
+    "link#desktop__footer-acercade--col4--item3": {
+        "props": {
+            "label": "Solo Hoy Ofertas",
+            "blockClass": "text-footer",
+            "href": "/"
+        }
+        //* Despensa, vinos y gourmet   
+    },
+    "flex-layout.row#desktop__footer--acercade--col4-list4": {
+        "children": [
+            "link#desktop__footer-acercade--col4--item4"
+        ]
+    },
+    "link#desktop__footer-acercade--col4--item4": {
+        "props": {
+            "label": "Despensa, vinos y gourmet",
+            "blockClass": "text-footer",
+            "href": "/"
+        }
+    },
+    //* Footer section bottom col 5
+    "flex-layout.col#desktop__footer--acercade--col5": {
+        "title": "Desktop Columna cinco del Footer",
+        "children": [
+            "flex-layout.row#desktop__footer--acercade--col5-item1",
+            "flex-layout.col#desktop__footer--acercade--col5-item2",
+            "flex-layout.col#desktop__footer--acercade--col5-item3"
+        ],
+        "props": {
+            "blockClass": "footer-columna-5",
+            "preventVerticalStretch": true,
+            "preventHorizontalStretch": true
+        }
+    },
+    //* SÍGUENOS
+    "flex-layout.row#desktop__footer--acercade--col5-item1": {
+        "children": [
+            "rich-text#desktop__footer-acercade--col5--item1",
+            "social-networks#footer"
+        ],
+        "props": {
+            "horizontalAlign": "left",
+            "colSizing": "auto",
+            "colGap": 5,
+            "blockClass": "desktop__siguenos-container"
+        }
+    },
+    "rich-text#desktop__footer-acercade--col5--item1": {
+        "props": {
+            "text": "SÍGUENOS",
+            "blockClass": "text-footer"
+        }
+    },
+    "social-networks#footer": {
+        "props": {
+            "socialNetworks": [
+                {
+                    "url": "https://facebook.com/",
+                    "name": "Facebook"
+                },
+                {
+                    "url": "https://twitter.com/",
+                    "name": "Twitter"
+                },
+                {
+                    "url": "https://youtube.com/",
+                    "name": "Youtube"
+                }
+            ]
+        }
+    },
+    //* app store
+    "flex-layout.col#desktop__footer--acercade--col5-item2": {
+        "children": [
+            "image#desktop__play-store",
+            "image#desktop__app-store",
+            "image#desktop__app-gallery"
+        ],
+        "props": {
+            "rowGap": 3,
+            "blockClass": "footer__image-apps",
+            "preventVerticalStretch": true,
+            "colSizing": "auto"
+        }
+    },
+    "image#desktop__play-store": {
+        "props": {
+            "src": "/arquivos/play-store.png",
+            "maxWidth": "65%"
+        }
+    },
+    "image#desktop__app-store": {
+        "props": {
+            "src": "/arquivos/app-store.png",
+            "maxWidth": "65%"
+        }
+    },
+    "image#desktop__app-gallery": {
+        "props": {
+            "src": "/arquivos/footer-appgalley.jpg",
+            "maxWidth": "65%"
+        }
+    },
+    "flex-layout.col#desktop__footer--acercade--col5-item3": {
+        "children": [
+            "image#desktop__sic"
+        ],
+        "props": {
+            "blockClass": "footer__image-sic",
+            "horizontalAlign": "center"
+        }
+    },
+    "image#desktop__sic": {
+        "props": {
+            "src": "/arquivos/logo-sic-footer.png",
+            "maxWidth": "85%"
+        }
+    }
+}

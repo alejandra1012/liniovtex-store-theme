@@ -1,0 +1,12 @@
+{
+    "footer-layout.desktop": {
+        "children": [
+            "flex-layout.row#desktop__footer--forma-pagos",
+            "flex-layout.row#desktop__footer--acerca-de",
+            "flex-layout.row#global__footer--info-final-row"
+        ],
+        "props": {
+            "blockClass": "desktop__footer"
+        }
+    }
+}

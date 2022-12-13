@@ -1,0 +1,82 @@
+{
+    "drawer#header__mobile--menu": {
+        "children": [
+            "menu#header__menu"
+        ],
+        "props": {
+            "blockClass": "icon__menu"
+        }
+    },
+    "menu#header__menu": {
+        "children": [
+            "menu-item#category__one",
+            "menu-item#category__two"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#department__one": {
+        "props": {
+            "id": "category-one",
+            "type": "external",
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "Google Title",
+            "text": "Google"
+        },
+        "blocks": [
+            "submenu.accordion#department__one"
+        ]
+    },
+    "submenu.accordion#department__one": {
+        "children": [
+            "menu#deparment__one"
+        ]
+    },
+    "menu#deparment__one": {
+        "children": [
+            "menu-item#category__one",
+            "menu-item#category__two"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#category__one": {
+        "props": {
+            "id": "category-one",
+            "type": "custom",
+            "itemProps": {
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Google drive",
+                "text": "Google drive"
+            }
+        }
+    },
+    "menu-item#category__two": {
+        "props": {
+            "id": "category-two",
+            "type": "custom",
+            "itemProps": {
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Google meet",
+                "text": "Google meet"
+            }
+        }
+    },
+    "menu-item#department__two": {
+        "props": {
+            "id": "category-two",
+            "type": "external",
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "Bing Title",
+            "text": "Bing"
+        }
+    }
+}

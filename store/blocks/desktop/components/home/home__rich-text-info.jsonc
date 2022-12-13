@@ -1,0 +1,14 @@
+{
+    "flex-layout.row#home-info": {
+        "title": "Informacion final del home",
+        "children": [
+            "rich-text#home-info-text"
+        ]
+    },
+    "rich-text#home-info-text": {
+        "title": "Informacion",
+        "props": {
+            "text": "markdown"
+        }
+    }
+}

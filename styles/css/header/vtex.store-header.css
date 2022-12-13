@@ -1,0 +1,49 @@
+.headerRowBackground--header__top{
+    background-color:#3d3d3d !important;
+    color: #ddd;
+}
+.headerRowContainer--header__top :global(.vtex-store-components-3-x-container ) {
+    padding: 0;
+
+}
+.headerRowContainer--header__top :global(.vtex-login-2-x-profileIcon) {
+    width: 27px;
+    height: 27px;
+}
+.headerRowBackground--header__top :global(.vtex-login-2-x-label){
+    text-transform: none;
+    padding: 0%;
+    color: #fff;
+    font-size: 16px;
+}
+.headerRowContainer--header__top :global(.vtex-login-2-x-container) {
+    border-right: 1px solid #666;
+
+}
+
+.headerRowContainer--header__top :global(.vtex-button__label){
+    padding-right: 15px;
+    padding-bottom: 0 !important;
+    padding-left: 0;
+    padding-top: 0 !important;
+}
+.headerRowContainer--header__top :global(.vtex-minicart-2-x-minicartContainer) {
+    border-left: 1px solid #666;
+    padding-left: 10px;
+}
+.headerRowContainer--header__top :global(.vtex-button):hover{
+background:#0002 ;
+}
+.headerRowContainer--header__top :global(.vtex-login-2-x-label):hover{
+color: #bbb;
+}
+
+.headerRowBackground--header__middle  {
+    background-color: #3d3d3d !important;
+    border-top: 1px solid #5a5a5a;
+}
+.headerRowContainer--header__middle{
+    padding-left: 150px;
+}
+
+

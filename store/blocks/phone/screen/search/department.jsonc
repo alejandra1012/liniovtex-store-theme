@@ -1,0 +1,17 @@
+{
+    "search-result-layout.mobile#mobile__department":{
+        "children":[
+            "responsive-layout.tablet#tablet__department",
+            "responsive-layout.phone#phone__department",
+            "rich-text#vista-department"
+         ],
+         "props":{
+          "defaultGalleryLayout": "general grid"
+         }
+      },
+      "rich-text#vista-department":{
+        "props":{
+          "text": "vista departamento"
+        }
+      }
+}

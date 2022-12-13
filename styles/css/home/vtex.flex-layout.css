@@ -1,6 +1,20 @@
-/* .flexRowContent--home__section--one{
-    background-color: brown;
-} */
-.flexColChild--section__one--image{
-    width:100%;
+.flexCol--desktop__container--home{
+    padding: 0 8vw;
 }
+.flexRow--container__top--home-link{
+   padding-top: 20px;
+}
+.flexRowContent--container__top--home-link{
+    align-items: center;
+}
+
+.flexColChild--section__banner1--image {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.flexRowContent--texto-link__tiendasofi{
+    align-items: center;
+}
+

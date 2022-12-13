@@ -1,0 +1,33 @@
+{
+    "header-row#header__mobile--top": {
+        "title": "Header mobile Superior",
+        "children": [
+            "flex-layout.row#container__header-mobile"
+        ],
+        "props": {
+            "sticky": true,
+            "blockClass": "header__top"
+        }
+    },
+    "flex-layout.row#container__header-mobile": {
+        "children": [
+            "drawer#header__mobile--menu",
+            "logo#mobile__top--logo",
+            "header-spacer",
+            "search-bar#mobile",
+            "minicart.v2#global__header--minicart"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "colSizing": "auto"
+        }
+    },
+    "logo#mobile__top--logo": {
+        "title": "Logo",
+        "props": {
+            "url": "assets/img/linio-mobile__logo.svg",
+            "href": "/",
+            "blockClass": "logo__mobile--top"
+        }
+    }
+}

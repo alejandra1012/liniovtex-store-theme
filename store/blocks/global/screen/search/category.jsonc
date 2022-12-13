@@ -1,0 +1,18 @@
+{
+    "store.search#category":{
+        "blocks":["search-result-layout#category"],
+        "props":{
+          "context": {
+            "skusFilter": "FIRST_AVAILABLE",
+            "simulationBehavios": "default"
+          }
+        }
+    },
+    "search-result-layout#category":{
+        "blocks":[
+            "search-result-layout.desktop#desktop__category",
+            "search-result-layout.mobile#mobile__category",
+            "search-not-found-layout"
+        ]
+    }
+}

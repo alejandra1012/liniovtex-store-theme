@@ -1,0 +1,10 @@
+{
+    "footer-layout.mobile": {
+        "children": [
+            "flex-layout.row#mobile__footer--forma-pagos",
+            "flex-layout.row#footer__container--disclosure",
+            "flex-layout.row#mobile__footer--redes-sociales-apps",
+            "flex-layout.row#global__footer--info-final-row"
+        ]
+    }
+}

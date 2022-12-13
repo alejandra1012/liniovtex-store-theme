@@ -1,0 +1,28 @@
+{
+    
+    "responsive-layout.tablet#tablet__department":{
+      "title": "Vista tablet busqueda por departamento",
+        "children":[
+            "flex-layout.row#tablet__department--filter",
+            "flex-layout.row#tablet__department--content"  
+          ]     
+      },
+      "flex-layout.row#tablet__department--filter":{
+        "children":[
+            "filter-navigator.v3"
+        ]
+      },
+      "flex-layout.row#tablet__department--content":{
+        "children":[
+          "gallery-layout-switcher",
+          "search-content#tablet__content--products-department"
+           
+        ]
+      },
+      "search-content#tablet__content--products-department":{
+        "blocks":[
+            "gallery#global",
+            "not-found"
+        ]
+    }
+}

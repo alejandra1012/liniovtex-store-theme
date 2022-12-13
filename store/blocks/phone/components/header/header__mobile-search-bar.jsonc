@@ -1,0 +1,29 @@
+{
+    "search-bar#mobile": {
+        "blocks": [
+            "autocomplete-result-list.v2#mobile"
+        ],
+        "props": {
+            "openAutocompleteOnFocus": true,
+            "blockClass": "search-bar__mobile"
+        }
+    },
+    "autocomplete-result-list.v2#mobile": {
+        "blocks": [
+            "product-summary.shelf#mobile__product-search-bar"
+        ],
+        "props": {
+            "autocompleteWidth": 50
+        }
+    },
+    "product-summary.shelf#mobile__product-search-bar": {
+        "children": [
+            "product-summary-image",
+            "product-summary-name",
+            "product-rating-inline",
+            "product-summary-space",
+            "product-summary-price",
+            "product-summary-buy-button"
+        ]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "responsive-layout.tablet#tablet__subcategory":{
+        "children":[
+            "flex-layout.row#tablet__subcategory--filter-tablet",
+            "flex-layout.row#tablet__subcategory--content-tablet"        ]
+      },
+      "flex-layout.row#tablet__subcategory--filter-tablet":{
+        "children":[
+            "filter-navigator.v3"
+        ]
+      },
+      "flex-layout.row#tablet__subcategory--content-tablet":{
+        "children":[
+          "gallery-layout-switcher",
+          "search-content#tablet__content--products-subcategory"
+           
+        ]
+      },
+      "search-content#tablet__content--products-subcategory":{
+        "blocks":[
+            "gallery#global",
+            "not-found"
+        ]
+    }
+}

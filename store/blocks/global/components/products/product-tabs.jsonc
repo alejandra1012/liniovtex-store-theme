@@ -1,0 +1,70 @@
+{
+    "flex-layout.row#product-tabs":{
+        "title":"Informacion Adicional",
+        "children":[
+            "tab-layout#product__tabs"
+        ]
+    },
+    "tab-layout#product__tabs":{
+        "children":[
+            "tab-list#product__tabs--list",
+            "tab-content#product__tabs--content"
+        ]
+    },
+    "tab-list#product__tabs--list":{
+        "children":[
+            "tab-list.item#tab__list--reviws-and-ratings",
+            "tab-list.item#tab__list--product-specification",
+            "tab-list.item#tab__list--questions"
+        ]
+    },
+    "tab-list.item#tab__list--reviws-and-ratings":{
+        "props":{
+            "tabId": "reviews-and-ratings",
+            "label": "Reviciones y calificaciones",
+            "defaultActivetab":false
+        }
+
+    },
+    "tab-list.item#tab__list--product-specification":{
+        "props":{
+            "tabId": "product-specification",
+            "label": "Especificaciones de producto",
+            "defaultActivetab":false
+        }
+
+    },
+    "tab-list.item#tab__list--questions":{
+        "props":{
+            "tabId": "questions",
+            "label": "Preguntas y respuestas",
+            "defaultActivetab":false
+        }
+    },
+    "tab-content#product__tabs--content":{
+        "children":[
+            "tab-content.item#tab__content--reviews-and-ratings",
+            "tab-content.item#tab__content--product-specification",
+            "tab-content.item#tab__content--questions"
+        ]
+    },
+    "tab-content.item#tab__content--reviews-and-ratings":{
+        "props":{
+            "tabId":"reviews-and-ratings"
+        },
+        "children":["product-reviews"]
+
+    },
+    "tab-content.item#tab__content--product-specification":{
+        "props":{
+            "tabId":"product-specification"
+        },
+        "children":["product-specifications"]
+    },
+    "tab-content.item#tab__content--questions":{
+        "props":{
+            "tabId":"questions"
+        },
+        "children":["questions-and-answers"]
+    }
+}

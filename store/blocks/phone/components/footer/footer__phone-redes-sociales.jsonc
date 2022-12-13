@@ -1,0 +1,112 @@
+{
+    "flex-layout.row#mobile__footer--redes-sociales-apps": {
+        "title": "Siguenos vista mobile",
+        "children": [
+            "flex-layout.col#mobile__footer--container"
+        ],
+        "props": {
+            "preventVerticalStretch": true
+        }
+    },
+    "flex-layout.col#mobile__footer--container": {
+        "children": [
+            "flex-layout.row#mobile__footer--siguenos",
+            "flex-layout.row#mobile__footer--apps",
+            "flex-layout.col#mobile__footer--apps2",
+            "flex-layout.col#mobile__footer--sic"
+        ]
+    },
+    "flex-layout.row#mobile__footer--siguenos": {
+        "title": " Redes Sociales",
+        "children": [
+            "rich-text#mobile__footer-siguenos",
+            "social-networks#mobile__footer"
+        ],
+        "props": {
+            "horizontalAlign": "left",
+            "blockClass": "siguenos-container",
+            "preserveLayoutOnMobile": true,
+            "colSizing": "auto",
+            "colGap": 5
+        }
+    },
+    "rich-text#mobile__footer-siguenos": {
+        "props": {
+            "text": "SÍGUENOS",
+            "blockClass": "text-footer"
+        }
+    },
+    "social-networks#mobile__footer": {
+        "props": {
+            "socialNetworks": [
+                {
+                    "url": "https://facebook.com/",
+                    "name": "Facebook"
+                },
+                {
+                    "url": "https://twitter.com/",
+                    "name": "Twitter"
+                },
+                {
+                    "url": "https://youtube.com/",
+                    "name": "Youtube"
+                }
+            ]
+        }
+    },
+    "flex-layout.row#mobile__footer--apps": {
+        "title": "Apps",
+        "children": [
+            "image#mobile__play-store",
+            "image#mobile__app-store"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "blockClass": "mobile__footer--apps"
+        }
+    },
+    "image#mobile__play-store": {
+        "props": {
+            "src": "/arquivos/play-store.png",
+            "maxHeight": "60%"
+        }
+    },
+    "image#mobile__app-store": {
+        "props": {
+            "src": "/arquivos/app-store.png",
+            "maxWidth": "90%"
+        }
+    },
+    "flex-layout.col#mobile__footer--apps2": {
+        "children": [
+            "image#mobile__app-gallery"
+        ],
+        "props": {
+            "blockClass": "mobile__footer--apps2",
+            "colSizing": "auto"
+        }
+    },
+    "image#mobile__app-gallery": {
+        "props": {
+            "src": "/arquivos/footer-appgalley.jpg",
+            "maxWidth": "50%"
+        }
+    },
+    "flex-layout.col#mobile__footer--sic": {
+        "title": "Imagen Sic",
+        "children": [
+            "image#mobile__sic"
+        ],
+        "props": {
+            "blockClass": "mobile__footer--sic",
+            "horizontalAlign": "center",
+            "colSizing": "auto"
+        }
+    },
+    "image#mobile__sic": {
+        "props": {
+            "src": "/arquivos/logo-sic-footer.png",
+            "maxWidth": "60%"
+        }
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "header-row#header__middle": {
+        "title": "Header medio",
+        "children": [
+            "link.product#one--title",
+            "link.product#two--title",
+            "link.product#three--title",
+            "link.product#for--title",
+            "link.product#five--title",
+            "link.product#six--title",
+            "link.product#sevent--title",
+            "link.product#eight--title"
+        ],
+        "props": {
+            "blockClass": "header__middle"
+        }
+    },
+    "link.product#one--title": {
+        "props": {
+            "href": "/{slug}/p",
+            "label": "Solo Hoy",
+            "blockClass": "link__one--title"
+        }
+    },
+    "link.product#two--title": {
+        "props": {
+            "href": "/{slug}/p",
+            "label": "Solo para Ti",
+            "blockClass": "link__one--title"
+        }
+    },
+    "link.product#three--title": {
+        "props": {
+            "href": "/{slug}/p",
+            "label": "Tiendas Oficiales",
+            "blockClass": "link__one--title"
+        }
+    },
+    "link.product#for--title": {
+        "props": {
+            "href": "/{slug}/p",
+            "label": "Vende en Linio",
+            "blockClass": "link__one--title"
+        }
+    },
+    "link.product#five--title": {
+        "props": {
+            "href": "/{slug}/p",
+            "label": "Ayuda",
+            "blockClass": "link__one--title"
+        }
+    },
+    "link.product#six--title": {
+        "props": {
+            "href": "/{slug}/p",
+            "label": "Banco Falabella",
+            "blockClass": "link__one--title"
+        }
+    },
+    "link.product#sevent--title": {
+        "props": {
+            "href": "/{slug}/p",
+            "label": "Falabella",
+            "blockClass": "link__one--title"
+        }
+    },
+    "link.product#eight--title": {
+        "props": {
+            "href": "/{slug}/p",
+            "label": "Ventas Telefonicas",
+            "blockClass": "link__one--title"
+        }
+    }
+}

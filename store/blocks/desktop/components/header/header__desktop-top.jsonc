@@ -1,0 +1,61 @@
+{
+    "header-row#header__top": {
+        "title": "Header desktop Superior",
+        "children": [
+            "flex-layout.row#header__top--container"
+        ],
+        "props": {
+            "sticky": true,
+            "blockClass": "header__top"
+        }
+    },
+    "flex-layout.row#header__top--container": {
+        "children": [
+            "drawer#desktop__header--mega-menu",
+            "logo#header__top--logo",
+            "search-bar#desktop",
+            "login",
+            "link.product#mis-pedidos",
+            "minicart.v2#global__header--minicart"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "blockClass": "header__top--container"
+        }
+    },
+    "logo#header__top--logo": {
+        "title": "Logo",
+        "props": {
+            "url": "assets/img/linio-desktop__logo.svg",
+            "width": 120,
+            "href": "/",
+            "blockClass": "top__desktop"
+        }
+    },
+    "login": {
+        "title": "inicio de sesión",
+        "props": {
+            "emailAndPasswordTitle": "LOG-IN",
+            "accessCodeTitle": "Acess Code LOG-IN",
+            "emailPlaceholder": "e-mail",
+            "passwordPlaceholder": "password",
+            "showPasswordVerificationIntoTooltip": true,
+            "showIconProfile": true,
+            "text": "Iniciar Sesión",
+            "iconLabel": "Iniciar Sesión",
+            "blockClass": "login__container"
+        }
+    },
+    "link.product#mis-pedidos": {
+        "props": {
+            "href": "/{slug}/p",
+            "label": "Mis pedidos",
+            "displayMode": "button",
+            "buttonProps": {
+                "variant": "primary",
+                "size": "small"
+            },
+            "blockClass": "link__mis-pedidos"
+        }
+    }
+}

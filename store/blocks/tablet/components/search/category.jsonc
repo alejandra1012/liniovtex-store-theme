@@ -1,0 +1,34 @@
+{
+    
+    "responsive-layout.tablet#tablet__category":{
+      "title": "Vista tablet busqueda por categoria",
+        "children":[
+            "flex-layout.row#tablet__category--filter",
+            "flex-layout.row#tablet__category--content",  
+            "rich-text#tablet-category"   
+          ]
+      },
+      "rich-text#tablet-category":{
+        "props":{
+          "text":" aqui es la vista tablet category"
+          }  
+      },
+      "flex-layout.row#tablet__category--filter":{
+        "children":[
+            "filter-navigator.v3"
+        ]
+      },
+      "flex-layout.row#tablet__category--content":{
+        "children":[
+          "gallery-layout-switcher",
+          "search-content#tablet__content--products-category"
+            
+        ]
+      },
+      "search-content#tablet__content--products-category":{
+        "blocks":[
+            "gallery#global",
+            "not-found"
+        ]
+    }
+}

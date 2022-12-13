@@ -1,0 +1,29 @@
+.trigger--disclosure__trigger{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    border: none;
+    border-top: 1px solid #000;
+    padding: 16px 4px;
+}
+.trigger--disclosure__trigger :global(.vtex-rich-text-0-x-paragraph){
+    margin: 0%;
+    
+}
+.content--menu__about-us :global(.vtex-menu-2-x-styledLinkContent){
+    font-size: 12px;
+}
+.content--menu__serv-cliente :global(.vtex-menu-102-x-styledLinkContent ){
+    font-size: 12px;
+}
+.content--menu__serv-cliente :global(.vtex-menu-2-x-styledLinkContent ){
+    font-size: 12px;
+}
+.content--menu__linio-latinoA :global(.vtex-menu-2-x-styledLinkContent ){
+    font-size: 12px;
+}
+.content--menu__novedades :global(.vtex-menu-2-x-styledLinkContent ){
+    font-size: 12px;
+}

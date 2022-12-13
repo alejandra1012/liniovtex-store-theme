@@ -1,0 +1,54 @@
+{
+    "list-context.image-list#home__slider2--categorias": {
+        "title": "lista de imagenes",
+        "children": [
+            "slider-layout#home__slider2--categorias"
+        ],
+        "props": {
+          
+            "images": [
+                {
+                    "image": "/arquivos/home__menu-celular.jpg",
+                    "description": "slider 1"
+                },
+                {
+                    "image": "/arquivos/home__menu-navidad.jpg",
+                    "description": "slider 2"
+                },
+                {
+                    "image": "/arquivos/home__menu-tv-audio.jpg",
+                    "description": "slider 3"
+                },
+                {
+                    "image": "/arquivos/home__menu-hogar.jpg",
+                    "description": "slider 4"
+                },
+                {
+                    "image": "/arquivos/home__menu-tenis.jpg",
+                    "description": "slider 5"
+                },
+                {
+                    "image": "/arquivos/home__menu-juguetes.jpg",
+                    "description": "slider 6"
+                }
+            ]
+        }
+    },
+    "slider-layout#home__slider2--categorias": {
+        "title": "slider con lista",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 4,
+                "mobile": 1
+            },
+            "usePagination": false,
+            "showPaginationDots": "never",
+            "infinite": true,
+            // "showNavigationArrows": "desktopOnly",
+            "centerMode": "to-the-left",
+            "centerModeSlidesGap": 8,
+            "blockClass": "home__slider2--mobile"
+        }
+    }
+}

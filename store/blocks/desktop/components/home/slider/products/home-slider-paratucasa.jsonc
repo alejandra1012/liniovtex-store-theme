@@ -1,0 +1,51 @@
+{
+    "flex-layout.row#desktop__slider--paratucasa": {
+        "children": [
+            "flex-layout.col#desktop__slider--paratucasa"
+        ],
+        "props": {
+            "blockClass": "desktop__slider--paratucasa"
+        }
+    },
+    "flex-layout.col#desktop__slider--paratucasa": {
+        "title": "texto slider para tu paratucasa",
+        "children": [
+            "rich-text#desktop__slider--paratucasa",
+            "list-context.product-list#desktop__slider--paratucasa"
+        ]
+    },
+    "rich-text#desktop__slider--paratucasa": {
+        "title": "texto slider para tu casa muebles, electrodomesticos",
+        "props": {
+            "text": "### PARA TU CASA: MUEBLES, ELECTRODOMESTICOS Y MUCHO MÁS",
+            "blockClass": "section__paratucasa--title"
+        }
+    },
+    "list-context.product-list#desktop__slider--paratucasa": {
+        "blocks": [
+            "product-summary.shelf#slider__paratucasa"
+        ],
+        "children": [
+            "slider-layout#paratucasa"
+        ]
+    },
+    "product-summary.shelf#slider__paratucasa": {
+        "children": [
+            "product-summary-image",
+            "product-summary-name"
+        ]
+    },
+    "slider-layout#paratucasa": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 6,
+                "tablet": 6,
+                "phone": 3
+            },
+            "infinite": true,
+            "showPaginationDots": "never",
+            "arrowSize": 15,
+            "centerMode": "to-the-left"
+        }
+    }
+}
