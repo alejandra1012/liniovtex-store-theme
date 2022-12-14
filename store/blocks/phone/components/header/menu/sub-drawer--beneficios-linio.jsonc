@@ -1,0 +1,78 @@
+{
+    "drawer#phone__sub-drawer--beneficios-linio": {
+        "title": "Sub-drawer Beneficios linio",
+        "blocks": [
+            "drawer-trigger#phone__sub-drawer-beneficios-linio"
+        ],
+        "children": [
+            "flex-layout.col#container__drawer--beneficios-linio"
+        ],
+        "props": {
+            "blockClass": "sub-drawer__beneficios-linio"
+        }
+    },
+    "drawer-trigger#phone__sub-drawer-beneficios-linio": {
+        "title": "Trigger del sub-drawer Beneficios Linio",
+        "children": [
+            "rich-text#phone__sub-drawer--beneficios-linio"
+        ],
+        "props": {
+            "blockClass": "drawer-trigger__beneficios-linio"
+        }
+    },
+    "rich-text#phone__sub-drawer--beneficios-linio": {
+        "title": "Texto del trigger Beneficios LInio",
+        "props": {
+            "text": "Beneficios linio",
+            "blockClass": "text-trigger__beneficios-linio"
+        }
+    },
+    "flex-layout.col#container__drawer--beneficios-linio": {
+        "title": "Contenedor items del sub-drawer Beneficios Linio",
+        "children": [
+            "rich-text#descarga-app",
+            "rich-text#dtos-falabella",
+            "rich-text#retiro-tienda",
+            "rich-text#productos-internacionales",
+            "rich-text#mejor-calificados"
+        ],
+        "props": {
+            "blockClass": "container__drawer--beneficios-linio"
+        }
+    },
+    "rich-text#descarga-app": {
+        "title": "Texto e imagen de Descarga la app",
+        "props": {
+            "text": "[![](/arquivos/link__top-home-smartphone.png) \n Descarga la \n app](/#)",
+            "blockClass": "items__beneficios-linio"
+        }
+    },
+    "rich-text#dtos-falabella": {
+        "title": "Texto e imagen de Descuentos Banco Falabella",
+        "props": {
+            "text": "[![](/arquivos/link__top-home-cmr.png) \n Descuentos \n Banco \n Falabella](/#)",
+            "blockClass": "items__beneficios-linio"
+        }
+    },
+    "rich-text#retiro-tienda": {
+        "title": "Texto e imagen de Retiro en Tienda",
+        "props": {
+            "text": "[![](/arquivos/link__top-home-tienda.png) \n Retiro en \n Tienda](/#)",
+            "blockClass": "items__beneficios-linio"
+        }
+    },
+    "rich-text#productos-internacionales": {
+        "title": "Texto e imagen Productos internacionales",
+        "props": {
+            "text": "[![](/arquivos/link__top-home-avion.png) \n Productos \n internacionales](/#)",
+            "blockClass": "items__beneficios-linio"
+        }
+    },
+    "rich-text#mejor-calificados": {
+        "title": "Texto e imagen de Mejor Calificados",
+        "props": {
+            "text": "[![](/arquivos/link__top-home-favorito.png) \n Mejor \n Calificados](/#)",
+            "blockClass": "items__beneficios-linio"
+        }
+    }
+}

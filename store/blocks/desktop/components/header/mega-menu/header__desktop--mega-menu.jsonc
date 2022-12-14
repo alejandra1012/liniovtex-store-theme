@@ -32,7 +32,7 @@
     },
     "submenu.accordion#department__one--mega-menu": {
         "children": [
-            "menu#deparment__one"
+            "menu#deparment__one--mega-menu"
         ]
     },
     "menu#deparment__one--mega-menu": {

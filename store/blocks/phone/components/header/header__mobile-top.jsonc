@@ -11,7 +11,7 @@
     },
     "flex-layout.row#container__header-mobile": {
         "children": [
-            "drawer#header__mobile--menu",
+            "drawer#header__phone--menu",
             "logo#mobile__top--logo",
             "header-spacer",
             "search-bar#mobile",

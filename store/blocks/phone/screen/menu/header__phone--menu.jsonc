@@ -1,0 +1,37 @@
+{
+    "drawer#header__phone--menu": {
+        "title":"Menu Vista phone",
+        "children": [
+            "flex-layout.col#header__phone--menu"
+        ],
+        "props": {
+            "blockClass": "icon__menu"
+        }
+    },
+    "flex-layout.col#header__phone--menu":{
+        "title":"Sección botones y submenu en vista phone",
+        "children":[
+            "flex-layout.row#menu__bottom--login",
+            "menu#header__phone--menu"
+        ]
+    },
+    "menu#header__phone--menu": {
+        "title": "Contenido del menu en vista phone",
+        "children": [
+            "drawer#phone__sub-drawer--mi-cuenta",
+            "drawer#phone__sub-drawer--categorias",
+            "drawer#phone__sub-drawer--beneficios-linio",
+            "menu-item#phone__solo-hoy",
+            "menu-item#phone__solo-para-ti",
+            "menu-item#phone__tiendas-oficiales",
+            "menu-item#phone__vende-en-linio",
+            "menu-item#phone__ayuda",
+            "menu-item#phone__banco-falabella",
+            "menu-item#phone__falabella",
+            "menu-item#phone__ventas-telefonicas"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    }
+}

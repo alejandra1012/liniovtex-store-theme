@@ -1,0 +1,190 @@
+{
+    "drawer#phone__sub-drawer--categorias": {
+        "title": "Sub-drawer Categorias",
+        "blocks": [
+            "drawer-trigger#phone__sub-drawer-categorias"
+        ],
+        "children": [
+            "flex-layout.col#container__drawer--categorias"
+        ],
+        "props": {
+            "blockClass": "sub-drawer__categorias"
+        }
+    },
+    "drawer-trigger#phone__sub-drawer-categorias": {
+        "title": "Trigger del sub-drawer Categorias",
+        "children": [
+            "rich-text#phone__sub-drawer--categorias"
+        ],
+        "props": {
+            "blockClass": "drawer__trigger--categorias"
+        }
+    },
+    "rich-text#phone__sub-drawer--categorias": {
+        "title": "texto del Trigger Categorias",
+        "props": {
+            "text": "Categorías",
+            "blockClass":"text-triggerr__categorias"
+        }
+    },
+    "flex-layout.col#container__drawer--categorias": {
+        "title": "Contenedor items del sub-drawer Categorias",
+        "children": [
+            "rich-text#solo-hoy",
+            "rich-text#tiendas-oficiales",
+            "rich-text#celulares-accesorios",
+            "rich-text#tv-audio-video",
+            "rich-text#computacion",
+            "rich-text#consola-videojuegos",
+            "rich-text#electrodomesticos",
+            "rich-text#hogar",
+            "rich-text#ferreteria-automotriz",
+            "rich-text#cmr-moda-accesorios",
+            "rich-text#supermercados-mascotas",
+            "rich-text#deportes",
+            "rich-text#cmr-belleza",
+            "rich-text#salud-bienestar",
+            "rich-text#juguetes",
+            "rich-text#camaras-lentes",
+            "rich-text#poductos-internacionales",
+            "rich-text#mas",
+            "rich-text#grupo-falabella"
+        ],
+        "props": {
+            "blockClass": "container__drawer--categorias"
+        }
+    },
+    "rich-text#solo-hoy": {
+        "title": "Texto e imagen de Solo Hoy",
+        "props": {
+            "text": "[![](/arquivos/link__top-home-smartphone.png) \n Solo Hoy](/#)",
+            "blockClass":"items__beneficios-linio"
+        }
+    },
+    "rich-text#tiendas-oficiales": {
+         "title": "Texto e imagen de Tiendas Oficiales",
+        "props": {
+            "text": "[![](/arquivos/link__top-home-tienda.png) \n Tiendas Oficiales](/#)",
+            "blockClass":"items__beneficios-linio"
+        }
+    },
+    "rich-text#celulares-accesorios": {
+         "title": "Texto e imagen de Celulares y Accesorios",
+        "props": {
+            "text": "[![](/arquivos/link__top-home-smartphone.png) \n Celulares y Accesorios](/#)",
+            "blockClass":"items__beneficios-linio"
+        }
+    },
+    "rich-text#tv-audio-video": {
+         "title": "Texto e imagen de TV, Audio y Video",
+        "props": {
+            "text": "[![](/arquivos/link__top-home-smartphone.png) \n TV, Audio y Video](/#)",
+            "blockClass":"items__beneficios-linio"
+        }
+    },
+    "rich-text#computacion": {
+         "title": "Texto e imagen de Computación",
+        "props": {
+            "text": "[![](/arquivos/link__top-home-smartphone.png) \n Computación](/#)",
+            "blockClass":"items__beneficios-linio"
+        }
+    },
+    "rich-text#consola-videojuegos": {
+         "title": "Texto e imagen de Consolas y VIdeojuegos",
+        "props": {
+            "text": "[![](/arquivos/link__top-home-smartphone.png) \n Consolas y VIdeojuegos](/#)",
+            "blockClass":"items__beneficios-linio"
+        }
+    },
+    "rich-text#electrodomesticos": {
+         "title": "Texto e imagen de Electrodomesticos",
+        "props": {
+            "text": "[![](/arquivos/link__top-home-smartphone.png) \n Electrodomesticos](/#)",
+            "blockClass":"items__beneficios-linio"
+        }
+    },
+    "rich-text#hogar": {
+         "title": "Texto e imagen de Hogar",
+        "props": {
+            "text": "[![](/arquivos/link__top-home-smartphone.png) \n Hogar](/#)",
+            "blockClass":"items__beneficios-linio"
+        }
+    },
+    "rich-text#ferreteria-automotriz": {
+         "title": "Texto e imagen de Ferretería y Automotriz",
+        "props": {
+            "text": "[![](/arquivos/link__top-home-smartphone.png) \n Ferretería y Automotriz](/#)",
+            "blockClass":"items__beneficios-linio"
+        }
+    },
+    "rich-text#cmr-moda-accesorios": {
+         "title": "Texto e imagen de Moda y Accesorios",
+        "props": {
+            "text": "[![](/arquivos/link__top-home-smartphone.png) \n Moda y Accesorios](/#)",
+            "blockClass":"items__beneficios-linio"
+        }
+    },
+    "rich-text#supermercados-mascotas": {
+         "title": "Texto e imagen de Supermercado y Mascotas",
+        "props": {
+            "text": "[![](/arquivos/link__top-home-smartphone.png) \n Supermercado y Mascotas](/#)",
+            "blockClass":"items__beneficios-linio"
+        }
+    },
+    "rich-text#deportes": {
+         "title": "Texto e imagen de Deportes",
+        "props": {
+            "text": "[![](/arquivos/link__top-home-smartphone.png) \n Deportes](/#)",
+            "blockClass":"items__beneficios-linio"
+        }
+    },
+    "rich-text#cmr-belleza": {
+         "title": "Texto e imagen de Belleza",
+        "props": {
+            "text": "[![](/arquivos/link__top-home-smartphone.png) \n Belleza](/#)",
+            "blockClass":"items__beneficios-linio"
+        }
+    },
+    "rich-text#salud-bienestar": {
+         "title": "Texto e imagen de Salud y Bienestar",
+        "props": {
+            "text": "[![](/arquivos/link__top-home-smartphone.png) \n Salud y Bienestar](/#)",
+            "blockClass":"items__beneficios-linio"
+        }
+    },
+    "rich-text#juguetes": {
+         "title": "Texto e imagen de Juguetes, Niños y Bebés",
+        "props": {
+            "text": "[![](/arquivos/link__top-home-smartphone.png) \n Juguetes, Niños y Bebés](/#)",
+            "blockClass":"items__beneficios-linio"
+        }
+    },
+    "rich-text#camaras-lentes": {
+         "title": "Texto e imagen de Camaras y Lentes",
+        "props": {
+            "text": "[![](/arquivos/link__top-home-smartphone.png) \n Camaras y Lentes](/#)",
+            "blockClass":"items__beneficios-linio"
+        }
+    },
+    "rich-text#poductos-internacionales": {
+         "title": "Texto e imagen de Productos Internacionales",
+        "props": {
+            "text": "[![](/arquivos/link__top-home-avion.png) \n Productos Internacionales](/#)",
+            "blockClass":"items__beneficios-linio"
+        }
+    },
+    "rich-text#mas": {
+         "title": "Texto e imagen de Más",
+        "props": {
+            "text": "[![](/arquivos/link__top-home-smartphone.png) \n Más](/#)",
+            "blockClass":"items__beneficios-linio"
+        }
+    },
+    "rich-text#grupo-falabella": {
+         "title": "Texto e imagen de Grupo Falabella",
+        "props": {
+            "text": "[![](/arquivos/link__top-home-favorito.png) \n Grupo Falabella](/#)",
+            "blockClass":"items__beneficios-linio"
+        }
+    }
+}

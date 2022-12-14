@@ -1,0 +1,29 @@
+{
+    "flex-layout.row#menu__bottom--login":{
+        "children":[
+            "link#botton__iniciar-sesion",
+            "link#botton__crear-cuenta"
+        ],
+        "props":{
+            // "colSizing": "auto",
+            // "fullWidth": true,
+            // "colJustify": "between",
+            "preserveLayoutOnMobile": true
+        }
+
+    },
+    "link#botton__iniciar-sesion":{
+        "props":{
+            "displayMode": "button",
+            "href": "/login",
+            "label": "Iniciar Session"
+        }
+    },
+    "link#botton__crear-cuenta":{
+        "props":{
+            "displayMode": "button",
+            "href": "/login",
+            "label": "Crear Cuenta"
+        }
+    }
+}

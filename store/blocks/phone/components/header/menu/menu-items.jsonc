@@ -1,0 +1,114 @@
+{
+    "menu-item#phone__solo-hoy": {
+        "title": "Menu Items Solo hoy",
+        "props": {
+            "id": "solo-hoy",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Solo Hoy",
+                "text": "Solo Hoy"
+            }
+        }
+    },
+    "menu-item#phone__solo-para-ti": {
+        "title": "Menu Items Solo para ti",
+        "props": {
+            "id": "solo-para-ti",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Solo Para Ti",
+                "text": "Solo Para Ti"
+            }
+        }
+    },
+    "menu-item#phone__tiendas-oficiales": {
+        "title": "Menu Items Tiendas Oficiales",
+        "props": {
+            "id": "tiendas-oficiales",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Tiendas Oficiales",
+                "text": "Tiendas Oficiales"
+            }
+        }
+    },
+    "menu-item#phone__vende-en-linio": {
+        "title": "Menu Items Vende En Lineo",
+        "props": {
+            "id": "vende-en-linio",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Vende en Lineo",
+                "text": "Vende en Lineo"
+            }
+        }
+    },
+    "menu-item#phone__ayuda": {
+        "title": "Menu Items Ayuda",
+        "props": {
+            "id": "ayuda",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Ayuda",
+                "text": "Ayuda"
+            }
+        }
+    },
+    "menu-item#phone__banco-falabella": {
+        "title": "Menu Items Banco Falabella",
+        "props": {
+            "id": "banco-falabella",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Banco Falabella",
+                "text": "Banco Falabella"
+            }
+        }
+    },
+    "menu-item#phone__falabella": {
+        "title": "Menu Items Falabella",
+        "props": {
+            "id": "falabella",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Falabella",
+                "text": "Falabella"
+            }
+        }
+    },
+    "menu-item#phone__ventas-telefonicas": {
+        "title": "Menu Items Ventas Telefonicas",
+        "props": {
+            "id": "ventas-telefonicas",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Ventas Telefónicas",
+                "text": "Ventas Telefónicas"
+            }
+        }
+    }
+}
