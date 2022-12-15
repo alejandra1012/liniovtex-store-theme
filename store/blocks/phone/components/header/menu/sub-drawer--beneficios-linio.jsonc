@@ -66,6 +66,8 @@
             "rich-text#mejor-calificados"
         ],
         "props": {
+            "colSizing":"auto",
+            "horizontalAlign":"center",
             "blockClass": "container__drawer--beneficios-linio"
         }
     },

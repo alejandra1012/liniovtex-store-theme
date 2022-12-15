@@ -80,6 +80,8 @@
             "rich-text#grupo-falabella"
         ],
         "props": {
+            "colSizing":"auto",
+            "horizontalAlign":"center",
             "blockClass": "container__drawer--categorias"
         }
     },
@@ -128,7 +130,7 @@
     "rich-text#electrodomesticos": {
         "title": "Texto e imagen de Electrodomesticos",
         "props": {
-            "text": "[![](/arquivos/link__menu--categorias-electrodomesticos.png) \n Electrodomesticos](/#)",
+            "text": "[![](/arquivos/link__menu--categorias-electrodomesticos.png) \n Electrodo- \n mesticos](/#)",
             "blockClass": "items__beneficios-linio"
         }
     },
