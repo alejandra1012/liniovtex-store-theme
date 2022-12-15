@@ -25,6 +25,15 @@
 .image--items__mi-cuenta {
     width: 20px;
 }
+.image--items__mis-cupones{
+    width: 20px;
+    padding-right: 10px;
+}
+
+.image--items__mis-suscripciones{
+    width: 20px;
+    padding-right: 10px;
+}
 
 .image--text-trigger__mi-cuenta{
     padding-right: 10px;
@@ -51,7 +60,28 @@
 .paragraph--items__mi-cuenta{
     padding-left: 15px;
 }
+.paragraph--items__mis-cupones{
+    padding-left: 15px;
+}
+
+.paragraph--items__mis-suscripciones{
+    padding-left: 15px;
+}
 .link--items__mi-cuenta{
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+    align-self: center;
+    display: flex;
+}
+.link--items__mis-cupones{
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+    align-self: center;
+    display: flex;
+}
+.link--items__mis-suscripciones{
     text-decoration: none;
     color: gray;
     font-size: 14px;
