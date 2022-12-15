@@ -41,7 +41,7 @@
 }
 .flexCol--footer-columna-5{
     padding-left: 28px;
-    border-left: 1px solid gray;
+    border-left: 1px solid #ccc;
 }
 .flexRowContent--desktop__siguenos-container{
     align-items: center;
