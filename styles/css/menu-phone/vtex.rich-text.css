@@ -1,3 +1,66 @@
-.image--items__beneficios-linio{
+.container--items__mis-cupones{
+    border-bottom: 1px solid #ccc;
+} 
+.container--items__mis-suscripciones{
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+
+}
+.container--text-trigger__beneficios-linio {
+    padding-left: 25px;
+
+}
+.image--items__beneficios-linio {
     width: 35px;
 }
+
+.image--text-triggerr__categorias {
+    width: 20px;
+}
+
+.image--text-trigger__mi-cuenta {
+    width: 20px;
+}
+
+.image--items__mi-cuenta {
+    width: 20px;
+}
+
+.image--text-trigger__mi-cuenta{
+    padding-right: 10px;
+}
+.image--items__mi-cuenta{
+    padding-right: 10px;
+}
+.paragraph--text-trigger__mi-cuenta{
+    font-size: 14px;
+    color: gray;
+    display: flex;
+}
+.paragraph--text-trigger__beneficios-linio{
+    font-size: 14px;
+    color: gray;
+    
+}
+.paragraph--header__sub-drawer--text{
+    font-size: 16px;
+    font-weight: bold;
+    color: gray;
+
+}
+.paragraph--items__mi-cuenta{
+    padding-left: 15px;
+}
+.link--items__mi-cuenta{
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+    align-self: center;
+    display: flex;
+}
+.link--items__beneficios-linio{
+    text-decoration: none;
+    color: gray;
+}
+
+

@@ -1,0 +1,14 @@
+.openIconContainer--sub-drawer__mi-cuenta{
+    border-bottom:1px solid #ccc;
+}
+.drawerHeader--phone__menu--bottom{
+    background-color: #eee;
+    padding: 16px 20px;
+}
+.drawerHeader--phone__sub-drawer{
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ccc;
+}
+.closeIconButton{
+    padding-right: 40px;
+}

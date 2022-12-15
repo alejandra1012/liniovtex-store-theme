@@ -22,7 +22,7 @@
     },
     "image#banner__contador": {
         "props": {
-            "src": "assets/img/banner-contador.png"
+            // "src": "assets/img/banner-contador.png"
         }
     },
     "flex-layout.col#banner-contador--image2": {
@@ -38,7 +38,7 @@
     },
     "image#banner__contador2": {
         "props": {
-            "src": "assets/img/banner-contador2.png"
+            // "src": "assets/img/banner-contador2.png"
         }
     }
 }

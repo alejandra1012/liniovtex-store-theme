@@ -10,7 +10,8 @@
                 "noFollow": true,
                 "tagTitle": "Solo Hoy",
                 "text": "Solo Hoy"
-            }
+            },
+            "blockClass":"menu__items"
         }
     },
     "menu-item#phone__solo-para-ti": {
@@ -24,7 +25,8 @@
                 "noFollow": true,
                 "tagTitle": "Solo Para Ti",
                 "text": "Solo Para Ti"
-            }
+            },
+            "blockClass":"menu__items"
         }
     },
     "menu-item#phone__tiendas-oficiales": {
@@ -38,7 +40,8 @@
                 "noFollow": true,
                 "tagTitle": "Tiendas Oficiales",
                 "text": "Tiendas Oficiales"
-            }
+            },
+            "blockClass":"menu__items"
         }
     },
     "menu-item#phone__vende-en-linio": {
@@ -52,7 +55,8 @@
                 "noFollow": true,
                 "tagTitle": "Vende en Lineo",
                 "text": "Vende en Lineo"
-            }
+            },
+            "blockClass":"menu__items"
         }
     },
     "menu-item#phone__ayuda": {
@@ -66,7 +70,8 @@
                 "noFollow": true,
                 "tagTitle": "Ayuda",
                 "text": "Ayuda"
-            }
+            },
+            "blockClass":"menu__items"
         }
     },
     "menu-item#phone__banco-falabella": {
@@ -80,7 +85,8 @@
                 "noFollow": true,
                 "tagTitle": "Banco Falabella",
                 "text": "Banco Falabella"
-            }
+            },
+            "blockClass":"menu__items"
         }
     },
     "menu-item#phone__falabella": {
@@ -94,7 +100,8 @@
                 "noFollow": true,
                 "tagTitle": "Falabella",
                 "text": "Falabella"
-            }
+            },
+            "blockClass":"menu__items"
         }
     },
     "menu-item#phone__ventas-telefonicas": {
@@ -108,7 +115,8 @@
                 "noFollow": true,
                 "tagTitle": "Ventas Telefónicas",
                 "text": "Ventas Telefónicas"
-            }
+            },
+            "blockClass":"menu__items"
         }
     }
 }

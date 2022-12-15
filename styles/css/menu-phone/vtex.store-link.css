@@ -1,0 +1,20 @@
+.link--botton__iniciar-sesion{
+    background-color: #fff;
+    border-color: #f50;
+    border-radius: 8px
+}
+.label--botton__iniciar-sesion{
+    color: #f50;
+    font-size: 14.8px;
+    text-transform: none;
+}
+.link--botton__crear-cuenta{
+    background-color: #f50;
+    border-color: #f50;
+    border-radius: 8px;
+}
+.label--botton__crear-cuenta{
+    color: #fff;
+    font-size: 14.8px;
+    text-transform: none;
+}

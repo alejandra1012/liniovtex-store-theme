@@ -1,0 +1,9 @@
+.menuItem--menu__items--isClosed {
+    padding-left: 10px;
+    padding-bottom: 30px;
+    margin: 0;
+}
+.styledLink--menu__items {
+    font-size: 14px;
+    color: gray;
+}

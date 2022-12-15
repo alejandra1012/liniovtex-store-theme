@@ -1,17 +1,17 @@
 {
     "drawer#header__phone--menu": {
         "title":"Menu Vista phone",
+        "blocks":["drawer-header#phone__menu--bottom"],
         "children": [
             "flex-layout.col#header__phone--menu"
         ],
         "props": {
-            "blockClass": "icon__menu"
+            "blockClass": "header__phone--menu"
         }
     },
     "flex-layout.col#header__phone--menu":{
         "title":"Sección botones y submenu en vista phone",
         "children":[
-            "flex-layout.row#menu__bottom--login",
             "menu#header__phone--menu"
         ]
     },

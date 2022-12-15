@@ -1,14 +1,24 @@
 {
+    "drawer-header#phone__menu--bottom":{
+        "title":"Header del menu vista phone",
+        "children":["flex-layout.row#menu__bottom--login"],
+        "props":{
+            "blockClass":"phone__menu--bottom"
+        }
+
+    },
     "flex-layout.row#menu__bottom--login":{
+        "title": "contenedor boton inicio sesión y de cierre",
         "children":[
             "link#botton__iniciar-sesion",
-            "link#botton__crear-cuenta"
+            "link#botton__crear-cuenta",
+            "drawer-close-button"
         ],
         "props":{
-            // "colSizing": "auto",
-            // "fullWidth": true,
-            // "colJustify": "between",
-            "preserveLayoutOnMobile": true
+            "preserveLayoutOnMobile": true,
+            "blockClass": "menu__bottom--login-close",
+            "colSizing":"auto",
+            "colGap": 3
         }
 
     },
@@ -16,14 +26,16 @@
         "props":{
             "displayMode": "button",
             "href": "/login",
-            "label": "Iniciar Session"
+            "label": "Iniciar Sessión",
+            "blockClass":"botton__iniciar-sesion"
         }
     },
     "link#botton__crear-cuenta":{
         "props":{
             "displayMode": "button",
             "href": "/login",
-            "label": "Crear Cuenta"
+            "label": "Crear Cuenta",
+            "blockClass":"botton__crear-cuenta"
         }
     }
 }

@@ -2,7 +2,8 @@
     "drawer#phone__sub-drawer--beneficios-linio": {
         "title": "Sub-drawer Beneficios linio",
         "blocks": [
-            "drawer-trigger#phone__sub-drawer-beneficios-linio"
+            "drawer-trigger#phone__sub-drawer-beneficios-linio",
+            "drawer-header#phone__sub-drawer--beneficios-linio"
         ],
         "children": [
             "flex-layout.col#container__drawer--beneficios-linio"
@@ -25,6 +26,34 @@
         "props": {
             "text": "Beneficios linio",
             "blockClass": "text-trigger__beneficios-linio"
+        }
+    },
+    "drawer-header#phone__sub-drawer--beneficios-linio":{
+        "title": "Texto del Header del sub-drawer beneficios linio",
+        "children": [
+            "flex-layout.row#header__sub-drawer--beneficios-linio"
+        ],
+        "props":{
+            "blockClass":"phone__sub-drawer"
+        }
+    },
+    "flex-layout.row#header__sub-drawer--beneficios-linio":{
+        "title": "container texto y boton de cierre del sub-drawer beneficios linio",
+        "children": [
+            "drawer-close-button",
+            "rich-text#header__sub-drawer--beneficios-linio"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "colSizing": "auto",
+            "blockClass": "header__sub-drawer"
+        }
+    },
+    "rich-text#header__sub-drawer--beneficios-linio":{
+        "title": "Texto del Header del sub-drawer de beneficios linio",
+        "props": {
+            "text": "Beneficios linio",
+            "blockClass": "header__sub-drawer--text"
         }
     },
     "flex-layout.col#container__drawer--beneficios-linio": {
