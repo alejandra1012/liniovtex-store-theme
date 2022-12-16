@@ -1,0 +1,22 @@
+
+.menuContainerNav{
+    min-width: 85vw;
+    min-height: fit-content;
+ } 
+.menuContainer{
+    min-width: 21%;
+    min-height: 100vh;
+}
+.submenuContainer{
+    min-height: 100vh;
+}
+.menuItem:hover{
+background: #f50 !important;
+}
+.styledLinkText{
+    font-size:14px ;
+}
+.styledLinkText:hover{
+    color: #fff;
+}
+

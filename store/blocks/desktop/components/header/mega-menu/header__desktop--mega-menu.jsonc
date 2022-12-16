@@ -1,83 +1,42 @@
 {
-    "drawer#desktop__header--mega-menu": {
-        "children": [
-            "menu#desktop__header--mega-menu"
-        ],
-        "props": {
-            "blockClass": "icon__mega-menu"
-            // "size": 200
-        }
+  
+    "sticky-layout#4-desktop": {
+      "title":"Componente Mega-menu",
+      "children": ["flex-layout.row#4-desktop", "flex-layout.row#mega-menu"]
     },
-    "menu#desktop__header--mega-menu": {
-        "children": [
-            "menu-item#category__one--mega-menu",
-            "menu-item#category__two--mega-menu"
-        ],
-        "props": {
-            "orientation": "vertical"
-        }
+    "flex-layout.row#4-desktop": {
+      "children": [
+        "flex-layout.col#trigger-mega-menu"
+      ]
     },
-    "menu-item#department__one--mega-menu": {
-        "props": {
-            "id": "category-one",
-            "type": "external",
-            "href": "/",
-            "noFollow": true,
-            "tagTitle": "Google Title",
-            "text": "Google"
-        },
-        "blocks": [
-            "submenu.accordion#department__one--mega-menu"
-        ]
+  
+    "flex-layout.row#mega-menu": {
+      "children": ["mega-menu#desktop"]
     },
-    "submenu.accordion#department__one--mega-menu": {
-        "children": [
-            "menu#deparment__one--mega-menu"
-        ]
+    "mega-menu#desktop": {
+      "props": {
+        "openOnly": "horizontal",
+        "title": "",
+        "blockClass": "mega-menu__desktop"
+      }
     },
-    "menu#deparment__one--mega-menu": {
-        "children": [
-            "menu-item#category__one--mega-menu",
-            "menu-item#category__two--mega-menu"
-        ],
-        "props": {
-            "orientation": "vertical"
-        }
+    "flex-layout.col#trigger-mega-menu": {
+      "props": {
+        "verticalAlign": "middle",
+        "blockClass":"trigger-mega-menu"
+      },
+      "children": ["mega-menu-trigger-btn"]
     },
-    "menu-item#category__one--mega-menu": {
-        "props": {
-            "id": "category-one",
-            "type": "custom",
-            "itemProps": {
-                "type": "external",
-                "href": "/",
-                "noFollow": true,
-                "tagTitle": "Google drive",
-                "text": "Google drive"
-            }
-        }
+    "mega-menu-trigger-btn": {
+      "props": {
+        "Drawer": "drawer#mega-menu",
+        "blockClass":"header-mega-menu"
+        
+      }
     },
-    "menu-item#category__two--mega-menu": {
-        "props": {
-            "id": "category-two",
-            "type": "custom",
-            "itemProps": {
-                "type": "external",
-                "href": "/",
-                "noFollow": true,
-                "tagTitle": "Google meet",
-                "text": "Google meet"
-            }
-        }
-    },
-    "menu-item#department__two--mega-menu": {
-        "props": {
-            "id": "category-two",
-            "type": "external",
-            "href": "/",
-            "noFollow": true,
-            "tagTitle": "Bing Title",
-            "text": "Bing"
-        }
+    "drawer#mega-menu":{
+      "props":{
+        "blockClass":"header-mega-menu"
+      }
     }
-}
+  }

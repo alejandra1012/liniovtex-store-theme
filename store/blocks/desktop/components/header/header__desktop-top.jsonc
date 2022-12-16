@@ -11,7 +11,8 @@
     },
     "flex-layout.row#header__top--container": {
         "children": [
-            "drawer#desktop__header--mega-menu",
+            "sticky-layout#4-desktop",
+            // "drawer#desktop__header--mega-menu",
             "logo#header__top--logo",
             "search-bar#desktop",
             "login",
