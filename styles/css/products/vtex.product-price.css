@@ -5,6 +5,11 @@
 }
 .savings{
     font-weight: bold;
+    font-size: 14px;
     color: rgb(168,168,168);
     text-decoration: line-through;
+    margin-inline-end: auto;
+}
+.installmentsListContainer{
+    padding-top: 50px;
 }

@@ -37,13 +37,18 @@
             "product-price-savings",
             "product-selling-price",
             "product-installments-list",
-           "flex-layout.row#bottom__show-product"
-            
+           "flex-layout.row#bottom__show-product"   
         ],
         "props":{
             "blockClass":"slider__productos"
         }
     },
+    "product-price-savings": {
+        "props": {
+          "showSavings": true,
+          "showListPrice": false
+        }
+      },
     "flex-layout.row#bottom__show-product":{
         "title":"contenedor de boton agregar produto",
         "children":["link#bottom__show-products"],
@@ -55,8 +60,8 @@
         "props":{
             "displayMode": "button",
             "href": "/p",
-            "label": "Ver Porducto",
-            "blockClass":"botton__show-producr"
+            "label": "Ver Producto",
+            "blockClass":"botton__show-product"
         }
 
     },
