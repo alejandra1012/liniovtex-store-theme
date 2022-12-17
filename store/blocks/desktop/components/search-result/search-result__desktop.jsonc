@@ -20,14 +20,22 @@
             
         ],
         "props":{
-            "width":"75%"
+            "width":"75%",
+            "colSizing": "auto",
+            "colGap": 5,
+            "blockClass":"contenedor__gallery-switcher--content"
+
         }
       },
       "search-content#results__content--products-results":{
         "blocks":[
             "gallery#global",
             "not-found"
-        ]
+        ],
+        "props":{
+            "blockClass":"contenedor__gallery"
+
+        }
     }
     
 }

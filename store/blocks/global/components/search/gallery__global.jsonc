@@ -27,11 +27,10 @@
           "add-to-list-btn",
           "product-summary-image",
           "product-summary-name",
-          "product-rating-inline",
-          "product-list-price",
+          "product-summary-space",
+          "product-price-savings",
           "product-selling-price",
-          "product-summary-sku-selector",
-          "add-to-cart-button",
+          "product-rating-inline",
           "modal-trigger#global__quick-view"
     
         ],

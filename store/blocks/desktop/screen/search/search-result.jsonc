@@ -4,9 +4,9 @@
         "children":[
           "flex-layout.row#result__breadcrumb",
           "flex-layout.row#result__results--desktop",
-          "rich-text#busqueda-por-defecto"
-          // "flex-layout.row#didyoumean__desktop",
-          // "flex-layout.row#suggestion__desktop"
+          "rich-text#busqueda-por-defecto",
+          "flex-layout.row#didyoumean__desktop",
+          "flex-layout.row#suggestion__desktop"
         ]
       },
       "rich-text#busqueda-por-defecto":{

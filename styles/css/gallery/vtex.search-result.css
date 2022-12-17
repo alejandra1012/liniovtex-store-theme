@@ -1,0 +1,10 @@
+.searchResultContainer {
+background-color: #f9f9f9
+}
+.galleryItem--normal{
+    background-color: #fff;
+   
+}.galleryItem--grid{
+   
+    padding: 10px;
+}
