@@ -1,22 +1,40 @@
-
-.menuContainerNav{
+.menuContainerNav {
     min-width: 85vw;
     min-height: fit-content;
- } 
-.menuContainer{
+    top: 43px;
+}
+
+.menuContainer {
     min-width: 21%;
     min-height: 100vh;
 }
-.submenuContainer{
+
+
+.submenuContainer {
     min-height: 100vh;
 }
-.menuItem:hover{
-background: #f50 !important;
-}
-.styledLinkText{
-    font-size:14px ;
-}
-.styledLinkText:hover{
-    color: #fff;
+
+.menuContainer :first-child {
+    padding: 0;
 }
 
+.menuItem {
+    padding: 5px 0;
+}
+
+.menuItem:hover {
+    background: #f50 !important;
+}
+
+.styledLinkText {
+    font-size: 14px;
+}
+
+.styledLinkText:hover {
+    color: #fff;
+}
+.caretIcon--mega-menu__desktop{
+    display: none;
+
+}
+/* transform: scale(1.05 */

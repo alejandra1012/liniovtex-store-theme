@@ -11,7 +11,10 @@
     },
   
     "flex-layout.row#mega-menu": {
-      "children": ["mega-menu#desktop"]
+      "children": ["mega-menu#desktop"],
+      "props":{
+        "blockClass":"container__mega-menu"
+      }
     },
     "mega-menu#desktop": {
       "props": {
@@ -20,6 +23,7 @@
         "blockClass": "mega-menu__desktop"
       }
     },
+   
     "flex-layout.col#trigger-mega-menu": {
       "props": {
         "verticalAlign": "middle",
@@ -29,14 +33,9 @@
     },
     "mega-menu-trigger-btn": {
       "props": {
-        "Drawer": "drawer#mega-menu",
+        "Drawer": "drawer",
         "blockClass":"header-mega-menu"
         
-      }
-    },
-    "drawer#mega-menu":{
-      "props":{
-        "blockClass":"header-mega-menu"
       }
     }
   }
