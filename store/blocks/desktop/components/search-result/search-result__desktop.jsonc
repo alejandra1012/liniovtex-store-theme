@@ -32,7 +32,8 @@
         "props": {
             "horizontalAlign": "right",
             "preventHorizontalStretch": true,
-            "colGap": 5,
+            "colSizing": "auto",
+            "colGap":5,
             "blockClass": "orderByAndSwitcher"
             
         }

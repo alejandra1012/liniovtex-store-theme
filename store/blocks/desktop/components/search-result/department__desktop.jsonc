@@ -20,6 +20,7 @@
         ],
         "props":{
             "width":"75%",
+            "rowGap":2,
             "blockClass": "container__orderbyAndSwitcher--content"
         }
       },

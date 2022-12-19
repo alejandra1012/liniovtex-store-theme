@@ -26,10 +26,6 @@
 background-color: #f9f9f9;
 padding: 2vw 8vw 5vw;
 }
-/* .galleryItem{
-    background-color: #fff;
-
-} */
-/* .gallery {
-    justify-content: space-around;
-} */
+.galleryItem--gallery__global{
+    margin-right: 15px;
+}
