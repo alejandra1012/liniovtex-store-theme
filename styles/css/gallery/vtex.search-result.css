@@ -1,10 +1,35 @@
-.searchResultContainer {
-background-color: #f9f9f9
-}
-.galleryItem--normal{
+.filter__container--title{
     background-color: #fff;
-   
-}.galleryItem--grid{
-   
-    padding: 10px;
+    height: 56px;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 2px 2px 8px #eee;
 }
+.filterMessage {
+    font-weight: bold;
+}
+.filterTitleSpan{
+    font-weight: bold;
+}
+
+.galleryLayoutOptionButton:focus{
+    color: #f50;
+    cursor:pointer
+}
+.orderByText {
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #333;
+}
+.searchResultContainer {
+background-color: #f9f9f9;
+padding: 2vw 8vw 5vw;
+}
+/* .galleryItem{
+    background-color: #fff;
+
+} */
+/* .gallery {
+    justify-content: space-around;
+} */

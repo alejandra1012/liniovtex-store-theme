@@ -10,16 +10,19 @@
       },
       "flex-layout.row#category__results":{
         "children":[
-            "flex-layout.col#category__results--filter-mobile",
+            "flex-layout.row#category__results--filter-mobile",
             "flex-layout.col#category__results--content-mobile"
         ]
       },
-      "flex-layout.col#category__results--filter-mobile":{
+      "flex-layout.row#category__results--filter-mobile":{
         "children":[
+            "gallery-layout-switcher",
+            "order-by.v2",
             "filter-navigator.v3"
         ],
         "props":{
-            "width": "75%"
+            "width": "75%",
+            "preserveLayoutOnMobile": true
         }
       },
       "flex-layout.col#category__results--content-mobile":{

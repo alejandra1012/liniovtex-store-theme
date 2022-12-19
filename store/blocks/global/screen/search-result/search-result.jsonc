@@ -1,6 +1,6 @@
 {
   "store.search": {
-    "blocks": ["search-result-layout"],
+    "blocks": ["search-result-layout", "search-products-count-per-page"],
     "props":{
       "context": {
         "skusFilter": "ALL",

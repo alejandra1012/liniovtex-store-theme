@@ -1,3 +1,14 @@
-/* .element--product-summary-shelf__global {
-    background-color: #fff;
-} */
+.container--product-summary-shelf__global {
+    width: 125%;
+}
+.element--product-summary-shelf__global {
+    background: #fff;
+}
+.element--product-summary-shelf__global :global(.vtex-reviews-and-ratings-3-x-stars){
+    color: #ffab00;
+    
+}
+.element--product-summary-shelf__global :global(.vtex-reviews-and-ratings-3-x-inlineContainer){
+    margin-inline-start: inherit;
+    
+}

@@ -1,6 +1,6 @@
 {
     "store.search#category":{
-        "blocks":["search-result-layout#category"],
+        "blocks":["search-result-layout#category","search-products-count-per-page"],
         "props":{
           "context": {
             "skusFilter": "FIRST_AVAILABLE",

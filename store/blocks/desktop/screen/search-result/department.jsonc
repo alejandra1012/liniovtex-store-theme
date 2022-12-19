@@ -9,17 +9,23 @@
       },
       "rich-text#prueba":{
         "props":{
-          "text": "prueba"
+          "text": "Productos Relacionados"
         }
       },
       "flex-layout.row#department__breadcrumb":{
         "children":[
             "flex-layout.col#department__breadcrumb"
-        ]
+        ],
+        "props":{
+          "blockClass":"container__result--breadcrumb"
+        }
       },
       "flex-layout.col#department__breadcrumb":{
         "children":[
             "breadcrumb.search"
-        ]
+        ],
+        "props":{
+          "blockClass":"container__result--breadcrumb"
+        }
       }
 }

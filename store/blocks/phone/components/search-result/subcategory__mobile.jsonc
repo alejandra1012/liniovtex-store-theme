@@ -11,16 +11,19 @@
       "flex-layout.row#subcategory__results":{
         "title":"Filtro y contenido busqueda por subcategoria",
         "children":[
-            "flex-layout.col#subcategory__results--filter-mobile",
+            "flex-layout.row#subcategory__results--filter-mobile",
             "flex-layout.col#subcategory__results--content-mobile"
         ]
       },
-      "flex-layout.col#subcategory__results--filter-mobile":{
+      "flex-layout.row#subcategory__results--filter-mobile":{
         "children":[
+            "gallery-layout-switcher",
+            "order-by.v2",
             "filter-navigator.v3"
         ],
         "props":{
-            "width": "75%"
+            "width": "75%",
+            "preserveLayoutOnMobile": true
         }
       },
       "flex-layout.col#subcategory__results--content-mobile":{

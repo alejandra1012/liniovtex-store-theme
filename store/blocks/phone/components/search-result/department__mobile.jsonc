@@ -11,21 +11,23 @@
       "flex-layout.row#department__results":{
         "title":"Filtro y contenido busqueda por departamento",
         "children":[
-            "flex-layout.col#department__results--filter",
+            "flex-layout.row#department__results--filter",
             "flex-layout.col#department__results--content"
         ]
       },
-      "flex-layout.col#department__results--filter":{
+      "flex-layout.row#department__results--filter":{
         "children":[
+            "gallery-layout-switcher",
+            "order-by.v2",
             "filter-navigator.v3"
         ],
         "props":{
-            "width": "75%"
+            "width": "75%",
+            "preserveLayoutOnMobile": true
         }
       },
       "flex-layout.col#department__results--content":{
         "children":[
-            "gallery-layout-switcher",
             "search-content#mobile__content--products-department"
         ],
         "props":{

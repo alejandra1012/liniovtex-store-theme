@@ -15,14 +15,15 @@
       },
       "flex-layout.col#department__results--content-desktop":{
         "children":[
-            "gallery-layout-switcher",
-            "search-content#results__content--products-department"
-            
+            "flex-layout.row#orderByAndSwitcher",
+            "search-content#results__content--products-department"  
         ],
         "props":{
-            "width":"75%"
+            "width":"75%",
+            "blockClass": "container__orderbyAndSwitcher--content"
         }
       },
+      
       "search-content#results__content--products-department":{
         "blocks":[
             "gallery#global",

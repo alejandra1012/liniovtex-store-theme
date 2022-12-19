@@ -11,7 +11,7 @@
       },
       "rich-text#busqueda-por-defecto":{
         "props":{
-          "text":"busqueda por defecto"
+          "text":"Marcas Relacionadas"
         }
       },
       "flex-layout.row#result__breadcrumb":{
@@ -22,7 +22,10 @@
       "flex-layout.col#result__breadcrumb":{
         "children":[
             "breadcrumb.search"
-        ]
+        ],
+        "props":{
+          "blockClass":"container__result--breadcrumb"
+        }
       },
       "flex-layout.row#didyoumean__desktop": {
         "children": ["did-you-mean"]

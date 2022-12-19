@@ -9,7 +9,7 @@
       },
       "rich-text#prueba3":{
         "props":{
-          "text": "prueba3"
+          "text": "Productos Relacionados"
         }
       },
       "flex-layout.row#subcategory__breadcrumb":{
@@ -20,6 +20,9 @@
       "flex-layout.col#subcategory__breadcrumb":{
         "children":[
             "breadcrumb.search"
-        ]
+        ],
+         "props":{
+          "blockClass":"container__result--breadcrumb"
+        }
       }
 }
