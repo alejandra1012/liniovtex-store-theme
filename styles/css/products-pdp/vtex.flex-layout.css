@@ -1,0 +1,16 @@
+.flexRow--container__product-breadcrumb {
+    padding: 0 6vw;
+}
+
+.flexRow--container__product-breadcrumb {
+    border-bottom: 1px solid #eee;
+}
+
+.flexRow--container__product-info {
+    padding: 0 8vw;
+
+}
+.flexColChild--product__info--data :global(.vtex-reviews-and-ratings-3-x-stars){
+  color: #ffab00;
+
+}
