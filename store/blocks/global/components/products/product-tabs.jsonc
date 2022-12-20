@@ -1,22 +1,37 @@
 {
     "flex-layout.row#product-tabs":{
-        "title":"Informacion Adicional",
+        "title":"Informacion Adicional del producto",
+        "children":[
+            "flex-layout.col#product-tabs"
+        ]
+    },
+    "flex-layout.col#product-tabs":{
+        "title":"Informacion Adicional del producto",
         "children":[
             "tab-layout#product__tabs"
-        ]
+        ],
+        "props":{
+            "blockClass":"product__tabs"
+        }
     },
     "tab-layout#product__tabs":{
         "children":[
             "tab-list#product__tabs--list",
             "tab-content#product__tabs--content"
-        ]
+        ],
+        "props":{
+            "blockClass":"product__tabs"
+        }
     },
     "tab-list#product__tabs--list":{
         "children":[
-            "tab-list.item#tab__list--reviws-and-ratings",
             "tab-list.item#tab__list--product-specification",
+            "tab-list.item#tab__list--reviws-and-ratings",
             "tab-list.item#tab__list--questions"
-        ]
+        ],
+        "props":{
+            "blockClass":"product__tabs--list"
+        }
     },
     "tab-list.item#tab__list--reviws-and-ratings":{
         "props":{
@@ -43,10 +58,12 @@
     },
     "tab-content#product__tabs--content":{
         "children":[
-            "tab-content.item#tab__content--reviews-and-ratings",
             "tab-content.item#tab__content--product-specification",
+            "tab-content.item#tab__content--reviews-and-ratings",
             "tab-content.item#tab__content--questions"
-        ]
+        ],"props":{
+            "blockClass":"product__tabs--content"
+        }
     },
     "tab-content.item#tab__content--reviews-and-ratings":{
         "props":{

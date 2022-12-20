@@ -2,7 +2,7 @@
     padding: 0 6vw;
 }
 
-.flexRow--container__product-breadcrumb {
+.flexRowContent--container__product-breadcrumb {
     border-bottom: 1px solid #eee;
 }
 
@@ -13,4 +13,20 @@
 .flexColChild--product__info--data :global(.vtex-reviews-and-ratings-3-x-stars){
   color: #ffab00;
 
+}
+.flexRow--container__quantity--add-to-cart-bottom :global(.vtex-button){
+    background-color: #f50;
+    border-color: #f50;
+    text-transform: initial;
+    height: 20%;
+}
+.flexRow--container__quantity--add-to-cart-bottom:hover :global(.vtex-button){
+    background-color: #c40;
+   
+}
+.flexRowContent--container__product-info{
+    padding-bottom: 0;
+}
+.flexCol--product__tabs{
+    padding-bottom: 100px;
 }
