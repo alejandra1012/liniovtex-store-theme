@@ -7,6 +7,8 @@
         "flex-layout.col#metodo-pago__contraentrega"
       ],
       "props": {
+        // "colSizing":"auto",
+        // "fullWidth": true,
         "blockClass": "about-us__metodos-pago-images"
       }
     },
@@ -16,13 +18,15 @@
         "image#metodo-pago__efecty"
       ],
       "props": {
+        "colGap":5,
         "blockClass": "container__img--metodo-pago"
       }
     },
     "image#metodo-pago__efecty": {
       "title": "imagen metodo de pago efecty ",
       "props": {
-        "src": "/assets/img/.png",
+        "src": "assets/img/metodo-pago-efecty.png",
+        "maxWidth":"55px",
         "blockClass": "about-us__image--metodo-pago"
       }
     },
@@ -32,13 +36,15 @@
         "image#metodo-pago__diners-club"
       ],
       "props": {
+        "colGap":5,
         "blockClass": "container__img--metodo-pago"
       }
     },
     "image#metodo-pago__diners-club": {
       "title": "imagen metodo de pago diners-club",
       "props": {
-        "src": "/assets/img/.png",
+        "src": "assets/img/metodo-pago_diners-club.png",
+        "maxWidth":"70px",
         "blockClass": "about-us__image--metodo-pago"
       }
     },
@@ -48,13 +54,15 @@
         "image#metodo-pago__contraentrega"
       ],
       "props": {
+        "colGap":5,
         "blockClass": "container__img--metodo-pago"
       }
     },
     "image#metodo-pago__contraentrega": {
       "title": "imagen metodo de pago discover ",
       "props": {
-        "src": "/assets/img/.png",
+        "src": "assets/img/metodo-pago_contra-entrega.png",
+        "maxWidth":"50px",
         "blockClass": "about-us__image--metodo-pago"
       }
     }

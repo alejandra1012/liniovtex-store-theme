@@ -5,8 +5,7 @@
             "flex-layout.col#pages__about-us--link1",
             "flex-layout.col#pages__about-us--link2",
             "flex-layout.col#pages__about-us--link3",
-            "flex-layout.col#pages__about-us--link4",
-            "flex-layout.col#pages__about-us--link5"
+            "flex-layout.col#pages__about-us--link4"
         ],
         "props": {
             "colSizing": "auto",
@@ -21,6 +20,7 @@
         ],
         "props": {
             "colSizing": "auto",
+            "paddingLeft":8,
             "colGap": 5,
             "verticalAlign": "middle",
             "blockClass": "container__text--tenemos-para-ti"
@@ -28,8 +28,8 @@
     },
     "rich-text#pages__about-us--compras-seguras":{
         "props":{
-            "text": "[![](/arquivos/link__top-home-smartphone.png)\n COMPRAS SEGURAS \n Tus compras son protegidas por el \n mismísimo Olimpo. ](/#)",
-            "blockClass": "link__about-us"
+            "text": "[![](assets/img/pag_about-us--compras-seguras.png)\n **COMPRAS SEGURAS** \n Tus compras son protegidas por el \n mismísimo Olimpo. ](/#)",
+            "blockClass": "link__about-us-camion"
         }
     },
     "flex-layout.col#pages__about-us--link2": {
@@ -45,7 +45,7 @@
     },
     "rich-text#pages__about-us--rapidez":{
         "props":{
-            "text": "[![](/arquivos/link__top-home-cmr.png) \n RAPIDEZ \n Tus pedidos entregados a \n velocidades meteóricas.](/#)",
+            "text": "[![](assets/img/pag_about-us--rapidez.png) \n **RAPIDEZ** \n Tus pedidos entregados a \n velocidades meteóricas.](/#)",
             "blockClass": "link__about-us"
         }
     },
@@ -63,7 +63,7 @@
     },
     "rich-text#pages__about-us--atencion-personalizada":{
         "props":{
-            "text": "[![](/arquivos/link__top-home-tienda.png)\n ATENCIÓN PERSONALIZAD \n Visión de rayos X para checar tu pedido en tiempo real.](/#)",
+            "text": "[![](assets/img/pag_about-us--atencion-cliente.png)\n  **ATENCIÓN PERSONALIZADA** \n Visión de rayos X para checar tu \n pedido en tiempo real.](/#)",
             "blockClass": "link__about-us"
         }
     },
@@ -74,6 +74,7 @@
             "rich-text#pages__about-us--devoluciones-faciles"
         ],
         "props": {
+            "paddingRight":7,
             "colSizing": "auto",
             "colGap": 5,
             "blockClass": "container__text--tenemos-para-ti"
@@ -81,11 +82,24 @@
     },
     "rich-text#pages__about-us--devoluciones-faciles":{
         "props":{
-        "text": "[![](/arquivos/link__top-home-avion.png) \n DEVOLUCIONES FÁCILES Y GRATIS \n Si no te gusto o hubo una falla en la \n matrix, te regresamos el 100% de tu \n compra.](/#)",
+        "text": "[![](assets/img/pag_about-us--devoluciones.png) \n **DEVOLUCIONES FÁCILES Y GRATIS** \n Si no te gusto o hubo una falla en la \n matrix, te regresamos el 100% de tu \n compra.](/#)",
             "blockClass": "link__about-us"
         }
     },
-   
+    
+
+    "flex-layout.row#pages__about-us--link5":{
+        "title": "Links con imagenes Parte intermedia del about-us",
+        "children": [
+            "flex-layout.col#pages__about-us--link5"
+        ],
+        "props": {
+            "horizontalAlign":"center",
+            "colSizing": "auto",
+            "blockClass": "container__about-us--link"
+        }
+
+    },  
     "flex-layout.col#pages__about-us--link5": {
         "title": "link e imagen metodos de pago",
         "children": [
@@ -99,7 +113,7 @@
     },
     "rich-text#pages__about-us--metodos-pago":{
         "props":{
-            "text": "[![](/arquivos/link__top-home-favorito.png) \n MÉTODOS DE PAGO \n Tenemos todas las formas de pago \n  del nirvana financiero.](/#)",
+            "text": "[![](assets/img/pag_about-us--metodo-de-pago.png) \n **MÉTODOS DE PAGO** \n Tenemos todas las formas de pago \n  del nirvana financiero.](/#)",
             "blockClass": "link__about-us"
         }
     }

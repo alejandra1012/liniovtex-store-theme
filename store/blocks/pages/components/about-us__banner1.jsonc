@@ -48,7 +48,8 @@
   "rich-text#about-us__title--tenemos-para-ti":{
     "title": "Titulo que tenemos para ti de about-us",
     "props": {
-      "text":"¿Qué tenemos para ti?"
+      "text":"¿Qué tenemos para ti?",
+      "blockClass":"about-us__title"
     }
   }
 }

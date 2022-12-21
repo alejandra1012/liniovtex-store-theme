@@ -8,6 +8,8 @@
       "flex-layout.col#metodo-pago__american-express"
     ],
     "props": {
+      // "colSizing":"auto",
+      // "fullWidth": true,
       "blockClass": "about-us__metodos-pago-images"
     }
   },
@@ -23,7 +25,8 @@
   "image#metodo-pago__discover": {
     "title": "imagen metodo de pago discover ",
     "props": {
-      "src": "/assets/img/.png",
+      "src": "assets/img/metodo-pago-discover.png",
+      "maxWidth":"95px",
       "blockClass": "about-us__image--metodo-pago"
     }
   },
@@ -39,7 +42,8 @@
   "image#metodo-pago__visa": {
     "title": "imagen metodo de pago visa",
     "props": {
-      "src": "/assets/img/.png",
+      "src": "assets/img/metodo-pago-visa.png",
+      "maxWidth":"60px",
       "blockClass": "about-us__image--metodo-pago"
     }
   },
@@ -55,7 +59,8 @@
   "image#metodo-pago__mastercard": {
     "title": "imagen metodo de pago discover ",
     "props": {
-      "src": "/assets/img/.png",
+      "src": "assets/img/metodo-pago-mastercard.jpg",
+      "maxWidth":"70px",
       "blockClass": "about-us__image--metodo-pago"
     }
   },
@@ -71,7 +76,8 @@
   "image#metodo-pago__american-express": {
     "title": "imagen metodo de pago american-express ",
     "props": {
-      "src": "/assets/img/.png",
+      "src": "assets/img/metodo-pago-americanexpress.png",
+      "maxWidth":"70px",
       "blockClass": "about-us__image--metodo-pago"
     }
   }

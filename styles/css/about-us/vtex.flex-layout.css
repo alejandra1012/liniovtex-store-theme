@@ -1,0 +1,22 @@
+.flexCol--section__about-us--image{
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.flexCol--pages__about-us-text{
+    align-items: center;
+}
+.flexCol--container__img--metodo-pago{
+    align-items: center;
+}
+.flexRowContent--container__linio-en-numeros{
+    align-items: center;
+}
+.flexCol--title__linio-en-numeros{
+    align-items: center;
+    background-color: #F8F5F5
+}
+.flexCol--banner__linio-en-numeros{
+    align-items: center;
+    
+}
