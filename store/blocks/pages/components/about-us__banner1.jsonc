@@ -1,0 +1,54 @@
+{
+    
+  "flex-layout.row#pages__about-us-banner1--image": {
+    "title": "Pagina Sobre nosotros banner ppal",
+    "children": [
+      "flex-layout.col#about-us__banner1--image"
+      
+    ],
+      "props": {
+      "blockClass": "pages__about-us-banner1--image"
+    }
+  },
+  "flex-layout.col#about-us__banner1--image": {
+    "title": "container imagen de sección uno",
+    "children": [
+      "image#about-us__banner1--image"
+    ],
+    "props": {
+      "blockClass": "section__about-us--image",
+      "colSizing": "auto",
+      "fullWidth": true
+    }
+  },
+  "image#about-us__banner1--image": {
+    "title": "imagen de sección uno",
+    "props": {
+      "src": "assets/img/banner__pag--quienes-somos.png",
+      "blockClass": "about-us__banner1--image"
+    }
+  },
+  "flex-layout.row#pages__about-us-banner1--text":{
+    "title": "Pagina Sobre nosotros banner ppal",
+    "children": [
+      "flex-layout.col#pages__about-us-text"
+    ],
+      "props": {
+      "blockClass": "pages__about-us-banner1--text"
+    }
+  },
+
+  "flex-layout.col#pages__about-us-text":{
+    "title": "container Titulo que tenemos para ti de about-us",
+    "children": ["rich-text#about-us__title--tenemos-para-ti"],
+    "props":{
+       "blockClass":"pages__about-us-text"
+   }
+  },
+  "rich-text#about-us__title--tenemos-para-ti":{
+    "title": "Titulo que tenemos para ti de about-us",
+    "props": {
+      "text":"¿Qué tenemos para ti?"
+    }
+  }
+}

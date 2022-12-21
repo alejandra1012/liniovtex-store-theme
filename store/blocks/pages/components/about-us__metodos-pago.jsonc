@@ -1,0 +1,78 @@
+{
+  "flex-layout.row#about-us__metodos-pago1-images": {
+    "title": "Container imagenes metodo de pago",
+    "children": [
+      "flex-layout.col#metodo-pago__discover",
+      "flex-layout.col#metodo-pago__visa",
+      "flex-layout.col#metodo-pago__mastercard",
+      "flex-layout.col#metodo-pago__american-express"
+    ],
+    "props": {
+      "blockClass": "about-us__metodos-pago-images"
+    }
+  },
+  "flex-layout.col#metodo-pago__discover": {
+    "title": "container img discover",
+    "children": [
+      "image#metodo-pago__discover"
+    ],
+    "props": {
+      "blockClass": "container__img--metodo-pago"
+    }
+  },
+  "image#metodo-pago__discover": {
+    "title": "imagen metodo de pago discover ",
+    "props": {
+      "src": "/assets/img/.png",
+      "blockClass": "about-us__image--metodo-pago"
+    }
+  },
+  "flex-layout.col#metodo-pago__visa": {
+    "title": "container img visa",
+    "children": [
+      "image#metodo-pago__visa"
+    ],
+    "props": {
+      "blockClass": "container__img--metodo-pago"
+    }
+  },
+  "image#metodo-pago__visa": {
+    "title": "imagen metodo de pago visa",
+    "props": {
+      "src": "/assets/img/.png",
+      "blockClass": "about-us__image--metodo-pago"
+    }
+  },
+  "flex-layout.col#metodo-pago__mastercard": {
+    "title": "container img mastercard",
+    "children": [
+      "image#metodo-pago__mastercard"
+    ],
+    "props": {
+      "blockClass": "container__img--metodo-pago"
+    }
+  },
+  "image#metodo-pago__mastercard": {
+    "title": "imagen metodo de pago discover ",
+    "props": {
+      "src": "/assets/img/.png",
+      "blockClass": "about-us__image--metodo-pago"
+    }
+  },
+  "flex-layout.col#metodo-pago__american-express": {
+    "title": "container img american-express",
+    "children": [
+      "image#metodo-pago__american-express"
+    ],
+    "props": {
+      "blockClass": "container__img--metodo-pago"
+    }
+  },
+  "image#metodo-pago__american-express": {
+    "title": "imagen metodo de pago american-express ",
+    "props": {
+      "src": "/assets/img/.png",
+      "blockClass": "about-us__image--metodo-pago"
+    }
+  }
+}

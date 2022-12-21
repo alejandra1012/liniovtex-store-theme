@@ -44,3 +44,10 @@
     border-color: #f50;
     text-transform: capitalize;
 }
+/**vista phone**/
+@media (max-width: 412px) {
+    .container--product__tabs{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+  }

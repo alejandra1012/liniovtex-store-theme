@@ -13,7 +13,7 @@
     font-weight: bold;
 }
 
-.galleryLayoutOptionButton:focus{
+.galleryLayoutOptionButton--selected{
     color: #f50;
     cursor:pointer
 }

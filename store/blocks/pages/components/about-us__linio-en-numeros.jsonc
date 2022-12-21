@@ -1,0 +1,36 @@
+{
+  "flex-layout.row#about-us__linio-en-numeros": {
+    "title": "banner linio en numeros",
+    "children": [
+      "flex-layout.col#about-us__linio-en-numeros--container"
+      
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "container__linio-en-numeros"
+    }
+  },
+  "flex-layout.col#about-us__linio-en-numeros--container": {
+    "title": "contenedor Titulo Linio en numeros",
+    "children": [
+      "rich-text#title__linio-en-numeros",
+      "image#banner__linio-en-numeros"
+      
+    ],
+    "props": {
+      "blockClass": "title__linio-en-numeros"
+    }
+  },
+  "rich-text#title__linio-en-numeros": {
+    "title": "Titulo Linio en numeros",
+    "props": {
+      "text": "Linio en números"
+    }
+  },
+  "image#banner__linio-en-numeros": {
+    "props": {
+      "src": "assets/img/banner__linio-en-numeros.png",
+      "maxHeight": "600px"
+    }
+  }
+}

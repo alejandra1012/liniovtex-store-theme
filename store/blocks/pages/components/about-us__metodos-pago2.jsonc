@@ -1,0 +1,61 @@
+{
+    "flex-layout.row#about-us__metodos-pago2-images": {
+      "title": "Container imagenes metodo de pago",
+      "children": [
+        "flex-layout.col#metodo-pago__efecty",
+        "flex-layout.col#metodo-pago__diners-club",
+        "flex-layout.col#metodo-pago__contraentrega"
+      ],
+      "props": {
+        "blockClass": "about-us__metodos-pago-images"
+      }
+    },
+    "flex-layout.col#metodo-pago__efecty": {
+      "title": "container img efecty",
+      "children": [
+        "image#metodo-pago__efecty"
+      ],
+      "props": {
+        "blockClass": "container__img--metodo-pago"
+      }
+    },
+    "image#metodo-pago__efecty": {
+      "title": "imagen metodo de pago efecty ",
+      "props": {
+        "src": "/assets/img/.png",
+        "blockClass": "about-us__image--metodo-pago"
+      }
+    },
+    "flex-layout.col#metodo-pago__diners-club": {
+      "title": "container img diners-club",
+      "children": [
+        "image#metodo-pago__diners-club"
+      ],
+      "props": {
+        "blockClass": "container__img--metodo-pago"
+      }
+    },
+    "image#metodo-pago__diners-club": {
+      "title": "imagen metodo de pago diners-club",
+      "props": {
+        "src": "/assets/img/.png",
+        "blockClass": "about-us__image--metodo-pago"
+      }
+    },
+    "flex-layout.col#metodo-pago__contraentrega": {
+      "title": "container img contraentrega",
+      "children": [
+        "image#metodo-pago__contraentrega"
+      ],
+      "props": {
+        "blockClass": "container__img--metodo-pago"
+      }
+    },
+    "image#metodo-pago__contraentrega": {
+      "title": "imagen metodo de pago discover ",
+      "props": {
+        "src": "/assets/img/.png",
+        "blockClass": "about-us__image--metodo-pago"
+      }
+    }
+  }

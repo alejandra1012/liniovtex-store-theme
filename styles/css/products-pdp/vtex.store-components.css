@@ -64,14 +64,11 @@
     color: #666;
 }
 .skuSelectorItem--selected{
-    color: #666;
-    border: transparent;
-}
-.skuSelectorItem--selected:focus{
     border-color:#80bdff;
     border: 1px solid #80bdff;
     box-shadow: 0 0 5px 0.2rem rgb(0 123 255 / 25%);
 }
+
 .frameAround--container__sku-selector{
     border: none;
 }
