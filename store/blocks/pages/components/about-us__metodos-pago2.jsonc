@@ -25,7 +25,7 @@
     "image#metodo-pago__efecty": {
       "title": "imagen metodo de pago efecty ",
       "props": {
-        "src": "assets/img/metodo-pago-efecty.png",
+        "src": "/arquivos/metodo-pago-efecty.png",
         "maxWidth":"55px",
         "blockClass": "about-us__image--metodo-pago"
       }
@@ -43,7 +43,7 @@
     "image#metodo-pago__diners-club": {
       "title": "imagen metodo de pago diners-club",
       "props": {
-        "src": "assets/img/metodo-pago_diners-club.png",
+        "src": "/arquivos/metodo-pago_diners-club.png",
         "maxWidth":"70px",
         "blockClass": "about-us__image--metodo-pago"
       }
@@ -61,7 +61,7 @@
     "image#metodo-pago__contraentrega": {
       "title": "imagen metodo de pago discover ",
       "props": {
-        "src": "assets/img/metodo-pago_contra-entrega.png",
+        "src": "/arquivos/metodo-pago_contra-entrega.png",
         "maxWidth":"50px",
         "blockClass": "about-us__image--metodo-pago"
       }

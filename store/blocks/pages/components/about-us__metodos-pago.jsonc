@@ -25,7 +25,7 @@
   "image#metodo-pago__discover": {
     "title": "imagen metodo de pago discover ",
     "props": {
-      "src": "assets/img/metodo-pago-discover.png",
+      "src": "/arquivos/metodo-pago-discover.png",
       "maxWidth":"95px",
       "blockClass": "about-us__image--metodo-pago"
     }
@@ -42,7 +42,7 @@
   "image#metodo-pago__visa": {
     "title": "imagen metodo de pago visa",
     "props": {
-      "src": "assets/img/metodo-pago-visa.png",
+      "src": "/arquivos/metodo-pago-visa.png",
       "maxWidth":"60px",
       "blockClass": "about-us__image--metodo-pago"
     }
@@ -59,7 +59,7 @@
   "image#metodo-pago__mastercard": {
     "title": "imagen metodo de pago discover ",
     "props": {
-      "src": "assets/img/metodo-pago-mastercard.jpg",
+      "src": "/arquivos/metodo-pago-mastercard.jpg",
       "maxWidth":"70px",
       "blockClass": "about-us__image--metodo-pago"
     }
@@ -76,7 +76,7 @@
   "image#metodo-pago__american-express": {
     "title": "imagen metodo de pago american-express ",
     "props": {
-      "src": "assets/img/metodo-pago-americanexpress.png",
+      "src": "/arquivos/metodo-pago-americanexpress.png",
       "maxWidth":"70px",
       "blockClass": "about-us__image--metodo-pago"
     }

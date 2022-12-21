@@ -48,7 +48,7 @@
   },
   "image#banner__linio-en-numeros": {
     "props": {
-      "src": "assets/img/banner__linio-en-numeros.png",
+      "src": "/arquivos/banner__linio-en-numeros.png",
       "maxHeight": "600px"
     }
   }

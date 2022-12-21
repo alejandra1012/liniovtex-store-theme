@@ -24,7 +24,7 @@
   "image#about-us__banner1--image": {
     "title": "imagen de sección uno",
     "props": {
-      "src": "assets/img/banner__pag--quienes-somos.png",
+      "src": "/arquivos/banner__pag--quienes-somos.png",
       "blockClass": "about-us__banner1--image"
     }
   },
