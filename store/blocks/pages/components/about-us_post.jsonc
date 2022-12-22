@@ -32,7 +32,9 @@
     "title": "imagen primer post",
     "props": {
       "src": "/arquivos/post-about-u2.png",
-      "url":"https://www.wsj.com/articles/mexican-e-commerce-company-linio-raises-55-million-1474573495",
+      "link":{
+        "url":"https://www.wsj.com/articles/mexican-e-commerce-company-linio-raises-55-million-1474573495"
+      },
       "blockClass": "about-us__image--metodo-pago"
     }
 
@@ -41,7 +43,9 @@
         "title": "imagen segundo post",
         "props": {
           "src": "/arquivos/post-about-us1.png",
-          "url":"https://www.eleconomista.com.mx/empresas/Reducir-tiempos-de-compra-y-entrega-objetivo-de-Linio-20180416-0011.html",
+          "link":{
+            "url":"https://www.eleconomista.com.mx/empresas/Reducir-tiempos-de-compra-y-entrega-objetivo-de-Linio-20180416-0011.html"
+          },
           "blockClass": "about-us__image--metodo-pago"
         }
 
@@ -50,7 +54,9 @@
         "title": "imagen tercer post",
         "props": {
           "src": "/arquivos/post-about-u3.png",
-          "link": "https://www.forbes.com.mx/walmart-y-linio-los-grandes-ganadores-del-hot-sale/",
+          "link":{
+            "url": "https://www.forbes.com.mx/walmart-y-linio-los-grandes-ganadores-del-hot-sale/"
+          },
           "blockClass": "about-us__image--metodo-pago"
         }
       }

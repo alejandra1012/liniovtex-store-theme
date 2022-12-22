@@ -4,7 +4,13 @@
       "flex-layout.col#dates-sobre-linio--col1",
       "flex-layout.col#dates-sobre-linio--col2",
       "flex-layout.col#dates-sobre-linio--col3"
-    ]
+    ],
+    "props":{
+      "colSizing":"auto",
+      "rowGap": 7,
+      // "horizontalAlign":"between",
+      "blockClass":"container__dates--sobre-linio"
+    }
   },
   "flex-layout.col#dates-sobre-linio--col1":{
     "title":"Seccion de fechas importantes para linio",

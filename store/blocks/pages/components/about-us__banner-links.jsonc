@@ -1,0 +1,153 @@
+{
+  "flex-layout.row#about-us__banner--links": {
+    "title": "Banner con links para ver productos",
+    "children": [
+      "flex-layout.col#about-us__banner--links"
+    ],
+    "props": {
+      "blockClass": "container__banner--links"
+    }
+  },
+  "flex-layout.col#about-us__banner--links": {
+    "title": "links para ver los productos",
+    "children": [
+      "flex-layout.col#about-us__banner--title",
+      "flex-layout.col#about-us__banner--items"
+    ],
+    "props":{
+      "blockClass":"container__banner--links"
+    }
+  },
+  "flex-layout.col#about-us__banner--title":{
+    "children":[
+      "rich-text#about-us__title--empieza-a-comprar",
+      "rich-text#about-us__subtitle--empieza-a-comprar"
+    ],
+    "props":{
+      "blockClass":"container__banner--titles"
+    }
+  },
+  "rich-text#about-us__title--empieza-a-comprar":{
+    "title":"Titulo de banner links para comprar",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Empieza a comprar",
+      "blockClass":"title-link__empieza-a-comprar"
+    }
+  },
+  "rich-text#about-us__subtitle--empieza-a-comprar":{
+    "title":"SubTitulo de banner links para comprar",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Tenemos tus categorías favoritas esperando por ti.",
+      "blockClass":"subTitle-link__empieza-a-comprar"
+    }
+  },
+  "flex-layout.col#about-us__banner--items":{
+    "children":[
+      "rich-text#about-us__item1--empieza-a-comprar",
+      "rich-text#about-us__item2--empieza-a-comprar",
+      "rich-text#about-us__item3--empieza-a-comprar",
+      "rich-text#about-us__item4--empieza-a-comprar",
+      "rich-text#about-us__item5--empieza-a-comprar",
+      "rich-text#about-us__item6--empieza-a-comprar",
+      "rich-text#about-us__item7--empieza-a-comprar",
+      "rich-text#about-us__item8--empieza-a-comprar",
+      "rich-text#about-us__item9--empieza-a-comprar",
+      "rich-text#about-us__item10--empieza-a-comprar",
+      "rich-text#about-us__item11--empieza-a-comprar",
+      "rich-text#about-us__item12--empieza-a-comprar"
+    ],
+    "props":{
+      "colSizing":"auto",
+      "horizontalAling":"center",
+      "blockClass":"container__banner--items"
+    }
+  },
+  "rich-text#about-us__item1--empieza-a-comprar":{
+    "title":"primer item links para comprar",
+    "props": {
+      "text": "[![](/arquivos/sillon.png) \n HOGAR > ](/#)",
+      "blockClass":"link__empieza-a-comprar1"
+    }
+  },
+  "rich-text#about-us__item2--empieza-a-comprar":{
+    "title":"segundo item links para comprar",
+    "props": {
+      "text": "[![](/arquivos/escritorio.png) \n ELECTRÓNICOS > ](/#)",
+      "blockClass":"link__empieza-a-comprar"
+    }
+  },
+  "rich-text#about-us__item3--empieza-a-comprar":{
+    "title":"tercer item links para comprar",
+    "props": {
+      "text": "[![](/arquivos/telefono-inteligente.png) \n CELULARES > ](/#)",
+      "blockClass":"link__empieza-a-comprar"
+    }
+  },
+  "rich-text#about-us__item4--empieza-a-comprar":{
+    "title":"cuarto item links para comprar",
+    "props": {
+      "text": "[![](/arquivos/pesa.png) \n DEPORTES > ](/#)",
+      "blockClass":"link__empieza-a-comprar"
+    }
+  },
+  "rich-text#about-us__item5--empieza-a-comprar":{
+    "title":"quinto item links para comprar",
+    "props": {
+      "text": "[![](/arquivos/auriculares.png) \n AUDIO > ](/#)",
+      "blockClass":"link__empieza-a-comprar"
+    }
+  },
+  "rich-text#about-us__item6--empieza-a-comprar":{
+    "title":"sexto item links para comprar",
+    "props": {
+      "text": "[![](assets/img/pato.png) \n BEBÉS Y JUGUETES > ](/#)",
+      "blockClass":"link__empieza-a-comprar"
+    }
+  },
+  "rich-text#about-us__item7--empieza-a-comprar":{
+    "title":"septimo item links para comprar",
+    "props": {
+      "text": "[![](/arquivos/camara.png) \n FOTOGRAFÍA > ](/#)",
+      "blockClass":"link__empieza-a-comprar"
+    }
+  },
+  "rich-text#about-us__item8--empieza-a-comprar":{
+    "title":"octavo item links para comprar",
+    "props": {
+      "text": "[![](/arquivos/libro.png) \n LIBROS > ](/#)",
+      "blockClass":"link__empieza-a-comprar1"
+    }
+  },
+  "rich-text#about-us__item9--empieza-a-comprar":{
+    "title":"noveno item links para comprar",
+    "props": {
+      "text": "[![](/arquivos/olla-arrocera.png) \n ELECTRODOMÉSTICOS > ](/#)",
+      "blockClass":"link__empieza-a-comprar"
+    }
+  },
+  "rich-text#about-us__item10--empieza-a-comprar":{
+    "title":"decimo item links para comprar",
+    "props": {
+      "text": "[![](/arquivos/pantalon.png) \n MODA > ](/#)",
+      "blockClass":"link__empieza-a-comprar1"
+    }
+  },
+  "rich-text#about-us__item11--empieza-a-comprar":{
+    "title":"onceavo item links para comprar",
+    "props": {
+      "text": "[![](/arquivos/belleza.png) \n SALUD Y BELLEZA > ](/#)",
+      "blockClass":"link__empieza-a-comprar"
+    }
+  },
+  "rich-text#about-us__item12--empieza-a-comprar":{
+    "title":"doceavo item links para comprar",
+    "props": {
+      "text": "[![](/arquivos/palanca-de-mando.png) \n VIDEOJUEGOS > ](/#)",
+      "blockClass":"link__empieza-a-comprar1"
+    }
+  }
+}

@@ -15,7 +15,9 @@
         "flex-layout.row#post__about-us",
         "flex-layout.row#comentarios__about-us",
         "flex-layout.row#pages__about-us-banner--final",
-        "flex-layout.row#img__dates-sobre-linio"
+        "flex-layout.row#img__dates-sobre-linio",
+        "flex-layout.row#about-us__info",
+        "flex-layout.row#about-us__banner--links"
       ]
     }
    }

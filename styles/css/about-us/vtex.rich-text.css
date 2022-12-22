@@ -41,3 +41,47 @@
     font-weight: bold;
     color: #666;
 }
+.paragraph--title-comentarios__about-us{
+    font-size: 30px;
+    font-weight: bold;
+    color: #666;
+}
+.paragraph--text-final__about-us{
+    font-size: 14.4px;
+    color: #666;
+}
+.container--link__empieza-a-comprar1{
+    text-align: center;
+}
+.container--link__empieza-a-comprar{
+    text-align: center;
+}
+.paragraph--title-link__empieza-a-comprar{
+    font-size: 30px;
+    font-weight: bold;
+    color: #F5A623;
+    margin: 0;
+}
+.paragraph--subTitle-link__empieza-a-comprar{
+    font-size: 18px;
+    color: white;
+    margin-bottom:0 ;
+    margin-top: 10px;
+}
+.image--link__empieza-a-comprar{
+    width: 30%;
+}
+.image--link__empieza-a-comprar1{
+    width: 40%;
+}
+.link--link__empieza-a-comprar{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+.link--link__empieza-a-comprar1{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+
+}

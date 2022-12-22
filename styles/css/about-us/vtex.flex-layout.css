@@ -33,3 +33,24 @@
 .flexCol--title-post__about-us{
     align-items: center;
 }
+.flexRow--container__dates--sobre-linio{
+    padding-right: 225px;
+    padding-left: 258px;
+}
+.flexRow--text-final__about-us{
+    padding-left: 89px;
+    padding-right: 89px;
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+.flexCol--container__banner--items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
+.flexRow--container__banner--links{
+    background-color: #343a40;
+    margin-bottom: 50px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
