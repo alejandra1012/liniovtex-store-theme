@@ -1,0 +1,30 @@
+{
+    "flex-layout.row#pages__about-us-banner--final": {
+        "title": "Pagina Sobre nosotros banner final",
+        "children": [
+          "flex-layout.col#about-us__banner--final"
+          
+        ],
+          "props": {
+          "blockClass": "pages__about-us-banner--final"
+        }
+      },
+      "flex-layout.col#about-us__banner--final": {
+        "title": "container imagen de sección uno",
+        "children": [
+          "image#about-us__banner--final"
+        ],
+        "props": {
+          "blockClass": "section__about-us--image",
+          "colSizing": "auto",
+          "fullWidth": true
+        }
+      },
+      "image#about-us__banner--final": {
+        "title": "imagen de sección uno",
+        "props": {
+          "src": "/arquivos/banner_descarga-app.png",
+          "blockClass": "about-us__banner--final"
+        }
+      }
+}

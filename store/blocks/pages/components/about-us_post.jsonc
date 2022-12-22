@@ -1,0 +1,57 @@
+{
+  "flex-layout.row#post__about-us": {
+    "title": "container de las publicaciones sobre lINIO",
+    "children": ["flex-layout.col#post__about-us"],
+    "props": {
+      "rowGap":7,
+      "blockClass": "container__post--about-us"
+    }
+  },
+  "flex-layout.col#post__about-us": {
+    "title": "post sobre linio",
+    "children": [
+      "rich-text#titulo__post--about-us",
+      "image#primer-post__about-us",
+      "image#segundo-post__about-us",
+      "image#tercer-post__about-us"
+    ],
+    "props":{
+      "blockClass": "title-post__about-us"
+    }
+  },
+  "rich-text#titulo__post--about-us": {
+    "title":"titulo post sobre linio",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Lo que los medios del universo dicen",
+      "blockClass":"title-post__about-us"
+    }
+  },
+  "image#primer-post__about-us":{
+    "title": "imagen primer post",
+    "props": {
+      "src": "/arquivos/post-about-u2.png",
+      "url":"https://www.wsj.com/articles/mexican-e-commerce-company-linio-raises-55-million-1474573495",
+      "blockClass": "about-us__image--metodo-pago"
+    }
+
+  },
+      "image#segundo-post__about-us":{
+        "title": "imagen segundo post",
+        "props": {
+          "src": "/arquivos/post-about-us1.png",
+          "url":"https://www.eleconomista.com.mx/empresas/Reducir-tiempos-de-compra-y-entrega-objetivo-de-Linio-20180416-0011.html",
+          "blockClass": "about-us__image--metodo-pago"
+        }
+
+      },
+      "image#tercer-post__about-us":{
+        "title": "imagen tercer post",
+        "props": {
+          "src": "/arquivos/post-about-u3.png",
+          "link": "https://www.forbes.com.mx/walmart-y-linio-los-grandes-ganadores-del-hot-sale/",
+          "blockClass": "about-us__image--metodo-pago"
+        }
+      }
+}

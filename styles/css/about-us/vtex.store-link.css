@@ -1,0 +1,11 @@
+.link--marcas-aliadas__botton--ver-mas{
+    background-color: transparent;
+    color: #f50;
+    text-transform: capitalize;
+    border-color: #f50;
+}
+.link--marcas-aliadas__botton--ver-mas:hover{
+    background-color: #f50;
+    border-color:#f50 ;
+    color: #fff;
+}

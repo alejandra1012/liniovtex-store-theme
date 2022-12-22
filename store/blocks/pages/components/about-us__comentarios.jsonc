@@ -1,0 +1,60 @@
+{
+    
+  "flex-layout.row#comentarios__about-us": {
+    "title": "container de los comentarios sobre lINIO",
+    "children": ["flex-layout.col#comentarios__about-us"],
+    "props": {
+      "rowGap":7,
+      "blockClass": "container__comentarios--about-us"
+    }
+  },
+  "flex-layout.col#comentarios__about-us": {
+    "title": "comentarios sobre linio",
+    "children": [
+      "rich-text#titulo__comentarios--about-us",
+      "flex-layout.row#img__comentarios-sobre-linio"
+    ],
+    "props":{
+      "blockClass": "title-comentarios__about-us"
+    }
+  },
+  "rich-text#titulo__comentarios--about-us": {
+    "title":"titulo comentarios sobre linio",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "¿Qué dicen nuestros Linionautas?",
+      "blockClass":"title-comentarios__about-us"
+    }
+  },
+  "flex-layout.row#img__comentarios-sobre-linio":{
+    "children":[
+     "image#primer-comentarios__about-us",
+    "image#segundo-comentarios__about-us",
+    "image#tercer-comentarios__about-us" 
+]
+  },
+  "image#primer-comentarios__about-us":{
+    "title": "imagen primer comentarios",
+    "props": {
+      "src": "/arquivos/comentarios-1.png",
+      "blockClass": "about-us__image--metodo-pago"
+    }
+
+  },
+      "image#segundo-comentarios__about-us":{
+        "title": "imagen segundo comentarios",
+        "props": {
+          "src": "/arquivos/comentarios-2.png",
+          "blockClass": "about-us__image--metodo-pago"
+        }
+
+      },
+      "image#tercer-comentarios__about-us":{
+        "title": "imagen tercer comentarios",
+        "props": {
+          "src": "/arquivos/comentarios-3.png",
+          "blockClass": "about-us__image--metodo-pago"
+        }
+      }
+}

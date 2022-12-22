@@ -30,3 +30,14 @@
     text-decoration: none;
     color: #333;
 }
+.paragraph--marcas-aliadas__text--title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 0;
+}
+.paragraph--title-post__about-us{
+    font-size: 30px;
+    font-weight: bold;
+    color: #666;
+}

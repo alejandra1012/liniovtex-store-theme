@@ -20,3 +20,16 @@
     align-items: center;
     
 }
+.flexCol--marcas-aliadas__col-2 {
+    align-items: center;
+}
+.flexRow--container__button--ver-mas{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.flexRow--container__post--about-us{
+    background-color: #F8F5F5;
+}
+.flexCol--title-post__about-us{
+    align-items: center;
+}
