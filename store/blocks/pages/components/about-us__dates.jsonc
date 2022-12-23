@@ -1,0 +1,88 @@
+{
+  "flex-layout.row#img__dates-sobre-linio": {
+    "children": [
+      "flex-layout.col#dates-sobre-linio--col1",
+      "flex-layout.col#dates-sobre-linio--col2",
+      "flex-layout.col#dates-sobre-linio--col3"
+    ],
+    "props":{
+      "colSizing":"auto",
+      "rowGap": 7,
+      // "horizontalAlign":"between",
+      "blockClass":"container__dates--sobre-linio"
+    }
+  },
+  "flex-layout.col#dates-sobre-linio--col1":{
+    "title":"Seccion de fechas importantes para linio",
+    "children":[
+      "image#one-dates__about-us",
+      "image#two-dates__about-us"
+    ],
+    "props":{
+      "blockClass":"dates-sobre-linio--col1"
+    }
+
+  },
+  "image#one-dates__about-us": {
+    "title": "imagen one dates",
+    "props": {
+      "src": "/arquivos/dates-linio-1.png",
+      "blockClass": "about-us__image--dates"
+    }
+  },
+  "image#two-dates__about-us": {
+    "title": "imagen two dates",
+    "props": {
+      "src":"/arquivos/dates-linio-4.png",
+      "blockClass": "about-us__image--dates"
+    }
+  },
+  "flex-layout.col#dates-sobre-linio--col2":{
+    "title":"Seccion de fechas importantes para linio",
+    "children":[
+      "image#three-dates__about-us",
+      "image#for-dates__about-us"
+    ],
+    "props":{
+      "blockClass":"dates-sobre-linio--col2"
+    }
+  },
+  "image#three-dates__about-us": {
+    "title": "imagen three dates",
+    "props": {
+      "src": "/arquivos/dates-linio-2.png",
+      "blockClass": "about-us__image--dates"
+    }
+  },
+  "image#for-dates__about-us":{
+    "title": "imagen for dates",
+    "props": {
+      "src": "/arquivos/dates-linio-5.png",
+      "blockClass": "about-us__image--dates"
+    }
+  },
+  "flex-layout.col#dates-sobre-linio--col3":{
+    "title":"Seccion de fechas importantes para linio",
+    "children":[
+      "image#five-dates__about-us",
+      "image#six-dates__about-us"
+    ],
+    "props":{
+      "blockClass":"dates-sobre-linio--col3"
+    }
+  },
+  "image#five-dates__about-us":{
+    "title": "imagen five comentarios",
+    "props": {
+      "src":  "/arquivos/dates-linio-3.png",
+      "blockClass": "about-us__image--dates"
+    }
+  },
+  "image#six-dates__about-us":{
+    "title": "imagen six comentarios",
+    "props": {
+      "src": "/arquivos/dates-linio-6.png",
+      "blockClass": "about-us__image--dates"
+    }
+  }
+}

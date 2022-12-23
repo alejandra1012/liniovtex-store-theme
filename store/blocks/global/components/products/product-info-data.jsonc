@@ -1,66 +1,100 @@
 {
-    
   "flex-layout.row#product-info": {
-    "title":"Informacion General de la PDP",
+    "title": "Informacion General de la PDP",
     "props": {
       "colGap": 7,
       "rowGap": 7,
       "marginTop": 4,
       "marginBottom": 7,
       "paddingTop": 7,
-      "paddingBottom": 7
+      "paddingBottom": 7,
+      "blockClass": "container__product-info"
     },
-    "children": ["flex-layout.col#product__info--image", "flex-layout.col#product__info--data"]
+    "children": [
+      "flex-layout.col#product__info--image",
+      "flex-layout.col#product__info--data"
+    ]
   },
   "flex-layout.col#product__info--image": {
-    "title":"Imagenes del Producto",
+    "title": "Imagenes del Producto",
     "props": {
       "width": "50%",
-      "rowGap": 0
+      "rowGap": 0,
+      "blockClass": "product__info--image"
     },
-    "children": ["product-images"]
+    "children": [
+      "product-images"
+    ]
   },
   "product-images": {
     "props": {
       "displayThumbnailsArrows": true,
       "zoonMode": "open-modal"
-
     }
   },
   "flex-layout.col#product__info--data": {
-    "title":"Data del Producto",
+    "title": "Data del Producto",
     "props": {
       "preventVerticalStretch": true,
-      "rowGap": 0
+      "rowGap": 0,
+      "blockClass": "product__info--data"
     },
     "children": [
       "vtex.store-components:product-name",
       "product-rating-summary",
       "product-price#product-details",
       "product-separator",
-      "product-quantity",
-      "product-identifier.product",
-      "sku-selector",
-      "add-to-cart-button",
-      "availability-subscriber",
       "shipping-simulator",
+      "sku-selector",
+      "flex-layout.row#product__quantity--add-to-cart-bottom",
+      "product-identifier.product",
+      "availability-subscriber",
       "share#default"
     ]
   },
   "product-price#product-details": {
     "props": {
       "showInstallments": true,
-      "showSavings": true
+      "showSavings": true,
+      "blockClass": "price__product-details"
     }
   },
-  "flex-layout.row#buy-button": {
+  "shipping-simulator": {
     "props": {
-      "marginTop": 4,
-      "marginBottom": 7
-    },
-    "children": ["buy-button"]
+      "skuID": "342",
+      "blockClass": "container__shipping-simulator"
+    }
   },
-
+  "sku-selector": {
+    "title": "SKU selector",
+    "props": {
+      "blockClass": "container__sku-selector"
+    }
+  },
+  "flex-layout.row#product__quantity--add-to-cart-bottom": {
+    "title": "Catidad y boton de agregar al carrito ",
+    "children": [
+      "product-quantity",
+      "add-to-cart-button"
+    ],
+    "props": {
+      "rowGap": 3,
+      "blockClass": "container__quantity--add-to-cart-bottom"
+    }
+  },
+  "product-quantity": {
+    "props": {
+      "selectorType": "dropdown",
+      "size": "regular",
+      "blockClass": "container__product-quantity"
+    }
+  },
+  "add-to-cart-button": {
+    "title": "Boton de agragar al carrito",
+    "props": {
+      "blockClass": "buttom__add-to-cart"
+    }
+  },
   "share#default": {
     "props": {
       "social": {

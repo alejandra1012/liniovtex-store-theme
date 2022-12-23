@@ -1,0 +1,36 @@
+{
+    "search-result-layout.desktop#desktop__results":{
+      "title":"Resultado de busqueda por departamento vista desktop",
+        "children":[
+          "flex-layout.row#result__breadcrumb",
+          "flex-layout.row#result__results--desktop",
+          "rich-text#busqueda-por-defecto",
+          "flex-layout.row#didyoumean__desktop",
+          "flex-layout.row#suggestion__desktop"
+        ]
+      },
+      "rich-text#busqueda-por-defecto":{
+        "props":{
+          "text":"Marcas Relacionadas"
+        }
+      },
+      "flex-layout.row#result__breadcrumb":{
+        "children":[
+            "flex-layout.col#result__breadcrumb"
+        ]
+      },
+      "flex-layout.col#result__breadcrumb":{
+        "children":[
+            "breadcrumb.search"
+        ],
+        "props":{
+          "blockClass":"container__result--breadcrumb"
+        }
+      },
+      "flex-layout.row#didyoumean__desktop": {
+        "children": ["did-you-mean"]
+    },
+    "flex-layout.row#suggestion__desktop": {
+      "children": ["search-suggestions"]
+  }
+}

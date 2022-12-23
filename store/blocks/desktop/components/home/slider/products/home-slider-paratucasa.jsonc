@@ -32,8 +32,15 @@
     "product-summary.shelf#slider__paratucasa": {
         "children": [
             "product-summary-image",
-            "product-summary-name"
-        ]
+            "product-summary-name",
+            "product-price-savings",
+            "product-selling-price",
+            "product-installments-list",
+           "flex-layout.row#bottom__show-product"
+        ],
+        "props":{
+            "blockClass":"slider__productos"
+        }
     },
     "slider-layout#paratucasa": {
         "props": {

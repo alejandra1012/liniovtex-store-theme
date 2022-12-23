@@ -1,0 +1,12 @@
+.flexCol--container__drawer--categorias{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.flexCol--container__drawer--beneficios-linio{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  
+
+    
+}  

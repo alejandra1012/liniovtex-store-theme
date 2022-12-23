@@ -5,7 +5,7 @@
     align-items: center;
     background: transparent;
     border: none;
-    border-top: 1px solid #000;
+    border-top: 1px solid #ccc;
     padding: 16px 4px;
 }
 .trigger--disclosure__trigger :global(.vtex-rich-text-0-x-paragraph){

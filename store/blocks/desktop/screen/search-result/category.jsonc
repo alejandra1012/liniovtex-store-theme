@@ -1,0 +1,27 @@
+{
+    "search-result-layout.desktop#desktop__category":{
+        "children":[
+          "flex-layout.row#category__breadcrumb",
+          "flex-layout.row#category__results--desktop",
+          "rich-text#prueba2"
+        ]
+      },
+      "rich-text#prueba2":{
+        "props":{
+          "text": "Productos Relacionados"
+        }
+      },
+      "flex-layout.row#category__breadcrumb":{
+        "children":[
+            "flex-layout.col#category__breadcrumb"
+        ]
+      },
+      "flex-layout.col#category__breadcrumb":{
+        "children":[
+            "breadcrumb.search"
+        ],
+        "props":{
+          "blockClass":"container__result--breadcrumb"
+        }
+      }
+}

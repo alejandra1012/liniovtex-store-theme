@@ -1,0 +1,33 @@
+{   
+    "flex-layout.row#brand__results--desktop":{
+        "children":[
+            "flex-layout.col#brand__results--filter-desktop",
+            "flex-layout.col#brand__results--content-desktop"
+        ]
+      },
+      "flex-layout.col#brand__results--filter-desktop":{
+        "children":[
+            "filter-navigator.v3"
+        ],
+        "props":{
+            "width": "75%"
+        }
+      },
+      "flex-layout.col#brand__results--content-desktop":{
+        "children":[
+            "flex-layout.row#orderByAndSwitcher",
+            "search-content#results__content--products-brand"
+        ],
+        "props":{
+            "width":"75%",
+            "blockClass": "container__orderbyAndSwitcher--content"
+        }
+      },
+      "search-content#results__content--products-brand":{
+        "blocks":[
+            "gallery#global",
+            "not-found"
+        ]
+    }
+    
+}

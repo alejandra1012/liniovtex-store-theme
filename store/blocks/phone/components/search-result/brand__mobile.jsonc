@@ -1,0 +1,44 @@
+{
+    "responsive-layout.phone#phone__brand":{
+        "title": "Vista phone busqueda por marca",
+        "children":[
+            "flex-layout.row#brand__results"
+        ],
+        "props":{
+            "blockClass":"searh-result__phone--brand"
+        }
+      },
+      "flex-layout.row#brand__results":{
+        "children":[
+            "flex-layout.row#brand__results--filter-mobile",
+            "flex-layout.col#brand__results--content-mobile"
+        ]
+      },
+      "flex-layout.row#brand__results--filter-mobile":{
+        "children":[
+            "gallery-layout-switcher",
+            "order-by.v2",
+            "filter-navigator.v3"
+        ],
+        "props":{
+            "width": "75%",
+            "preserveLayoutOnMobile": true
+        }
+      },
+      "flex-layout.col#brand__results--content-mobile":{
+        "children":[
+            "search-content#mobile__content--products-brand"
+        ],
+        "props":{
+            "width":"75%"
+        }
+      },
+      "search-content#mobile__content--products-brand":{
+        "blocks":[
+            "gallery#global",
+            "not-found"
+        ]
+    }
+      
+      
+}

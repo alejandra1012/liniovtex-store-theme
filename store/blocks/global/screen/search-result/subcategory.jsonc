@@ -1,0 +1,24 @@
+{
+    "store.search#subcategory":{
+        "title":"store searh subcategory",
+        "blocks":["search-result-layout","search-products-count-per-page"],
+        "props":{
+          "context": {
+            "skusFilter": "FIRST_AVAILABLE",
+            "simulationBehavios": "default"
+          }
+        }
+      },
+      "search-result-layout#subcategory":{
+        "blocks":[
+          "search-result-layout.desktop#desktop__subcategory",
+          "search-result-layout.mobile#mobile__subcategory",
+          "search-not-found-layout"
+        ]
+      },
+      "rich-text#department__title":{
+        "props":{
+            "text": "# Estamos en una página de subcategoria"
+        }
+      }
+}

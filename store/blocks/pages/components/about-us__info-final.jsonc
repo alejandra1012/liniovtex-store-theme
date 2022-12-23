@@ -1,0 +1,18 @@
+{
+  "flex-layout.row#about-us__info": {
+    "title": "Informacion final de la pagina about us",
+    "children": [
+      "rich-text#about-us-info-text"
+    ],
+    "props":{
+      "blockClass":"text-final__about-us"
+    }
+  },
+  "rich-text#about-us-info-text": {
+    "title": "Informacion",
+    "props": {
+      "text": "¹ Empresas Falabella cuenta con presencia en Chile, Perú, Colombia, Argentina, Brasil, Uruguay y México, a través de cinco unidades de negocio: tiendas por departamento, mejoramiento del hogar, supermercados, inmobiliario y servicios financieros. Con esta adquisición Linio será el marketplace principal del grupo para brindar el mejor servicio junto con mejores productos tanto a clientes finales como a sellers, manteniendo su marca.",
+      "blockClass":"text-final__about-us"
+    }
+  }
+}

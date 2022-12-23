@@ -1,0 +1,132 @@
+{
+    "drawer#phone__sub-drawer--mi-cuenta": {
+        "title": "Sub-drawer Mi Cuenta",
+        "blocks": [
+            "drawer-trigger#phone__sub-drawer-mi-cuenta",
+            "drawer-header#phone__sub-drawer--mi-cuenta"
+        ],
+        "children": [
+            "flex-layout.col#container__drawer--mi-cuenta"
+        ],
+        "props": {
+            "blockClass": "sub-drawer__mi-cuenta"
+        }
+    },
+    "drawer-trigger#phone__sub-drawer-mi-cuenta": {
+        "title": "Trigger del sub-drawer Mi Cuenta",
+        "children": [
+            "rich-text#phone__sub-drawer--mi-cuenta"
+        ],
+        "props": {
+            "blockClass": "drawer-trigger__mi-cuenta"
+        }
+    },
+    "rich-text#phone__sub-drawer--mi-cuenta": {
+        "title": "Texto del trigger Mi Cuenta",
+        "props": {
+            "text": "![](/arquivos/drawer-mi-cuenta.png)  Mi Cuenta",
+            "blockClass": "text-trigger__mi-cuenta"
+        }
+    },
+    "drawer-header#phone__sub-drawer--mi-cuenta":{
+        "title":"Texto del Header del sub-drawer mi cuenta",
+        "children":[
+            "flex-layout.row#header__sub-drawer--mi-cuenta"
+        ],
+        "props":{
+            "blockClass":"phone__sub-drawer"
+        }
+    },
+    "flex-layout.row#header__sub-drawer--mi-cuenta":{
+        "title":"container texto y boton de cierre del sub-drawer categorias",
+        "children":[
+            "drawer-close-button",
+            "rich-text#header__sub-drawer--text-mi-cuenta"
+        ],
+        "props":{
+            "preserveLayoutOnMobile": true,
+            "colSizing":"auto",
+            "blockClass":"header__sub-drawer"
+        }
+    },
+    "rich-text#header__sub-drawer--text-mi-cuenta":{
+        "title":"Texto del Header del sub-drawer mi cuenta",
+        "props":{
+            "text":"Mi Cuenta",
+            "blockClass":"header__sub-drawer--text"
+        }
+    },
+
+    "flex-layout.col#container__drawer--mi-cuenta": {
+        "title": "Contenedor items del sub-drawer Mi Cuenta",
+        "children": [
+            "rich-text#mis-pedidos",
+            "rich-text#cmr-puntos",
+            "rich-text#mis-reseñas",
+            "rich-text#mis-cupones",
+            "rich-text#mis-datos-personales",
+            "rich-text#mis-direcciones",
+            "rich-text#mis-metodos-de-pago",
+            "rich-text#mis-suscripciones"
+        ],
+        "props": {
+            "blockClass": "container__drawer--mi-cuenta"
+        }
+    },
+    "rich-text#mis-pedidos": {
+        "title": "Texto e imagen de Mis Pedidos",
+        "props": {
+            "text": "[![](/arquivos/link_menu-cuenta-pedidos.png) Mis Pedidos](/login)",
+            "blockClass": "items__mi-cuenta"
+        }
+    },
+    "rich-text#cmr-puntos": {
+        "title": "Texto e imagen de CMR Puntos",
+        "props": {
+            "text": "[![](/arquivos/link_menu-cuenta-cmr.png) CMR Puntos](/login)",
+            "blockClass": "items__mi-cuenta"
+        }
+    },
+    "rich-text#mis-reseñas": {
+        "title": "Texto e imagen de Reseñas",
+        "props": {
+            "text": "[![](/arquivos/link_menu-cuenta-reseñas.png) Mis reseñas](/login)",
+            "blockClass": "items__mi-cuenta"
+        }
+    },
+    "rich-text#mis-cupones": {
+        "title": "Texto e imagen de Mis Cupones",
+        "props": {
+            "text": "[![](/arquivos/link__menu--categorias-etiqueta.png) Mis cupones](/login)",
+            "blockClass": "items__mis-cupones"
+        }
+    },
+    "rich-text#mis-datos-personales": {
+        "title": "Texto e imagen de Datos personales",
+        "props": {
+            "text": "[![](/arquivos/drawer-mi-cuenta.png) Mis datos personales](/login)",
+            "blockClass": "items__mi-cuenta"
+        }
+    },
+    "rich-text#mis-direcciones": {
+        "title": "Texto e imagen de Direcciones",
+        "props": {
+            "text": "[![](/arquivos/link_menu-cuenta-direcc.png) Mis direcciones](/login)",
+            "blockClass": "items__mi-cuenta"
+        }
+    },
+    "rich-text#mis-metodos-de-pago": {
+        "title": "Texto e imagen de Metodos de pago",
+        "props": {
+            "text": "[![](/arquivos/link_menu-cuenta-pagos.png) Mis metodos de pago](/login)",
+            "blockClass": "items__mi-cuenta"
+        }
+    },
+    "rich-text#mis-suscripciones": {
+        "title": "Texto e imagen de Suscripciones",
+        "props": {
+            "text": "[![](/arquivos/link_menu-cuenta-suscripc.png) Mis suscripciones](/login)",
+            "blockClass": "items__mis-suscripciones"
+        }
+    }
+}

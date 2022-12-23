@@ -45,7 +45,6 @@
             "usePagination": false,
             "showPaginationDots": "never",
             "infinite": true,
-            // "showNavigationArrows": "desktopOnly",
             "centerMode": "to-the-left",
             "centerModeSlidesGap": 8,
             "blockClass": "home__slider2--mobile"

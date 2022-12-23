@@ -104,15 +104,15 @@
     "flex-layout.col#minicart__col--info":{
         "children":[
             "vtex.product-list:product-name",
-            "quantity-selector#minicart",
+            "quantity-selector",
             "price"
         ]
     },
-    "quantity-selector#minicart":{
-        "props":{
-            "mode": "stepper"
-        }
-    },
+    // "quantity-selector#minicart":{
+    //     "props":{
+    //         "mode": "stepper"
+    //     }
+    // },
     "product-list-content-desktop":{
         "children":[
             "flex-layout.row#minicart__row--desktop"

@@ -1,0 +1,115 @@
+{
+  "flex-layout.row#marcas-aliadas__tilte": {
+    "title": "Titulo marcas aliadas de linio",
+    "children": [
+      "rich-text#marcas-aliadas__title"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "horizontalAlign": "center",
+      "blockClass": "marcas-aliadas__title"
+    }
+  },
+  "rich-text#marcas-aliadas__title": {
+    "title": "titulo-text marcas aliadas",
+    "props": {
+      "text": "Aliados de la galaxia Linio",
+      "blockClass": "marcas-aliadas__text--title"
+    }
+  },
+  "flex-layout.row#marcas-aliadas__images": {
+    "title": "Section marcas aliadas de linio",
+    "children": [
+      "flex-layout.col#marcas-aliadas--col1",
+      "flex-layout.col#marcas-aliadas--col2",
+      "flex-layout.col#marcas-aliadas--col3"
+    ],
+    "props": {
+      "horizontalAlign":"around",
+      "colSizing":"auto",
+      "rowGap":6,
+      "blockClass": "marcas-aliadas__container-image"
+    }
+  },
+  "flex-layout.col#marcas-aliadas--col1": {
+    "title": "Primera columna de marcas aliadas",
+    "children": [
+      "image#marcas-aliadas__lenovo",
+      "image#marcas-aliadas__motorola"
+    ],
+    "props": {
+      "colSizing":"auto",
+      "colGap":10,
+      "with":"100%",
+      "blockClass": "marcas-aliadas__col-1"
+    }
+  },
+  "image#marcas-aliadas__lenovo": {
+    "title":"Imagen marca Lenovo",
+    "props": {
+      "src": "/arquivos/lenovo.jpg",
+      "maxHeight": "27px"
+    }
+  },
+  "image#marcas-aliadas__motorola": {
+    "title":"Imagen marca Motorola",
+    "props": {
+      "src": "/arquivos/motorola.png",
+      "maxHeight": "60px"
+    }
+  },
+  "flex-layout.col#marcas-aliadas--col2":{
+    "title": "Segunda columna de marcas aliadas",
+    "children": [
+      "image#marcas-aliadas__hp",
+      "image#marcas-aliadas__oster"
+    ],
+    "props": {
+      "colSizing":"auto",
+      "with":"100%",
+      "colGap":10,
+      "blockClass": "marcas-aliadas__col-2"
+    }
+  },
+  "image#marcas-aliadas__hp": {
+    "title":"Imagen marca hp",
+    "props": {
+      "src": "/arquivos/hp.png",
+      "maxHeight": "45px"
+    }
+  },
+  "image#marcas-aliadas__oster": {
+    "title":"Imagen marca Oster",
+    "props": {
+      "src": "/arquivos/oster_1.jpg",
+      "maxHeight": "50px"
+    }
+  },
+  "flex-layout.col#marcas-aliadas--col3":{
+    "title": "Tercera columna de marcas aliadas",
+    "children": [
+      "image#marcas-aliadas__mabe",
+      "image#marcas-aliadas__remington"
+    ],
+    "props": {
+      "colSizing":"auto",
+      "with":"100%",
+      "colGap":10,
+      "blockClass": "marcas-aliadas__col-3"
+    }
+  },
+  "image#marcas-aliadas__mabe": {
+    "title":"Imagen marca mabe",
+    "props": {
+      "src": "/arquivos/mabe-marca.png",
+      "maxHeight": "50px"
+    }
+  },
+  "image#marcas-aliadas__remington": {
+    "title":"Imagen marca remington",
+    "props": {
+      "src": "/arquivos/remington-logo.png",
+      "maxHeight": "25px"
+    }
+  }
+}

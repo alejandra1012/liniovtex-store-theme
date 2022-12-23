@@ -1,0 +1,18 @@
+.link--botton__show-product{
+    background-color: #f50;
+    border-color: #f50;
+    color: #fff;
+    font-size: .95rem;
+    min-height: 30px;
+    margin-bottom: 4px;
+    min-width: 100%;
+}
+.buttonLink--botton__show-product:hover{
+    background-color: #f50;
+    border: #f50;
+}
+.label--botton__show-product {
+    padding: 0;
+    font-size: 14.8px;
+    text-transform: none;
+}

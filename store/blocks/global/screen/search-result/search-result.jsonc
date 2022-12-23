@@ -1,0 +1,22 @@
+{
+  "store.search": {
+    "blocks": ["search-result-layout", "search-products-count-per-page"],
+    "props":{
+      "context": {
+        "skusFilter": "ALL",
+        "simulationBehavios": "default"
+      }
+    }
+  },
+  "search-result-layout":{
+    "title":"Resul",
+    "blocks":[
+      "search-result-layout.desktop#desktop__results",
+      "search-result-layout.mobile#mobile__results",
+      "search-not-found-layout"
+    ],
+    "props":{
+      "defaultGalleryLayout": "general grid"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+    "search-result-layout.desktop#desktop__brand":{
+      "title":"Resultado de busqueda por marca vista desktop",
+        "children":[
+          "flex-layout.row#brand__breadcrumb",
+          "flex-layout.row#brand__results--desktop",
+          "rich-text#prueba4"
+        ]
+      },
+      "rich-text#prueba4":{
+        "props":{
+          "text": "Productos Relacionados"
+        }
+      },
+      "flex-layout.row#brand__breadcrumb":{
+        "children":[
+            "flex-layout.col#brand__breadcrumb"
+        ]
+      },
+      "flex-layout.col#brand__breadcrumb":{
+        "children":[
+            "breadcrumb.search"
+        ], "props":{
+          "blockClass":"container__result--breadcrumb"
+        }
+      }
+}

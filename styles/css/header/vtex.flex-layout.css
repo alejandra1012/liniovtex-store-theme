@@ -8,3 +8,6 @@
     align-items: center;
     
 }
+.flexRowContent--header__top--container :global(.vtex-sticky-layout-0-x-container){
+position: relative !important;
+}

@@ -1,0 +1,27 @@
+{
+    "flex-layout.row#marcas-aliadas__button--ver-mas":{
+        "title":"Boton de ver mas marcas aliadas",
+        "children":[ "flex-layout.col#marcas-aliadas__button--ver-mas"],
+        "props":{
+            "colSizing":"auto",
+            "horizontalAlign":"center",
+            "blockClass":"container__button--ver-mas"
+        }
+    },
+    "flex-layout.col#marcas-aliadas__button--ver-mas":{
+        "title":"Boton de ver mas marcas aliadas",
+        "children":[ "link#marcas-aliadas__button--ver-mas"],
+        "props":{
+            "colSizing":"auto",
+            "blockClass":"container__button--ver-mas"
+        }
+    },
+    "link#marcas-aliadas__button--ver-mas":{
+        "props":{
+            "displayMode": "button",
+            "href": "/",
+            "label": "Ver Más >",
+            "blockClass":"marcas-aliadas__botton--ver-mas"
+        }
+    }
+}

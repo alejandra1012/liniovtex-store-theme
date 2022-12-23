@@ -1,0 +1,56 @@
+.flexCol--section__about-us--image{
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.flexCol--pages__about-us-text{
+    align-items: center;
+}
+.flexCol--container__img--metodo-pago{
+    align-items: center;
+}
+.flexRowContent--container__linio-en-numeros{
+    align-items: center;
+}
+.flexCol--title__linio-en-numeros{
+    align-items: center;
+    background-color: #F8F5F5
+}
+.flexCol--banner__linio-en-numeros{
+    align-items: center;
+    
+}
+.flexCol--marcas-aliadas__col-2 {
+    align-items: center;
+}
+.flexRow--container__button--ver-mas{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.flexRow--container__post--about-us{
+    background-color: #F8F5F5;
+}
+.flexCol--title-post__about-us{
+    align-items: center;
+}
+.flexRow--container__dates--sobre-linio{
+    padding-right: 225px;
+    padding-left: 258px;
+}
+.flexRow--text-final__about-us{
+    padding-left: 89px;
+    padding-right: 89px;
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+.flexCol--container__banner--items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
+.flexRow--container__banner--links{
+    background-color: #343a40;
+    margin-bottom: 50px;
+    margin-right: 5px;
+    margin-left: 5px;
+}

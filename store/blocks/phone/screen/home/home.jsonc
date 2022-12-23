@@ -1,6 +1,7 @@
 {
     "responsive-layout.mobile": {
         "children": [
+            "whatsapp-button",
             "flex-layout.row#home__section--banner1",
             "list-context.image-list#home__slider--list",
             "list-context.image-list#home__slider2--categorias"

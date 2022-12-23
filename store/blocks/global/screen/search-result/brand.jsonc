@@ -1,0 +1,18 @@
+{
+    "store.search#brand":{
+        "blocks":["search-result-layout","search-products-count-per-page"],
+        "props":{
+          "context": {
+            "skusFilter": "FIRST_AVAILABLE",
+            "simulationBehavios": "default"
+          }
+        }
+      },
+      "search-result-layout#brand":{
+        "blocks":[
+            "search-result-layout.desktop#desktop__brand",
+            "search-result-layout.mobile#mobile__brand",
+            "search-not-found-layout"
+        ]
+    }
+}

@@ -12,13 +12,13 @@
   },
   "flex-layout.col#desktop__container--home": {
     "children": [
+      "whatsapp-button",
       "flex-layout.row#desktop__top--home-link",
       "flex-layout.row#home__section--banner1",
       "flex-layout.row#slider__main",
       "flex-layout.row#home__section--two",
       "modal-trigger#home__modal--event",
       "flex-layout.row#home__section--recomenproductos",
-      "flex-layout.row#home__banner-contador",
       "flex-layout.row#home-banner2-items-title",
       "flex-layout.row#home-banner2-items-tecn",
       "flex-layout.row#home__section--destacados",
@@ -38,6 +38,16 @@
     "props": {
       "blockClass": "desktop__container--home",
       "rowGap": 5
+    }
+  },
+  "whatsapp-button":{
+    "title":"Boton de whatsApp",
+    "props":{
+      "logo": "assets/img/whatsapp.png",
+      "phone": "+573212018212",
+      "message": "Estas comunicandote con Alejandra",
+      "width": 50,
+      "height": 50
     }
   }
 }

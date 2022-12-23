@@ -1,0 +1,77 @@
+.caretIcon{
+    width: 12px;
+    color:#333
+}
+.productNameContainer{
+    font-weight: bold !important;
+    font-size: 20.8px ;
+}
+.price_sellingPriceContainer--price__product-details{
+    color: #333;
+}
+.price_sellingPrice--price__product-details{
+    font-size: 20.8px;
+}
+.price_installmentContainer--price__product-details{
+    color: #ea2840;
+    font-size: 20.8px;
+    font-weight: bold;
+}
+.price_installment--price__product-details{
+    font-size: 20.8px;
+    font-weight: bold;
+}
+.price_savings--price__product-details{
+    color: #333;
+    font-size: 14.8px;
+    font-weight: 400;
+    line-height: 20.8px;
+}
+.shippingContainer{
+    border: 1px solid #eee;
+}
+.shippingContainer :global(.vtex-dropdown__label){
+    color: #45a00a;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.6rem;
+    position: relative
+}
+.shippingContainer :global(.vtex-dropdown__caption){
+    font-size: 14px;
+}
+.shippingContainer :global(.vtex-address-form__field--large){
+   padding: 0;
+ 
+
+}
+.shippingContainer :global(.vtex-button){
+    color: #f50;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    background-color: transparent;
+    border: transparent;
+    width: revert;
+
+}
+.shippingContainer:hover :global(.vtex-button__label){
+    color: #c40;
+}
+.skuSelectorName{
+    font-size: 16px;
+    color: #666;
+}
+.skuSelectorItem--selected{
+    border-color:#80bdff;
+    border: 1px solid #80bdff;
+    box-shadow: 0 0 5px 0.2rem rgb(0 123 255 / 25%);
+}
+
+.frameAround--container__sku-selector{
+    border: none;
+}
+.specificationsTitle{
+font-size: 16px;
+}

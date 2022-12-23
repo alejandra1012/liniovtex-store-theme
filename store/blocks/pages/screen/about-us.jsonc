@@ -1,0 +1,23 @@
+{
+    "store.custom#about-us": {
+      "blocks": [
+        "flex-layout.row#pages__about-us-banner1--image",
+        "flex-layout.row#pages__about-us-banner1--text",
+        "flex-layout.row#pages__about-us--link",
+        "flex-layout.row#pages__about-us--link5",
+        "flex-layout.row#about-us__metodos-pago1-images",
+        "flex-layout.row#about-us__metodos-pago2-images",
+        "flex-layout.row#about-us__linio-en-numeros",
+        "flex-layout.row#about-us__linio-en-numeros--banner",
+        "flex-layout.row#marcas-aliadas__tilte",
+        "flex-layout.row#marcas-aliadas__images",
+        "flex-layout.row#marcas-aliadas__button--ver-mas",
+        "flex-layout.row#post__about-us",
+        "flex-layout.row#comentarios__about-us",
+        "flex-layout.row#pages__about-us-banner--final",
+        "flex-layout.row#img__dates-sobre-linio",
+        "flex-layout.row#about-us__info",
+        "flex-layout.row#about-us__banner--links"
+      ]
+    }
+   }
