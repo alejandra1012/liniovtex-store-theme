@@ -7,7 +7,7 @@ Pagina oficial [Linio](https://www.linio.com.co/?gclsrc=aw.ds&&adjust_t=1zira0_f
 
 #### Home
 
-![Linio](/assets/img/readme__buttom-whatsApp.png)
+![Linio](assets/img/readme__buttom-whatsApp.png)
 
 ## Configuracion
 
