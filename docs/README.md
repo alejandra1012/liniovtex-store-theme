@@ -16,7 +16,7 @@ Pagina oficial [Linio](https://www.linio.com.co/?gclsrc=aw.ds&&adjust_t=1zira0_f
 
 ![Linio](assets/img/readme__buttom-whatsApp.png)
 
-#### Proceso transaccional
+#### Flujo transaccional
 
 ![Linio](assets/img/readme__buttom-whatsApp.png)
 
