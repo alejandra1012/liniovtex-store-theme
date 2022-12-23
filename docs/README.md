@@ -1,13 +1,30 @@
 # Store Linio
 
-Linio store theme es una copia del ecommerce LINIO la cual implemente para capacitarme y entender mas sobre como funciona VTEX IO.
-A continuacion voy a explicar paso a paso el proceso para crear un ecommerce con  la plataforma VTEX IO.
+Linio store theme es una copia del ecommerce LINIO la cual implemente para capacitarme y entender mas sobre como funciona VTEX IO, siguiendo los parametros y requerimientos que nuestros lideres tecnicos sugirieron para dar como terminada la pagina.
 
 Pagina oficial [Linio](https://www.linio.com.co/?gclsrc=aw.ds&&adjust_t=1zira0_f1h7ws&adjust_google_network=g&adjust_google_placement=&adjust_campaign=LICO-LAB-AO-INSTI-LOC-00007-Brand_linio_absoluto-Ago21-GG-Search-Conversion-Brand&adjust_adgroup=51198174648&utm_term=&gclid=CjwKCAiAheacBhB8EiwAItVO2ystcnbn1Ml4d1-thpg7HyhW73g2ccdSbCknAyj64RiL-hXtns_W_RoCtpAQAvD_BwE#).
 
 #### Home
 
 ![Linio](assets/img/readme__buttom-whatsApp.png)
+
+#### Menu Vista desktop y vista mobile
+
+![Linio](assets/img/readme__buttom-whatsApp.png)
+
+#### Footer vista desktop y vista mobile
+
+![Linio](assets/img/readme__buttom-whatsApp.png)
+
+#### Proceso transaccional
+
+![Linio](assets/img/readme__buttom-whatsApp.png)
+
+#### Pagina no transaccional (about-us)
+
+![Linio](assets/img/readme__buttom-whatsApp.png)
+
+A continuacion voy a explicar paso a paso el proceso para crear un ecommerce con  la plataforma VTEX IO.
 
 ## Configuracion
 
