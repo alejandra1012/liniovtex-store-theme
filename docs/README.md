@@ -1,4 +1,4 @@
-# store Linio
+# Store Linio
 
 Linio store theme es una copia del ecommerce LINIO la cual implemente para capacitarme y entender mas sobre como funciona VTEX IO.
 A continuacion voy a explicar paso a paso el proceso para crear un ecommerce con  la plataforma VTEX IO.
@@ -7,7 +7,7 @@ Pagina oficial [Linio](https://www.linio.com.co/?gclsrc=aw.ds&&adjust_t=1zira0_f
 
 #### Home
 
-![Linio](../assets/img/readme__buttom-whatsApp.png)
+![Linio](/assets/img/readme__buttom-whatsApp.png)
 
 ## Configuracion
 
