@@ -10,19 +10,30 @@ Pagina oficial [Linio](https://www.linio.com.co/?gclsrc=aw.ds&&adjust_t=1zira0_f
 
 #### Menu Vista desktop y vista mobile
 
-![Linio](assets/img/readme__buttom-whatsApp.png)
+![Linio](assets/img/mega-menu.png)
+![Linio](assets/img/drawer_vista-mobile.png) ![Linio](assets/img/drawer_vista-mobile-2.png) ![Linio](assets/img/drawer_vista-mobile-4.png) 
 
 #### Footer vista desktop y vista mobile
 
-![Linio](assets/img/readme__buttom-whatsApp.png)
+![Linio](assets/img/footer_vista-desktop.png) 
+![Linio](assets/img/footer_vista-mobile.png)
 
 #### Flujo transaccional
 
-![Linio](assets/img/readme__buttom-whatsApp.png)
+![Linio](assets/img/vitrina-de-productos.png)
+![Linio](assets/img/pdp.png)
+![Linio](assets/img/plp.png)
 
 #### Pagina no transaccional (about-us)
 
-![Linio](assets/img/readme__buttom-whatsApp.png)
+![Linio](assets/img/quienes-somos-1.png)
+![Linio](assets/img/quienes-somos-2.png)
+![Linio](assets/img/quienes-somos-3.png)
+![Linio](assets/img/quienes-somos-4.png)
+![Linio](assets/img/quienes-somos-5.png)
+![Linio](assets/img/quienes-somos-6.png)
+![Linio](assets/img/quienes-somos-7.png)
+![Linio](assets/img/quienes-somos-8.png)
 
 A continuacion voy a explicar paso a paso el proceso para crear un ecommerce con  la plataforma VTEX IO.
 
