@@ -1,0 +1,47 @@
+{
+    "list-context.bullet-group":{
+        "title": "Mi contexto de lista de Bullets",
+        "children": ["slider-layout#bullet-group"],
+        "props": {
+          "bullets":[
+            {
+              "titleBullet": "En moda y accesorios",
+              "image": "assets/img/infinitas-posibilidades-1.png",
+              "link": {
+                "url": "/"
+              }
+            },
+            {
+              "titleBullet": "En tecnología",
+              "image": "assets/img/infinitas-posibilidades-2.png",
+              "link": {
+                "url": "/"
+              }
+            },
+            {
+              "titleBullet": "En mundo Gamer",
+              "image": "assets/img/infinitas-posibilidades-3.png",
+              "link": {
+                "url": "/"
+              }
+            },
+            {
+              "titleBullet": "En moda y accesorios",
+              "image": "assets/img/infinitas-posibilidades-1.png",
+              "link": {
+                "url": "/"
+              }
+            }
+          ]
+        }
+      },
+      "slider-layout#bullet-group":{
+        "props":{
+          "itemsPerPage": {
+            "desktop": 3,
+            "tablet": 3,
+            "mobile": 1
+          }
+        }
+      }
+}

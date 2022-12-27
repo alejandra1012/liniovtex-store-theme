@@ -16,7 +16,6 @@
       "flex-layout.row#desktop__top--home-link",
       "flex-layout.row#home__section--banner1",
       "flex-layout.row#slider__main",
-      "list-context.bullet-group",
       "flex-layout.row#home__section--two",
       "modal-trigger#home__modal--event",
       "flex-layout.row#home__section--recomenproductos",
@@ -34,42 +33,12 @@
       "flex-layout.row#home-banner5-trasnformatu-hogar",
       "flex-layout.row#home__banner--falabella",
       "flex-layout.row#home__banner--descarga-app",
-      "flex-layout.row#home-info"
+      "flex-layout.row#home-info",
+      "list-context.bullet-group"
     ],
     "props": {
       "blockClass": "desktop__container--home",
       "rowGap": 5
-    }
-  },
-  "whatsapp-button":{
-    "title":"Boton de whatsApp",
-    "props":{
-      "logo": "assets/img/whatsapp.png",
-      "phone": "+573212018212",
-      "message": "Estas comunicandote con Alejandra",
-      "width": 50,
-      "height": 50
-    }
-  },
-  "list-context.bullet-group":{
-    "title": "Mi contexto de lista de Bullets",
-    "props": {
-      "bullets":[
-        {
-          "image": "miimagen.png",
-          "titleBullet": "computadores",
-          "link": {
-            "url": "/"
-          }
-        },
-        {
-          "image": "miimagen.png",
-          "titleBullet": "Ropa",
-          "link": {
-            "url": "/"
-          }
-        }
-      ]
     }
   }
 }

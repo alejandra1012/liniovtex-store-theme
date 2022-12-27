@@ -4,7 +4,8 @@
             "whatsapp-button",
             "flex-layout.row#home__section--banner1",
             "list-context.image-list#home__slider--list",
-            "list-context.image-list#home__slider2--categorias"
+            "list-context.image-list#home__slider2--categorias",
+            "list-context.bullet-group"
         ]
     }
     
