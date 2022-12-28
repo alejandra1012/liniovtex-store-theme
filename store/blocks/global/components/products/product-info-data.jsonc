@@ -49,7 +49,8 @@
       "flex-layout.row#product__quantity--add-to-cart-bottom",
       "product-identifier.product",
       "availability-subscriber",
-      "share#default"
+      "share#default",
+      "modal-trigger#add-to-card-info"
     ]
   },
   "product-price#product-details": {
