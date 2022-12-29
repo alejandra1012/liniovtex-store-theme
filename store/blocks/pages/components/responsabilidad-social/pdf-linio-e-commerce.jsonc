@@ -1,0 +1,9 @@
+{
+    "pdf-reader":{
+        "props":{
+          "pdfUrl": "assets/documents/Linio-e-commerce.pdf",
+          "width": 500,
+          "height": 800
+        }
+      }
+}

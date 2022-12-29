@@ -1,5 +1,10 @@
 {
     "store.custom#about-us":{
         "path": "/sobre-nosotros"
+
+    },
+    "store.custom#responsabilidad-social--pdf":{
+        "path": "/responsabilidad-social"
+
     }
 }
