@@ -1,0 +1,6 @@
+{
+    "store.custom#responsabilidad-social--pdf":{
+        "title":"PDF sobre linio",
+        "blocks":[ "pdf-reader"]
+    }
+}
