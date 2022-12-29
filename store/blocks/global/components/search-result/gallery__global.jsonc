@@ -31,8 +31,6 @@
           "product-price-savings",
           "product-selling-price",
           "product-rating-inline"
-         
-    
         ],
         "props":{
             "blockClass":"product-summary-shelf__global"
