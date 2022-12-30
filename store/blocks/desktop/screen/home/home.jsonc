@@ -18,6 +18,7 @@
       "flex-layout.row#slider__main",
       "flex-layout.row#home__section--two",
       "modal-trigger#home__modal--event",
+      "quick-order",
       "flex-layout.row#home__section--recomenproductos",
       "flex-layout.row#home-banner2-items-title",
       "flex-layout.row#home-banner2-items-tecn",
