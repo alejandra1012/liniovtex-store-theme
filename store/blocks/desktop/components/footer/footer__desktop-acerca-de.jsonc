@@ -289,7 +289,7 @@
         "props": {
             "label": "Preguntas Frecuentes",
             "blockClass": "text-footer",
-            "href": "/"
+            "href": "/preguntas-frecuentes"
         }
     },
     //* Aplicar mi garantía

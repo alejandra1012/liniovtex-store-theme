@@ -1,0 +1,6 @@
+{
+    "store.custom#preguntas__frecuentes":{
+        "title":"Custom Grid ",
+        "blocks":["custom-grid"]
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "custom-grid":{
+        "children":[
+          "rich-text#custom-grid-1",
+          "rich-text#custom-grid-2",
+          "rich-text#custom-grid-3",
+          "rich-text#custom-grid-4",
+          "rich-text#custom-grid-5"
+        ],
+        "props":{
+          "blockClass":"custom__grid"
+        }
+      },
+      "rich-text#custom-grid-1":{
+        "props":{
+          "text": "1",
+          "blockClass":"custom__grid--text"
+        }
+      },
+      "rich-text#custom-grid-2":{
+        "props":{
+          "text": "2",
+          "blockClass":"custom__grid--text"
+        }
+      },
+      "rich-text#custom-grid-3":{
+        "props":{
+          "text": "3",
+          "blockClass":"custom__grid--text"
+        }
+      },
+      "rich-text#custom-grid-4":{
+        "props":{
+          "text": "4",
+          "blockClass":"custom__grid--text"
+        }
+      },
+      "rich-text#custom-grid-5":{
+        "props":{
+          "text": "5",
+          "blockClass":"custom__grid--text"
+        }
+      }
+}

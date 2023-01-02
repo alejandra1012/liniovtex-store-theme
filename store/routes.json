@@ -6,5 +6,9 @@
     "store.custom#responsabilidad-social--pdf":{
         "path": "/responsabilidad-social"
 
+    },
+    "store.custom#preguntas__frecuentes":{
+        "path": "/preguntas-frecuentes"
+
     }
 }
