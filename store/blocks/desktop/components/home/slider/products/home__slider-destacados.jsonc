@@ -46,13 +46,15 @@
         "props": {
             "itemsPerPage": {
                 "desktop": 6,
-                "tablet": 6,
-                "phone": 3
+                "tablet": 3,
+                "phone": 1
             },
             "infinite": true,
             "showPaginationDots": "never",
+            "showNavigationArrows": "desktopOnly",
             "arrowSize": 15,
-            "centerMode": "to-the-left"
+            "centerMode": "to-the-left",
+            "centerModeSlidesGap": 10
         }
     }
 }

@@ -1,0 +1,51 @@
+{
+    "flex-layout.row#mobile__slider--main": {
+      "children": [
+        "list-context.image-list#mobile__slider--list"
+      ]
+    },
+    "list-context.image-list#mobile__slider--list": {
+      "title": "lista de imagenes mobile",
+      "children": [
+        "slider-layout#mobile__slider--list"
+      ],
+      "props": {
+        "preload": true,
+        "colSizing": "auto",
+        "fullWidth": true,
+        "images": [
+          {
+            "image": "/arquivos/slaider-ppal_mobile-1.png",
+            "description": "slider 1"
+          },
+          {
+            "image": "/arquivos/slaider-ppal_mobile-2.png",
+            "description": "slider 2"
+          },
+          {
+            "image": "/arquivos/slaider-ppal_mobile-3.png",
+            "description": "slider 3"
+          },
+          {
+            "image": "/arquivos/slaider-ppal_mobile-4.png",
+            "description": "slider 4"
+          }
+        ]
+      }
+    },
+    "slider-layout#mobile__slider--list": {
+      "title": "slider con lista",
+      "props": {
+        "itemsPerPage": {
+         
+          "tablet": 1,
+          "mobile": 1
+        },
+        "infinite": true,
+        "fullWidth": true,
+        "showNavigationArrows": "desktopOnly",
+        "arrowSize": 15,
+        "blockClass": "home__slider--mobile"
+      }
+    }
+  }

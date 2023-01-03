@@ -1,0 +1,15 @@
+{
+    "flex-layout.row#home__mobile-info": {
+        "title": "Informacion final del home mobile",
+        "children": [
+            "rich-text#home__mobile--info-text"
+        ]
+    },
+    "rich-text#home__mobile--info-text": {
+        "title": "Informacion mobile",
+        "props": {
+            "text": "markdown",
+            "blockClass":"home__mobile--info-text"
+        }
+    }
+}
