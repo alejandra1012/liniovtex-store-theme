@@ -1,0 +1,50 @@
+{
+    "flex-layout.row#home__mobile-banner2--tecn":{
+        "title":"Banner 2 tecnologia para tus dias mobile",
+        "children":[ "flex-layout.col#home__mobile-banner2--tecn"]
+
+    },
+    "flex-layout.col#home__mobile-banner2--tecn": {
+        "children": [
+            "image#home__mobile-banner2--tecn"
+        ],
+        "props": {
+            "blockClass": "banner__mobile-banner2--tecn",
+            "colSizing": "auto",
+            "horizontalAlign":"center",
+            "fullWidth": true
+        }
+    },
+    "image#home__mobile-banner2--tecn": {
+        "props": {
+            "src": "/arquivos/banner-2_mobile.png",
+            "alt": "celulares",
+            "blockClass": "home-banner2-img-1"
+        }
+    },
+    "flex-layout.row#home__mobile-banner3--dtos":{
+        "title":"Banner 3 dtos",
+        "children":[ "flex-layout.col#home__mobile-banner3--dtos"]
+
+    },
+    "flex-layout.col#home__mobile-banner3--dtos": {
+        "children": [
+            "image#home__mobile-banner3--dtos"
+        ],
+        "props": {
+            "blockClass": "banner__mobile-banner3--dtos",
+            "colSizing": "auto",
+            "horizontalAlign":"center",
+            "fullWidth": true
+        }
+    },
+    "image#home__mobile-banner3--dtos": {
+        "props": {
+            "src": "/arquivos/banner-3_mobile-dtos.png",
+            "alt": "celulares",
+            "blockClass": "home-banner3-img-1"
+        }
+    }
+    
+
+}

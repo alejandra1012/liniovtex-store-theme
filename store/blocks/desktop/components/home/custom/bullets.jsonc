@@ -5,29 +5,22 @@
         "props": {
           "bullets":[
             {
-              "titleBullet": "En moda y accesorios",
+              "titleBullet": "",
               "image": "assets/img/infinitas-posibilidades-1.png",
               "link": {
                 "url": "/"
               }
             },
             {
-              "titleBullet": "En tecnología",
+              "titleBullet": "",
               "image": "assets/img/infinitas-posibilidades-2.png",
               "link": {
                 "url": "/"
               }
             },
             {
-              "titleBullet": "En mundo Gamer",
+              "titleBullet": "",
               "image": "assets/img/infinitas-posibilidades-3.png",
-              "link": {
-                "url": "/"
-              }
-            },
-            {
-              "titleBullet": "En moda y accesorios",
-              "image": "assets/img/infinitas-posibilidades-1.png",
               "link": {
                 "url": "/"
               }

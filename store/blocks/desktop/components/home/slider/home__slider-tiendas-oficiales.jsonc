@@ -100,13 +100,15 @@
         "title": "slider tiendas oficiales",
         "props": {
             "itemsPerPage": {
-                "desktop": 4
+                "desktop": 4,
+                "tablet": 3,
+                "phone": 1
             },
             "infinite": true,
-            "fullWidth": true,
-            "centerMode": "center",
+            "centerMode": "to-the-left",
             "centerModeSlidesGap": 7,
             "showPaginationDots": "never",
+            "showNavigationArrows": "desktopOnly",
             "arrowSize": 15,
             "blockClass": "home__slider--desktop"
         }

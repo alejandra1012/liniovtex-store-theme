@@ -1,0 +1,73 @@
+{
+    "flex-layout.row#mobile__banner--falabella": {
+        "title": "banner banco fallabella",
+        "children": [
+            "flex-layout.col#banner__mobile-banco--falabella"
+        ],
+        "props": {
+            "blockClass": "mobile__banner--falabella",
+            "paddingTop": 7
+        }
+    },
+    "flex-layout.col#banner__mobile-banco--falabella": {
+        "title": "imagen banco fallabella",
+        "children": [
+            "rich-text#mobile__banco-fallabela--title",
+            "image#banner__mobile--falabella"
+        ],
+        "props": {
+            "blockClass": "banner__mobile-banco--falabella",
+            "colSizing": "auto",
+            "fullWidth": true
+        }
+    },
+    "rich-text#mobile__banco-fallabela--title":{
+        "title":"Titulo de banner final vista mobile",
+        "props":{
+           "text":"### BANCO FALLABELLA",
+           "blockClass": "text__mobile-banner--final"
+        }
+    },
+    "image#banner__mobile--falabella": {
+        "props": {
+            "src": "/arquivos/banner-final_mobile-fallabella.png",
+            "blockClass": "img__mobile-banner--final"
+        }
+    },
+    "flex-layout.row#mobile__banner--descarga-app": {
+        "title": "banner descarga la app",
+        "children": [
+            "flex-layout.col#banner__mobile-descarga--app"
+        ],
+        "props": {
+            "blockClass": "mobile__banner--descarga-app",
+            "paddingTop": 7,
+            "paddingBottom": 7
+        }
+    },
+    "flex-layout.col#banner__mobile-descarga--app": {
+        "title": "imagen mobile-descarga la app",
+        "children": [
+            "rich-text#mobile__descarga-app--title",
+            "image#banner__mobile-descarga-app"
+        ],
+        "props": {
+            "blockClass": "banner__mobile-descarga--app",
+            "colSizing": "auto",
+            "fullWidth": true
+        }
+    },
+    "rich-text#mobile__descarga-app--title":{
+        "title":"Titulo de banner final vista mobile",
+        "props":{
+           "text":"### DESCARGA LA APP",
+           "blockClass": "text__mobile-banner--final"
+        }
+    },
+    "image#banner__mobile-descarga-app": {
+        "props": {
+            "src": "/arquivos/banner-final_mobile-descarga-app.png",
+            "blockClass": "img__mobile-banner--final"
+        }
+    }
+}

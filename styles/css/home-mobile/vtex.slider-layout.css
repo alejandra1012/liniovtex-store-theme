@@ -1,0 +1,10 @@
+.slide--home__slider--mobile{
+    padding-bottom: 25px;
+    background-color: #fff;
+}
+.paginationDotsContainer--home__slider--mobile{
+    padding-bottom: 7px;
+}
+.paginationDot--home__slider--mobile--isActive{
+    background-color: #666;
+}
