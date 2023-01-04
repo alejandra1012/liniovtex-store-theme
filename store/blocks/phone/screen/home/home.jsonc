@@ -1,5 +1,5 @@
 {
-    "responsive-layout.mobile": {
+    "responsive-layout.phone": {
         "title": "Container Home vista mobile",
         "children": [
             "flex-layout.row#mobile__container--home"

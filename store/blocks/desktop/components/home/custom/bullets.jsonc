@@ -31,10 +31,12 @@
       "slider-layout#bullet-group":{
         "props":{
           "itemsPerPage": {
-            "desktop": 3,
+            "desktop": 2,
             "tablet": 3,
             "mobile": 1
-          }
+          },
+          "arrowSize": 15,
+          "blockClass":"slider__bullets--custom"
         }
       }
 }

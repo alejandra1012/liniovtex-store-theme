@@ -1,6 +1,9 @@
 .container{
     padding: 0;
 }
+.imageElement--home__mobile-image--bannerppal{
+    width: 700px;
+}
 .imageElement--img__mobile-banner--final{
-    padding-left: 20px;
+    width: 700px;
 }

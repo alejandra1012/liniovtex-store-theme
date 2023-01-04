@@ -23,7 +23,7 @@
       },
       "image#home__mobile--image": {
         "props": {
-          "src": "/arquivos/home__banner-1.png",
+          "src": "/arquivos/banner-1__mobile.png",
           "blockClass": "home__mobile-image--bannerppal"
         }
       }

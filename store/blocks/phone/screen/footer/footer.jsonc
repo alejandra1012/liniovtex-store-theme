@@ -1,6 +1,13 @@
 {
     "footer-layout.mobile": {
         "children": [
+            "responsive-layout.phone#footer__phone",
+            "responsive-layout.tablet#footer__tablet"
+        ]
+    },
+    "responsive-layout.phone#footer__phone":{
+        "title":"footer vista phone",
+        "children":[
             "newsletter",
             "flex-layout.row#mobile__footer--forma-pagos",
             "flex-layout.row#footer__container--disclosure",
@@ -8,4 +15,5 @@
             "flex-layout.row#global__footer--info-final-row"
         ]
     }
+   
 }

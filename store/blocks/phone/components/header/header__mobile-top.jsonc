@@ -2,12 +2,18 @@
     "header-row#header__mobile--top": {
         "title": "Header mobile Superior",
         "children": [
-            "flex-layout.row#container__header-mobile"
+            "responsive-layout.tablet#header__tablet",
+            "responsive-layout.phone#header__phone"
         ],
         "props": {
             "sticky": true,
             "blockClass": "header__top"
         }
+    },
+    "responsive-layout.phone#header__phone":{
+        "children":[
+            "flex-layout.row#container__header-mobile"
+        ]
     },
     "flex-layout.row#container__header-mobile": {
         "children": [
@@ -19,7 +25,8 @@
         ],
         "props": {
             "preserveLayoutOnMobile": true,
-            "colSizing": "auto"
+            "colSizing": "auto",
+            "blockClass": "header__top--phone"
         }
     },
     "logo#mobile__top--logo": {

@@ -56,3 +56,19 @@
 .flexCol--footer__image-sic{
     text-align: center;
 }
+@media (max-width:1025px) {
+    .flexRowContent--desktop__siguenos-container{
+        display: flex;
+        flex-direction: column;
+        padding-right: 40px
+    }
+    .flexRowContent--mobile__footer--forma-pagos{
+        padding-left: 10px;
+    }
+    .flexCol--footer-columna-1 {
+        padding-left: 10px;
+    }
+    .flexCol--footer-columna-2 {
+        padding-left: 8px;
+    }
+}
