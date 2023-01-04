@@ -1,13 +1,9 @@
 .logoImage--logo__mobile--top{
-    width: 60px;
+    width: 50px;
  
  }
  .logoContainer--logo__mobile--top  {
      padding: 0%;
- }
- .logoLink--logo__mobile--top{
-   width: 40px;
-    padding-top: 8px;
  }
 
  /* desktop */
@@ -21,7 +17,7 @@
  }
  .searchBarInnerContainer--search-bar__desktop{
     padding-right: 50px;
-    width: 573px;
+    width: 614px;
  }
  .autoCompleteOuterContainer--search-bar__desktop :global(.vtex-styleguide-9-x-input){
     font-size: 14px;
@@ -45,3 +41,12 @@
     padding: 3px;
  }
 
+ @media (max-width:1025px)  {
+   .searchBarInnerContainer--search-bar__desktop{
+      padding-right: 30px;
+      width: 430px;
+   }
+   .logoContainer--top__desktop{
+      padding: 0;
+   }
+ }

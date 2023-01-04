@@ -18,6 +18,7 @@
     },
     "mega-menu#desktop": {
       "props": {
+        "orientation": "horizontal",
         "openOnly": "horizontal",
         "title": "",
         "blockClass": "mega-menu__desktop"

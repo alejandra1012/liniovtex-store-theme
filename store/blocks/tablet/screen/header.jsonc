@@ -1,0 +1,7 @@
+{
+    "responsive-layout.tablet#header__tablet":{
+        "title": "Header vista Tablet",
+        "children":["flex-layout.row#header__tablet-top--container"]
+    }
+
+}
