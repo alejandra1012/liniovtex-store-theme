@@ -1,3 +1,4 @@
-.bullet__item--image {
-    padding-left: 10px;
+.bullet__item{
+display: flex;
+justify-content: center;
 }

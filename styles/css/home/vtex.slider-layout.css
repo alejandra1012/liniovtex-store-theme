@@ -11,3 +11,9 @@
     border-radius: 50%;
     margin-right: 12px;
 }
+.paginationDot--home__slider--desktop--isActive{
+    background-color: #666;
+}
+.imageElement--home__slider--desktop{
+    padding-bottom: 20px;
+}

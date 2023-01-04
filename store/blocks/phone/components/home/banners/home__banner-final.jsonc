@@ -12,20 +12,13 @@
     "flex-layout.col#banner__mobile-banco--falabella": {
         "title": "imagen banco fallabella",
         "children": [
-            "rich-text#mobile__banco-fallabela--title",
             "image#banner__mobile--falabella"
         ],
         "props": {
             "blockClass": "banner__mobile-banco--falabella",
             "colSizing": "auto",
+            "horizontalAlign": "center",
             "fullWidth": true
-        }
-    },
-    "rich-text#mobile__banco-fallabela--title":{
-        "title":"Titulo de banner final vista mobile",
-        "props":{
-           "text":"### BANCO FALLABELLA",
-           "blockClass": "text__mobile-banner--final"
         }
     },
     "image#banner__mobile--falabella": {
@@ -48,20 +41,13 @@
     "flex-layout.col#banner__mobile-descarga--app": {
         "title": "imagen mobile-descarga la app",
         "children": [
-            "rich-text#mobile__descarga-app--title",
             "image#banner__mobile-descarga-app"
         ],
         "props": {
             "blockClass": "banner__mobile-descarga--app",
             "colSizing": "auto",
+            "horizontalAlign": "center",
             "fullWidth": true
-        }
-    },
-    "rich-text#mobile__descarga-app--title":{
-        "title":"Titulo de banner final vista mobile",
-        "props":{
-           "text":"### DESCARGA LA APP",
-           "blockClass": "text__mobile-banner--final"
         }
     },
     "image#banner__mobile-descarga-app": {
