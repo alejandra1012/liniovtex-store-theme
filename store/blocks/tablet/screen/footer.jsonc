@@ -1,0 +1,11 @@
+{
+    "responsive-layout.tablet#footer__tablet":{
+        "title":"footer vista tablet",
+        "children":[
+            "newsletter",
+            "flex-layout.row#mobile__footer--forma-pagos",
+            "flex-layout.row#desktop__footer--acerca-de",
+            "flex-layout.row#global__footer--info-final-row"
+        ]
+    }
+}

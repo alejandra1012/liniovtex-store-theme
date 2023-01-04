@@ -622,19 +622,22 @@
     "image#desktop__play-store": {
         "props": {
             "src": "/arquivos/play-store.png",
-            "maxWidth": "65%"
+            "maxWidth": "65%",
+            "blockClass": "footer__image-apps"
         }
     },
     "image#desktop__app-store": {
         "props": {
             "src": "/arquivos/app-store.png",
-            "maxWidth": "65%"
+            "maxWidth": "65%",
+            "blockClass": "footer__image-apps"
         }
     },
     "image#desktop__app-gallery": {
         "props": {
             "src": "/arquivos/footer-appgalley.jpg",
-            "maxWidth": "65%"
+            "maxWidth": "65%",
+            "blockClass": "footer__image-apps"
         }
     },
     "flex-layout.col#desktop__footer--acercade--col5-item3": {
@@ -649,7 +652,8 @@
     "image#desktop__sic": {
         "props": {
             "src": "/arquivos/logo-sic-footer.png",
-            "maxWidth": "85%"
+            "maxWidth": "85%",
+            "blockClass": "footer__image-sic"
         }
     }
 }
