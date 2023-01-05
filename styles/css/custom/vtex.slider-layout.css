@@ -4,4 +4,7 @@
   .bullet__item--title{
     color: magenta;
   }
- 
+ .bullet__item--slider__bullets--custom{
+  padding-top: 64px;
+  padding-bottom: 64px;
+ }

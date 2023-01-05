@@ -12,8 +12,17 @@
     color: gray;
 }
 
-@media (max-width:1025px) {
-.paragraph--text-footer{
-    font-size: 12px;
+.paragraph--container__newsletter--title{
+    font-weight: bold;
+    white-space: nowrap;
+
 }
+
+@media (max-width:1025px) {
+    .paragraph--text-footer{
+        font-size: 12px;
+    }
+    .paragraph--container__newsletter--title{
+        white-space: normal;
+    }
 }

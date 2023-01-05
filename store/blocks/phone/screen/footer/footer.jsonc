@@ -8,7 +8,7 @@
     "responsive-layout.phone#footer__phone":{
         "title":"footer vista phone",
         "children":[
-            "newsletter",
+            "flex-layout.row#newsletter__footer",
             "flex-layout.row#mobile__footer--forma-pagos",
             "flex-layout.row#footer__container--disclosure",
             "flex-layout.row#mobile__footer--redes-sociales-apps",

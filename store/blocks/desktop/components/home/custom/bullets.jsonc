@@ -36,6 +36,7 @@
             "mobile": 1
           },
           "arrowSize": 15,
+          "showPaginationDots":"never",
           "blockClass":"slider__bullets--custom"
         }
       }
