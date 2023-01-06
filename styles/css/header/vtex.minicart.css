@@ -4,3 +4,24 @@
 :global(.vtex-button__label){
     padding: 5px;
 }
+.minicartCheckoutButton :global(.vtex-button){
+    background-color: #f50;
+    border: none;
+    font-size: 14px;
+    text-transform: capitalize
+}
+.minicartTitle{
+    display: none;
+}
+.minicartSummary :global(.vtex-checkout-summary-0-x-summaryItemLabel){
+  color:  black;
+  font-weight: bold;
+}
+.minicartSummary :global(.vtex-checkout-summary-0-x-price){
+    color:  #ea2840;
+    font-weight: bold;
+  }
+  .minicartSummary :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer){
+    color: black;
+    font-weight: bold;
+  }

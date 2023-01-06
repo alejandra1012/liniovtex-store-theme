@@ -1,0 +1,12 @@
+.productListUnavailableItemsMessage--contenido__minicart--mobile {
+    font-weight: bold;
+    color: black;
+}
+.quantityDropdownContainer :global(.vtex-dropdown__button) {
+    border: 1px solid #ccc;
+    font-weight: bold;
+}
+.productPriceContainer{
+    color: #ea2840;
+    font-weight: bold;
+}
