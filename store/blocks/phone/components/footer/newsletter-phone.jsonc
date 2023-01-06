@@ -1,0 +1,71 @@
+{
+    "flex-layout.row#newsletter__mobile--footer": {
+      "title": "Contenedor Newsltter vista mobile",
+      "children": [
+        "rich-text#newsletter__mobile--title",
+        "newsletter-form#mobile--form"
+      ],
+      "props": {
+        "colSizing":"auto",
+        "colGap": 3,
+        "blockClass": "container__newsletter--footer"
+      }
+    },
+    "rich-text#newsletter__mobile--title":{
+      "title":"Contenedor Newsltter title",
+      "props":{
+        "text":"¡SUSCRÍBETE A NUESTRO NEWSLETTER!",
+        "blockClass":"container__newsletter--title-mobile"
+      }
+    },
+    "newsletter-form#mobile--form": {
+      "children": [
+        "flex-layout.row#newsletter__mobile--form",
+        "newsletter-submit#mobile__button"
+      ],
+      "props":{
+        "blockClass":"container__mobile-newsletter--form"
+      }
+    },
+    "flex-layout.row#newsletter__mobile--form":{
+      "title":"Contenedor Newsltter vista mobile form",
+      "children":[
+        "newsletter-input-email#mobile__imput--email",
+        "newsletter-checkbox-confirmation#mobile"
+        
+      ],
+      "props":{
+        "blockClass":"container__mobile-newsletter--imputs"
+      }
+    },
+    "newsletter-input-email#mobile__imput--email":{
+      "props":{
+      "placeholderText":"Suscríbete con tu email",
+      "blockClass":"input__placeholder--email-mobile"
+    }
+    },
+    "newsletter-submit#mobile__button":{
+      "props":{
+        "submitButtonLabel":"Suscribirme",
+        "blockClass":"input__button--mobile"
+      }
+  
+    },
+    "newsletter-checkbox-confirmation#mobile":{
+      "props":{
+        "checkboxLabel":"Declaro que he leído y autorizo el uso de mis datos personales \n de acuerdo a la {firstLink} y acepto los {secondLink} \n de Linio",
+        "firstLabelLink":{
+          "url":"#",
+          "text":"Autorización",
+          "blockClass":"container__newsletter--checkbox-link"
+        },
+        "secondLabelLink":{
+          "url":"#",
+          "text":"Términos y Condiciones",
+          "blockClass":"container__newsletter--checkbox-link"
+        },
+        "blockClass":"container__newsletter--checkbox"
+      }
+    }
+  }
+  

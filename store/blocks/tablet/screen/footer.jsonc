@@ -2,7 +2,7 @@
     "responsive-layout.tablet#footer__tablet":{
         "title":"footer vista tablet",
         "children":[
-            "flex-layout.row#newsletter__footer",
+            "flex-layout.row#newsletter__mobile--footer",
             "flex-layout.row#mobile__footer--forma-pagos",
             "flex-layout.row#desktop__footer--acerca-de",
             "flex-layout.row#global__footer--info-final-row"

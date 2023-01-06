@@ -11,8 +11,7 @@
     background-color: #343a40;
     border-color: #343a40;
     text-transform: capitalize;
-    padding-right: 150px;
-    padding-left: 150px;
+    width: 30vw
 }
 .confirmationCheckboxContainer--container__newsletter--checkbox{
     color: #666;
@@ -42,3 +41,32 @@
 .labelLink--container__newsletter--checkbox{
     color: #f50;
 }
+
+/* mobile */
+.formSubmitContainer--input__button--mobile :global(.vtex-button){
+    color: #fff;
+    opacity: .65;
+    background-color: #343a40;
+    border-color: #343a40;
+    text-transform: capitalize;
+    width: 30vw
+}
+
+@media (max-width:1025px) {
+    .confirmationCheckboxContainer--container__newsletter--checkbox :global(.vtex-checkbox__label){
+        white-space: normal;
+    }   
+}
+@media (max-width: 640px) {
+    .formSubmitContainer--input__button--mobile :global(.vtex-button){
+        width: 100vw;
+    }
+ }
+ @media (min-width: 768px) {
+    .newsletterForm--container__mobile-newsletter--form{
+        padding-left: 20px;
+    }
+    .formSubmitContainer--input__button--mobile :global(.vtex-button){
+        width: 100%;
+    }
+ }
