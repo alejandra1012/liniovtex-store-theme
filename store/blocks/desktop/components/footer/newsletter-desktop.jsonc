@@ -1,0 +1,69 @@
+{
+  "flex-layout.row#newsletter__footer": {
+    "title": "Contenedor Newsltter",
+    "children": [
+      "rich-text#newsletter__title",
+      "newsletter-form"
+    ],
+    "props": {
+      "colSizing":"auto",
+      "colGap": 3,
+      "blockClass": "container__newsletter--footer"
+    }
+  },
+  "rich-text#newsletter__title":{
+    "title":"Contenedor Newsltter title",
+    "props":{
+      "text":"¡SUSCRÍBETE A NUESTRO \n NEWSLETTER!",
+      "blockClass":"container__newsletter--title"
+    }
+  },
+  "newsletter-form": {
+    "children": [
+      "flex-layout.row#newsletter__form",
+      "newsletter-checkbox-confirmation"
+    ],
+    "props":{
+      "blockClass":"container__newsletter--form"
+    }
+  },
+  "flex-layout.row#newsletter__form":{
+    "title":"Contenedor Newsltter form",
+    "children":[
+      "newsletter-input-email",
+      "newsletter-submit"
+    ],
+    "props":{
+      "blockClass":"container__newsletter--imputs"
+    }
+  },
+  "newsletter-input-email":{
+    "props":{
+    "placeholderText":"Suscríbete con tu email",
+    "blockClass":"input__placeholder--email"
+  }
+  },
+  "newsletter-submit":{
+    "props":{
+      "submitButtonLabel":"Suscribirme",
+      "blockClass":"input__button"
+    }
+
+  },
+  "newsletter-checkbox-confirmation":{
+    "props":{
+      "checkboxLabel":"Declaro que he leído y autorizo el uso de mis datos personales \n de acuerdo a la {firstLink} y acepto los {secondLink} \n de Linio",
+      "firstLabelLink":{
+        "url":"#",
+        "text":"Autorización",
+        "blockClass":"container__newsletter--checkbox-link"
+      },
+      "secondLabelLink":{
+        "url":"#",
+        "text":"Términos y Condiciones",
+        "blockClass":"container__newsletter--checkbox-link"
+      },
+      "blockClass":"container__newsletter--checkbox"
+    }
+  }
+}

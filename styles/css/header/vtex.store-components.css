@@ -31,7 +31,7 @@
  }
  .searchBarContainer{
      padding-top: 10px;
-     margin-left: 5%;
+     margin-left: 10%;
  }
  .autoCompleteOuterContainer--search-bar__mobile :global(.vtex-input__suffix ) {
     padding: 0;

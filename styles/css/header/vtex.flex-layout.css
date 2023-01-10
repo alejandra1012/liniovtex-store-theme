@@ -14,3 +14,20 @@ position: relative !important;
 .flexRowContent--header__top--phone{
     align-items: center;
 }
+
+/* minicart */
+.flexColChild--info__minicart{
+    padding-top: 10px;
+}
+.flexColChild--info__minicart :global(.vtex-product-list-0-x-productName){
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+.flexColChild--remove__minicart :global(.vtex-product-list-0-x-deleteIcon){
+    color:#ea2840;
+    padding: 20px;
+    width: 50px;
+    height: 25px;
+}

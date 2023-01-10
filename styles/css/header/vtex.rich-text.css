@@ -2,3 +2,6 @@
     color: #f50;
     font-weight: bolder;
 }
+.paragraph--text__minicart--empty{
+    font-weight: bold;
+}

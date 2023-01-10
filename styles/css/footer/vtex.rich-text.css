@@ -12,8 +12,37 @@
     color: gray;
 }
 
-@media (max-width:1025px) {
-.paragraph--text-footer{
-    font-size: 12px;
+.paragraph--container__newsletter--title{
+    font-weight: bold;
+    white-space: nowrap;
+
 }
+
+/* mobile */
+
+.paragraph--container__newsletter--title-mobile {
+    font-weight: bold;
+    white-space: nowrap;
+
+}
+
+@media (max-width:1025px) {
+    .paragraph--text-footer{
+        font-size: 12px;
+    }
+}
+@media (max-width: 640px) {
+    .paragraph--container__newsletter--title-mobile{
+        white-space: normal;
+        text-align: center;
+    }
+ }
+ @media (min-width: 768px) {
+    .paragraph--container__newsletter--title-mobile{
+        margin: 44px 0;
+        text-align: center
+    }
+    .container--container__newsletter--title-mobile{
+        padding-left: 30px;
+    }
 }
