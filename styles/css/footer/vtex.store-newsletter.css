@@ -20,14 +20,13 @@
     line-height: 24px;
     padding-top: 7px;
 }
+.confirmationCheckboxContainer--container__newsletter--checkbox :global(.vtex-checkbox__container){
+   top: 5px;
+   background-color:#fff ;
+}
 .confirmationCheckboxContainer--container__newsletter--checkbox :global(.vtex-checkbox__box-wrapper){
-    left: 4px;
-    top: 5px;
     border: 1px solid #666;
     border-radius: 4px;
-    background-color: #fff;
-    width: 14px;
-    height: 14px;
 }
 .confirmationCheckboxContainer--container__newsletter--checkbox :global(.vtex-checkbox__label){
     white-space: pre;
@@ -59,7 +58,7 @@
 }
 @media (max-width: 640px) {
     .formSubmitContainer--input__button--mobile :global(.vtex-button){
-        width: 100vw;
+        width: 100%;
     }
  }
  @media (min-width: 768px) {

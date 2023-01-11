@@ -1,5 +1,6 @@
 .footerLayout{
     background-color: #eee;
+    padding: 0 5px
 }
 .footerLayout--desktop__footer{
     padding: 0 8vw;
